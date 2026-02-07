@@ -212,5 +212,5 @@ if __name__ == "__main__":
     print("Starting migration...")
     migrate_existing_content()
     print("Migration complete. Starting scraping...")
-    scrape_next_batch(batch_size=10)
+    scrape_next_batch(batch_size=20)
     print("Done.")
