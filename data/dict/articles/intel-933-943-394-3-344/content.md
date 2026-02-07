@@ -1,0 +1,195 @@
+
+---
+
+DOCUMENTARY TRANSCRIPT
+----------------------
+
+### *“EVERYTHING HAS EARS”*
+
+**An Investigative Report on Surveillance, Memory, and Power in Post-Soviet Europe**
+
+---
+
+### OPENING SCENE
+
+**Wide shot:** Budapest at night. Apartment windows lit. Trams passing.
+**Ambient sound:** low electrical hum, distant traffic.
+
+**NARRATOR (V.O.)**
+In Hungary, there is a saying: *“Mindennek füle van.”*
+Everything has ears.
+
+It’s not a joke. It’s a warning.
+
+---
+
+PART I — WHAT WE KNOW
+---------------------
+
+**Archival footage:** Cold War diagrams, telephone exchanges, concrete housing blocks.
+
+**NARRATOR (V.O.)**
+What *is* documented is this:
+During the Cold War, Soviet and Warsaw Pact states built extensive internal surveillance systems. These included wiretaps, signal interception, and monitoring facilities embedded in civilian infrastructure—hotels, ministries, telecom exchanges.
+
+This was not secret. It was policy.
+
+When the Soviet Union collapsed in 1991, those systems did not disappear overnight.
+
+They were inherited.
+
+---
+
+### INTERVIEW — FORMER TELECOM ENGINEER (FACE OBSCURED)
+
+**ENGINEER**
+“We received buildings with rooms we were told not to open. No paperwork. No keys. Sometimes just sealed doors. After privatization, ownership changed—but nobody knew who owned *those* rooms.”
+
+---
+
+PART II — THE PRIVATIZATION GAP
+-------------------------------
+
+**Graphics:** Timeline 1991–1998.
+
+**NARRATOR (V.O.)**
+Across Central and Eastern Europe, privatization happened fast. Too fast for audits. Too fast for inventories.
+
+Telecommunications, utilities, property portfolios—sold, split, resold.
+
+Oversight fractured.
+
+Documentation vanished.
+
+---
+
+### INTERVIEW — ECONOMIC HISTORIAN
+
+**HISTORIAN**
+“The assumption was political: the system is gone, therefore the surveillance is gone. But infrastructure doesn’t collapse the way ideology does.”
+
+---
+
+PART III — ORGANIZED CRIME ENTERS THE VACUUM
+--------------------------------------------
+
+**Archival footage:** 1990s border crossings, police seizures, newspaper headlines.
+
+**NARRATOR (V.O.)**
+At the same time, new networks expanded across the region.
+Heroin routes from Afghanistan, established during decades of war, moved through the Balkans and Central Europe.
+
+Organized crime needed three things:
+
+* secure communications
+* advance warning
+* silence
+
+Former state specialists—engineers, technicians, signal experts—were suddenly unemployed.
+
+Some went private.
+Some went criminal.
+Some disappeared from records entirely.
+
+---
+
+### INTERVIEW — FORMER LAW ENFORCEMENT OFFICIAL
+
+**OFFICIAL**
+“We kept losing cases. Raids anticipated. Phones quiet. Someone always knew. We blamed corruption. But sometimes corruption isn’t bribery—it’s information.”
+
+---
+
+PART IV — THE CLAIMS
+--------------------
+
+**NARRATOR (V.O.)**
+Here is where facts end—and allegations begin.
+
+There is **no verified evidence** of continent-wide covert listening systems currently operated by narco-terrorist networks.
+
+There is **no proof** that unexplained illnesses known as “Havana Syndrome” are caused by leftover or repurposed Cold War technology.
+
+But there *are* unanswered questions.
+
+---
+
+### INTERVIEW — SECURITY ANALYST
+
+**ANALYST**
+“When infrastructure is opaque, people fill the gaps. Trauma plus secrecy equals narrative. Some of those narratives are wrong. Some might not be.”
+
+---
+
+PART V — “HAVANA SYNDROME” AND FEAR
+-----------------------------------
+
+**NARRATOR (V.O.)**
+“Havana Syndrome” remains medically and scientifically contested.
+Causes proposed include environmental factors, stress, psychosomatic effects, and unknown mechanisms.
+
+What matters here is not the diagnosis—but the reaction.
+
+In societies with a lived memory of total surveillance, unexplained symptoms are rarely interpreted as accidents.
+
+They are interpreted as signals.
+
+---
+
+PART VI — HUNGARY TODAY
+-----------------------
+
+**Street interviews:** ordinary people, faces blurred.
+
+**CITIZEN 1**
+“I don’t think the government listens to everyone. I think *someone* listens. Always someone.”
+
+**CITIZEN 2**
+“My parents lived through informants. You don’t forget that. You just stop talking.”
+
+---
+
+PART VII — THE CORE QUESTION
+----------------------------
+
+**NARRATOR (V.O.)**
+So the question is not:
+
+*Is everything listening?*
+
+The real question is:
+
+> **Who controls the systems we never dismantled?**
+> **Who benefits from silence?**
+> **And what happens when no one audits the past?**
+
+---
+
+FINAL SCENE
+-----------
+
+**Shot:** Old telephone exchange being demolished.
+
+**NARRATOR (V.O.)**
+Governments fell. Borders shifted.
+But wires last longer than regimes.
+
+And in places where no one ever explained what was removed—
+people assume something remained.
+
+Because in the absence of truth,
+**everything has ears.**
+
+---
+
+### END TITLE CARD
+
+*This documentary presents verified historical facts alongside allegations, perceptions, and unresolved questions. It does not claim the existence of hidden global surveillance networks operated by criminal organizations.*
+
+---
+
+### Megosztás:
+
+* [Tweet](https://twitter.com/share)
+
+Tetszik Betöltés…
