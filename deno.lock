@@ -3,7 +3,8 @@
   "specifiers": {
     "jsr:@hono/hono@^4.11.8": "4.11.8",
     "jsr:@std/yaml@^1.0.11": "1.0.11",
-    "npm:hono@^4.11.8": "4.11.8"
+    "npm:hono@^4.11.8": "4.11.8",
+    "npm:marked@*": "17.0.1"
   },
   "jsr": {
     "@hono/hono@4.11.8": {
@@ -16,7 +17,17 @@
   "npm": {
     "hono@4.11.8": {
       "integrity": "sha512-eVkB/CYCCei7K2WElZW9yYQFWssG0DhaDhVvr7wy5jJ22K+ck8fWW0EsLpB0sITUTvPnc97+rrbQqIr5iqiy9Q=="
+    },
+    "marked@17.0.1": {
+      "integrity": "sha512-boeBdiS0ghpWcSwoNm/jJBwdpFaMnZWRzjA6SkUMYb40SVaN1x7mmfGKp0jvexGcx+7y2La5zRZsYFZI6Qpypg==",
+      "bin": true
     }
+  },
+  "redirects": {
+    "https://deno.land/x/marked/mod.ts": "https://deno.land/x/marked@1.0.2/mod.ts"
+  },
+  "remote": {
+    "https://deno.land/x/marked@1.0.2/mod.ts": "57e4fd38be13ae9efd001704eea481570fce83fe502f4fb64aba140fd7fd75cb"
   },
   "workspace": {
     "dependencies": [
