@@ -1,0 +1,49 @@
+meta:
+  title: Rólunk - Zümmögő
+  description: A Zümmögő kávézó története.
+  keywords: zümmögő, történet, kávézó, pékség
+jsonld:
+  '@context': https://schema.org
+  '@type': AboutPage
+  name: Zümmögő Rólunk
+  url: https://zummogo.hu/hu/about
+hero:
+  title: A mi történetünk
+  subtitle: Zümmögő
+  short_summary: Egy közös álom, ami valósággá vált.
+  summary: A Zümmögő Kávézó egy közös álomból született, amit tudatossággal és szenvedéllyel váltottunk valósággá.
+  buttons:
+    - text: Asztalfoglalás
+      link: /hu/contact
+      type: primary
+content:
+  - "A Zümmögő Kávézó egy közös álomból született, amit tudatossággal és szenvedéllyel váltottunk valósággá. Fiatalos lendülettel, rengeteg ötlettel és egy tiszta vízióval vágtunk bele ketten. A kezdetektől fogva egy olyan helyet szerettünk volna létrehozni, ahol mi magunk is szívesen töltenénk az időnket – és ahol a vendégek is igazán otthon érezhetik magukat."
+spirit:
+  title: A nevünk és a fejlődésünk története
+  subtitle: "Mit zümmögsz állandóan?"
+  text:
+    - "A névválasztásunk története legalább annyira személyes, mint maga a kávézó. Megismerkedésünk elején szinte folyamatosan beszéltünk egymáshoz – leginkább én Robihoz, a vőlegényemhez, aki egyszer nevetve csak annyit kérdezett: „Mit zümmögsz állandóan?” Ez a mondat annyira velünk maradt, hogy egy napon ebből született meg: Zümmögő."
+    - "Az elején minden kicsiben indult. Pár asztal, a frissen sült pékáru illata, egy kávégép, ami néha hangosabban zümmögött a kelleténél. Ami már akkor is nagy volt, az a vendégszeretetünk. Minden mosoly, minden kedves szó, minden „egészségedre” szívből jött. Nem kiszolgálni akartunk, hanem kapcsolódni."
+    - "A családias légkör szinte magától alakult ki. A visszajáró vendégek. A beszélgetések, a nevetések, az ismerős köszönések. Egyre többször kaptuk meg azt a mondatot, amiből újra és újra megerősítést nyertünk: „Olyan jó ide bejönni.”"
+discover:
+  title: A Zümmögő ma
+  text: "Így nőtt velünk együtt a Zümmögő. A pékáruk mellé új ízek érkeztek, finomodott a kínálat, és egy ponton mertünk nagyot álmodni: így került az étlapra a lazac és a kacsa is. Mára a Zümmögő nekünk sokkal több, mint egy munkahely. Egy találkozási pont, egy kis nyugalom a rohanásban, egy hely, ahol történetek születnek. És ha ma zümmögés hallatszik, az már nemcsak a kávégépből jön – hanem abból az életből, amit közösen teremtettünk."
+gallery:
+  - /static/img/IMG_9540.jpg
+  - /static/img/IMG_9340.jpg
+  - /static/img/IMG_4230.jpg
+  - /static/img/image_67530241.webp
+  - /static/img/image_123650291_9.webp
+  - /static/img/IMG_4424_1.webp
+cta_section:
+  title: Látogass el hozzánk!
+  text: Várjuk szeretettel!
+  buttons:
+    - text: Kapcsolat
+      link: /hu/contact
+      type: primary
+nav:
+  home: Kezdőlap
+  menu: Étlap
+  about: Rólunk
+  contact: Kapcsolat

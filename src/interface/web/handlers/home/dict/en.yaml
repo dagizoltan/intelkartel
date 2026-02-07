@@ -1,0 +1,118 @@
+meta:
+  title: Zümmögő - Bakery & Cafe
+  description: More than a cafe! Start your day with us, have lunch or dinner!
+  keywords: cafe, bakery, breakfast, lunch, dinner, zuemmogo
+jsonld:
+  '@context': https://schema.org
+  '@type': CafeOrCoffeeShop
+  name: Zümmögő
+  image: /static/img/image_67534337.webp
+  '@id': https://zummogo.hu
+  url: https://zummogo.hu
+  telephone: '+36308125425'
+  priceRange: '$$'
+  menu: https://zummogo.hu/en/menu
+  servesCuisine:
+    - Bakery
+    - Cafe
+  address:
+    '@type': PostalAddress
+    streetAddress: Unknown Address
+    addressLocality: Unknown City
+    addressRegion: Unknown Region
+    postalCode: 0000
+    addressCountry: HU
+  geo:
+    '@type': GeoCoordinates
+    latitude: 47.4979
+    longitude: 19.0402
+  openingHoursSpecification:
+    - '@type': OpeningHoursSpecification
+      dayOfWeek:
+        - Monday
+        - Tuesday
+        - Wednesday
+        - Thursday
+        - Friday
+        - Saturday
+        - Sunday
+      opens: '07:00'
+      closes: '19:00'
+hero:
+  title: Zümmögő
+  subtitle: More than a cafe!
+  short_summary: Start your day with us, have lunch or dinner!
+  summary: More than a cafe! Start your day with us, have lunch or dinner!
+  buttons:
+    - text: Book a Table
+      link: /en/contact
+      type: primary
+    - text: View Menu
+      link: /en/menu
+      type: secondary
+features:
+  title: New Items
+  description: Discover our new specialties that make every occasion magical.
+  items:
+    - title: Avocado-Salmon Flat Croissant
+      description: The meeting of fresh avocado and smoked salmon in a crispy croissant offers a mouth-watering taste experience.
+      image: /static/img/image_67534337.webp
+    - title: Walnut-Blueberry Camembert Flat Croissant
+      description: The walnut-blueberry camembert flat croissant is a special sandwich that combines the creaminess of camembert cheese with the freshness of blueberries and the crunchiness of walnuts.
+      image: /static/img/IMG_3252.webp
+    - title: Walnut and Poppy Seed Beigli
+      description: Walnut and poppy seed beigli are traditional Christmas cakes made with rich fillings. Excellent for festive occasions.
+      image: /static/img/IMG_3368.webp
+about:
+  title: Zümmögő
+  subtitle: About Us
+  text: Discover our special menu where fresh ingredients meet creative flavors. Let us guide you on a culinary journey that enchants all your senses.
+  link: /en/about
+  link_text: About Us
+testimonial:
+  title: Testimonials
+  items:
+    - quote: "I was looking for a breakfast place nearby and my eyes caught this place on the map..."
+      author: Kata Kopócs
+      rating: 5
+    - quote: "The coffee is delicious, as are the sandwiches..."
+      author: Dávid Nagy
+      rating: 5
+    - quote: "The Falafel wrap was very delicious..."
+      author: Szidónia Németh
+      rating: 5
+    - quote: "Very cozy place, the service is always kind..."
+      author: Zsanett Oláh
+      rating: 5
+    - quote: "I have bought bread, pastries, coffee several times..."
+      author: Mária Jakus
+      rating: 5
+    - quote: "The coffee is good, there are plenty of salty and sweet pastries..."
+      author: Mária Takács Kökényessyné
+      rating: 5
+gallery:
+  - /static/img/IMG_9614.webp
+  - /static/img/IMG_5360.webp
+  - /static/img/image_67213825_dup.webp
+  - /static/img/image_123650291_10.webp
+  - /static/img/8E97A229-25D0-4D3E-9285-B1EDD7E28521.webp
+  - /static/img/IMG_3695.webp
+cta_section:
+  title: Visit Us!
+  text: We look forward to seeing you!
+  buttons:
+    - text: Contact
+      link: /en/contact
+      type: primary
+nav:
+  home: Home
+  menu: Menu
+  about: About
+  contact: Contact
+location:
+  title: Location
+  address: "Address coming soon"
+  get_directions: Get Directions
+faq:
+  title: FAQ
+  items: []

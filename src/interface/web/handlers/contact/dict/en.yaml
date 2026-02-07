@@ -1,0 +1,50 @@
+meta:
+  title: Contact Us - Zümmögő
+  description: Get in touch with us.
+  keywords: zümmögő, contact, address, phone
+jsonld:
+  '@context': https://schema.org
+  '@type': ContactPage
+  name: Zümmögő Contact
+  url: https://zummogo.hu/en/contact
+hero:
+  title: Contact Us
+  subtitle: Zümmögő
+  short_summary: Have a question? Want to book?
+  summary: Feel free to contact us via the details below or visit us in person!
+  buttons:
+    - text: Call Us
+      link: tel:+36308125425
+      type: primary
+get_in_touch:
+  title: Contact Details
+  text: "We look forward to hearing from you!"
+phone:
+  label: Phone
+  value: "+36 30 812 5425"
+email:
+  label: Email Address
+  value: "info@zummogo.hu"
+address:
+  label: Address
+  value: "Coming Soon"
+get_directions: Get Directions
+gallery:
+  - /static/img/IMG_9669.webp
+  - /static/img/image_67213825_JPG.JPG
+  - /static/img/image_67164673.webp
+  - /static/img/IMG_4424_1.jpeg
+  - /static/img/gallery-1.svg
+  - /static/img/gallery-2.svg
+cta_section:
+  title: Visit Us!
+  text: Taste our delicacies!
+  buttons:
+    - text: Menu
+      link: /en/menu
+      type: primary
+nav:
+  home: Home
+  menu: Menu
+  about: About
+  contact: Contact

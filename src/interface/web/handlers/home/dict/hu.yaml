@@ -1,0 +1,118 @@
+meta:
+  title: Zümmögő - Pékség & Kávézó
+  description: Több, mint egy kávézó! Kezdd velünk a napot, ebédelj vagy vacsorázz nálunk!
+  keywords: kávézó, pékség, reggeli, ebéd, vacsora, zümmögő
+jsonld:
+  '@context': https://schema.org
+  '@type': CafeOrCoffeeShop
+  name: Zümmögő
+  image: /static/img/image_67534337.webp
+  '@id': https://zummogo.hu
+  url: https://zummogo.hu
+  telephone: '+36308125425'
+  priceRange: '$$'
+  menu: https://zummogo.hu/hu/menu
+  servesCuisine:
+    - Bakery
+    - Cafe
+  address:
+    '@type': PostalAddress
+    streetAddress: Unknown Address
+    addressLocality: Unknown City
+    addressRegion: Unknown Region
+    postalCode: 0000
+    addressCountry: HU
+  geo:
+    '@type': GeoCoordinates
+    latitude: 47.4979
+    longitude: 19.0402
+  openingHoursSpecification:
+    - '@type': OpeningHoursSpecification
+      dayOfWeek:
+        - Monday
+        - Tuesday
+        - Wednesday
+        - Thursday
+        - Friday
+        - Saturday
+        - Sunday
+      opens: '07:00'
+      closes: '19:00'
+hero:
+  title: Zümmögő
+  subtitle: Több, mint egy kávézó!
+  short_summary: Kezdd velünk a napot, ebédelj vagy vacsorázz nálunk!
+  summary: Több, mint egy kávézó! Kezdd velünk a napot, ebédelj vagy vacsorázz nálunk!
+  buttons:
+    - text: Asztalfoglalás
+      link: /hu/contact
+      type: primary
+    - text: Étlap megtekintése
+      link: /hu/menu
+      type: secondary
+features:
+  title: Újdonságok
+  description: Fedezd fel új ételkülönlegességeinket, amelyek minden alkalmat varázslatossá tesznek.
+  items:
+    - title: Avokádós-Lazacos lapos croi
+      description: Friss avokádó és füstölt lazac találkozása a ropogós croissantban egy ínycsiklandó ízélményt nyújt.
+      image: /static/img/image_67534337.webp
+    - title: Diós-Áfonyás camembert lapos croi
+      description: A diós-áfonyás camembert lapos croissant különleges szendvics, amely a camembert sajt krémességét ötvözi az áfonya frissességével és a dió ropogósságával.
+      image: /static/img/IMG_3252.webp
+    - title: Diós és Mákos Bejglik
+      description: A diós és mákos bejgli gazdag töltelékkel készülő hagyományos karácsonyi sütemények. Kiválóak ünnepi alkalmakra.
+      image: /static/img/IMG_3368.webp
+about:
+  title: Zümmögő
+  subtitle: Ismerj meg minket
+  text: Fedezze fel étlapunk különleges kínálatát, ahol a friss alapanyagok és a kreatív ízek találkoznak. Engedje, hogy elkalauzoljuk egy kulináris utazásra, amely minden érzékét elvarázsolja.
+  link: /hu/about
+  link_text: Rólunk
+testimonial:
+  title: Rólunk mondták
+  items:
+    - quote: "Reggelizőt kerestem a közelben és megakadtam a szemem a helyen a térképen..."
+      author: Kopócs Kata
+      rating: 5
+    - quote: "A kávé ízletes, ahogy a szendvicsek is finomak..."
+      author: Nagy Dávid
+      rating: 5
+    - quote: "Nagyon finom volt a Falafeles wrap..."
+      author: Németh Szidónia
+      rating: 5
+    - quote: "Nagyon hangulatos hely, a kiszolgálás mindig kedves..."
+      author: Oláh Zsanett
+      rating: 5
+    - quote: "Többször vásároltam már kenyeret, peksutit, kvet..."
+      author: Jakus Mária
+      rating: 5
+    - quote: "Finom a kávé, van rengeteg sös és édes péksüti..."
+      author: Kökényessyné Takács Mária
+      rating: 5
+gallery:
+  - /static/img/IMG_9614.webp
+  - /static/img/IMG_5360.webp
+  - /static/img/image_67213825_dup.webp
+  - /static/img/image_123650291_10.webp
+  - /static/img/8E97A229-25D0-4D3E-9285-B1EDD7E28521.webp
+  - /static/img/IMG_3695.webp
+cta_section:
+  title: Látogass el hozzánk!
+  text: Várjuk szeretettel!
+  buttons:
+    - text: Kapcsolat
+      link: /hu/contact
+      type: primary
+nav:
+  home: Kezdőlap
+  menu: Étlap
+  about: Rólunk
+  contact: Kapcsolat
+location:
+  title: Helyszín
+  address: "Cím hamarosan"
+  get_directions: Útvonaltervezés
+faq:
+  title: Gyakran Ismételt Kérdések
+  items: []

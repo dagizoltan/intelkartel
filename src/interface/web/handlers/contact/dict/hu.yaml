@@ -1,0 +1,50 @@
+meta:
+  title: Kapcsolat - Zümmögő
+  description: Lépj velünk kapcsolatba.
+  keywords: zümmögő, kapcsolat, cím, telefonszám
+jsonld:
+  '@context': https://schema.org
+  '@type': ContactPage
+  name: Zümmögő Kapcsolat
+  url: https://zummogo.hu/hu/contact
+hero:
+  title: Lépj velünk kapcsolatba!
+  subtitle: Zümmögő
+  short_summary: Kérdésed van? Foglalnál?
+  summary: Keress minket bizalommal az alábbi elérhetőségeken vagy látogass el hozzánk személyesen!
+  buttons:
+    - text: Hívj minket
+      link: tel:+36308125425
+      type: primary
+get_in_touch:
+  title: Elérhetőségeink
+  text: "Örömmel várjuk megkeresésedet!"
+phone:
+  label: Telefonszám
+  value: "+36 30 812 5425"
+email:
+  label: Email Cím
+  value: "info@zummogo.hu"
+address:
+  label: Címünk
+  value: "Hamamarosan"
+get_directions: Útvonaltervezés
+gallery:
+  - /static/img/IMG_9669.webp
+  - /static/img/image_67213825_JPG.JPG
+  - /static/img/image_67164673.webp
+  - /static/img/IMG_4424_1.jpeg
+  - /static/img/gallery-1.svg
+  - /static/img/gallery-2.svg
+cta_section:
+  title: Gyere el hozzánk!
+  text: Kóstold meg finomságainkat!
+  buttons:
+    - text: Étlap
+      link: /hu/menu
+      type: primary
+nav:
+  home: Kezdőlap
+  menu: Étlap
+  about: Rólunk
+  contact: Kapcsolat

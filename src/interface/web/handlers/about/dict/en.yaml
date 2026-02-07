@@ -1,0 +1,49 @@
+meta:
+  title: About Us - Zümmögő
+  description: The story of Zümmögő Cafe.
+  keywords: zümmögő, story, cafe, bakery
+jsonld:
+  '@context': https://schema.org
+  '@type': AboutPage
+  name: About Zümmögő
+  url: https://zummogo.hu/en/about
+hero:
+  title: Our Story
+  subtitle: Zümmögő
+  short_summary: A shared dream come true.
+  summary: Zümmögő Cafe was born from a shared dream that we turned into reality with consciousness and passion.
+  buttons:
+    - text: Book a Table
+      link: /en/contact
+      type: primary
+content:
+  - "Zümmögő Cafe was born from a shared dream that we turned into reality with consciousness and passion. We started it together, with youthful momentum, lots of ideas, and a clear vision. From the beginning, we wanted to create a place where we would love to spend time ourselves – and where guests can truly feel at home."
+spirit:
+  title: The Story of Our Name and Our Growth
+  subtitle: "What are you always humming?"
+  text:
+    - "The story of our name is at least as personal as the cafe itself. At the beginning of our acquaintance, we were almost constantly talking to each other – mostly me to Robi, my fiancé, who at one point laughingly asked: \"What are you always humming?\" (In Hungarian, \"zümmög\" means to hum/buzz). This sentence stayed with us so much that one day it was born: Zümmögő."
+    - "In the beginning, everything was small. A few tables, the smell of freshly baked pastries, a coffee machine that sometimes hummed louder than it should have. What was big even then was our hospitality. Every smile, every kind word, every \"you're welcome\" came from the heart. We didn't want to serve, but to connect."
+    - "The family atmosphere developed almost by itself. Guests who returned. Conversations, laughter, familiar greetings. We received the sentence more and more often, from which we gained confirmation again and again: \"It's so good to come in here.\""
+discover:
+  title: Zümmögő Today
+  text: "So Zümmögő grew with us. New flavors arrived alongside the pastries, the offer was refined, and at one point we dared to put salmon and duck on the menu. Today, Zümmögő is much more to us than just a workplace. A meeting point, a little peace in the rush, a place where stories are born. And if humming is heard today, it no longer comes just from the coffee machine – but from the life we created together."
+gallery:
+  - /static/img/IMG_9540.jpg
+  - /static/img/IMG_9340.jpg
+  - /static/img/IMG_4230.jpg
+  - /static/img/image_67530241.webp
+  - /static/img/image_123650291_9.webp
+  - /static/img/IMG_4424_1.webp
+cta_section:
+  title: Visit Us!
+  text: We look forward to seeing you!
+  buttons:
+    - text: Contact
+      link: /en/contact
+      type: primary
+nav:
+  home: Home
+  menu: Menu
+  about: About
+  contact: Contact
