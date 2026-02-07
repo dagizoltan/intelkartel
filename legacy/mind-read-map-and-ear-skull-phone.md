@@ -1,7 +1,7 @@
 # – EAR SKULL PHONE (C)
 
-![](images/skull-and-bones-black-backdrop-and-looking-straaight-at-you-1.png)
-![](images/intelkbanner.gif)
+![](../assets/mind-read-map-and-ear-skull-phone/skull-and-bones-black-backdrop-and-looking-straaight-at-you-1.png)
+![](../assets/mind-read-map-and-ear-skull-phone/intelkbanner.gif)
 
 [INTELKARTEL.COM](https://intelkartel.com/?page_id=18681)
 
@@ -9,12 +9,12 @@
 
 
 
-![](images/president33.jpg)
-![](images/presidnet.png)
+![](../assets/mind-read-map-and-ear-skull-phone/president33.jpg)
+![](../assets/mind-read-map-and-ear-skull-phone/presidnet.png)
 
 MI IS UGYAN AZZAL A KEZZEL…FOGUNK KEZET
 
-![](images/99537104_russiafsbindex20dec11afp.jpg.webp)
+![](../assets/mind-read-map-and-ear-skull-phone/99537104_russiafsbindex20dec11afp.jpg.webp)
 
 [POLICE INFO](https://intelkartel.com/dirty-police-tricks/) VAGY… [PENZ](https://intelkartel.com/2025/04/22/how-to-make-dark-money/)? [INTELKARTEL SERVICES](https://intelkartel.com/szolgaltatasok/) /// DARK “HUMOR” BLOG DE LA VIDOSH’
 
@@ -22,18 +22,18 @@ MI IS UGYAN AZZAL A KEZZEL…FOGUNK KEZET
 
 [MORE INTEL](https://intelkartel.com/police-rendor-info/) // [INTELKARTEL BOOK](https://intelkartel.com/?page_id=18093) // [HANDBOOK](https://intelkartel.com/wp-content/uploads/2026/01/never-fucked-around-still-found-out-vd-1992.pdf) // [BELTA PROGRAM](https://intelkartel.com/wp-content/uploads/2026/01/belta-program-2.pdf) ///
 
-![](images/chatgpt-image-feb-7-2026-03_17_09-pm.png)
-![](images/chatgpt-image-feb-7-2026-03_14_45-pm.png)
-![](images/vidosstaln.jpg)
+![](../assets/mind-read-map-and-ear-skull-phone/chatgpt-image-feb-7-2026-03_17_09-pm.png)
+![](../assets/mind-read-map-and-ear-skull-phone/chatgpt-image-feb-7-2026-03_14_45-pm.png)
+![](../assets/mind-read-map-and-ear-skull-phone/vidosstaln.jpg)
 
 
 (BELUGY.ORG = DARK HUMOR BLOG DE LA BELUGYEINK NEKUNK SKIZOKNAK… HAVVANA SYNDROME!)
 
-![](images/intelkcounter2.gif)
+![](../assets/mind-read-map-and-ear-skull-phone/intelkcounter2.gif)
 
-![](images/slide89.jpg)
-![](images/vd4.png)
-![](images/vidos3838.png)
+![](../assets/mind-read-map-and-ear-skull-phone/slide89.jpg)
+![](../assets/mind-read-map-and-ear-skull-phone/vd4.png)
+![](../assets/mind-read-map-and-ear-skull-phone/vidos3838.png)
 
 
 ---
@@ -95,9 +95,9 @@ In economics, value is often defined by scarcity. In governance, risk is defined
 
 ---
 
-![](images/vd3333-edited.gif)
+![](../assets/mind-read-map-and-ear-skull-phone/vd3333-edited.gif)
 
-![](images/vdendgame.gif)
+![](../assets/mind-read-map-and-ear-skull-phone/vdendgame.gif)
 
 I (VD) DEISGNED THE DEVICE AS A 5 YEAR OLD PROTOGE AND WAS IMPLANTED INTO 10% OF GLOBAL WESTEN POPULATION TO OUT MAN NUMBER THE COMMUNISTS WITH SKIZO MACHINE FOR ADVANCED WARFARE AND THUS DEFNESE STARTEGY OF FBI AND NATO? MAYBE… VD PLAN:
 
@@ -113,14 +113,14 @@ I (VD) DEISGNED THE DEVICE AS A 5 YEAR OLD PROTOGE AND WAS IMPLANTED INTO 10% OF
 >
 > CNN has asked the Pentagon, HSI and the DHS for comment. The CIA declined to comment. (<https://edition.cnn.com/2026/01/13/politics/havana-syndrome-device-pentagon-hsi>)
 
-![](images/712.png)
+![](../assets/mind-read-map-and-ear-skull-phone/712.png)
 
-![](images/slide137.jpg)
-![](images/slide89.jpg)
-![](images/vd5.png)
-![](images/vd6.png)
-![](images/picture22.png)
-![](images/vidos2.png)
+![](../assets/mind-read-map-and-ear-skull-phone/slide137.jpg)
+![](../assets/mind-read-map-and-ear-skull-phone/slide89.jpg)
+![](../assets/mind-read-map-and-ear-skull-phone/vd5.png)
+![](../assets/mind-read-map-and-ear-skull-phone/vd6.png)
+![](../assets/mind-read-map-and-ear-skull-phone/picture22.png)
+![](../assets/mind-read-map-and-ear-skull-phone/vidos2.png)
 
 
 
@@ -812,6 +812,6 @@ Also Wifi 3D Ping can make photo realistic impressions with ai so as to use as e
 
 <https://spyonlineshop.com/termekkategoria/gsm-gps-wifi-blokkolok-jammer/>
 
-![](images/chatgpt-image-feb-2-2026-03_28_25-pm.jpg)
+![](../assets/mind-read-map-and-ear-skull-phone/chatgpt-image-feb-2-2026-03_28_25-pm.jpg)
 
 batman..

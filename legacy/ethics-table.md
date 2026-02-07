@@ -1,18 +1,18 @@
 # – 0 ZIRCON 0 –
 
-![](images/ethics-table/fajtabla.jpg)
+![](../assets/ethics-table/fajtabla.jpg)
 
 ZERG -> SEMMIT SE LAT SE TUD
 
 PROTOS –>MINDENT LAT ES TUD
 
-![](images/ethics-table/slide2.jpg)
-![](images/ethics-table/slide3.jpg)
-![](images/ethics-table/slide4.jpg)
-![](images/ethics-table/pic3.png)
+![](../assets/ethics-table/slide2.jpg)
+![](../assets/ethics-table/slide3.jpg)
+![](../assets/ethics-table/slide4.jpg)
+![](../assets/ethics-table/pic3.png)
 
-![](images/ethics-table/slide64.jpg)![](images/ethics-table/slide16.jpg)
-![](images/ethics-table/buffer-collapse5-18_6.png)
+![](../assets/ethics-table/slide64.jpg)![](../assets/ethics-table/slide16.jpg)
+![](../assets/ethics-table/buffer-collapse5-18_6.png)
 
 ---
 
