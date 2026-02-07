@@ -1,4 +1,5 @@
 import { renderMarkdown } from "../../utils/markdown.js";
+import { StaticPage } from "./static-page.jsx";
 
 const contactContent = `
 # Contact IntelKartel
@@ -28,13 +29,7 @@ export const staticHandler = {
         canonical: "https://intelkartel.com/about"
     };
 
-    const StaticPage = () => (
-        <div class="container article-container">
-            <div class="article-body" dangerouslySetInnerHTML={{ __html: content }} />
-        </div>
-    );
-
-    return c.render(StaticPage, { seo });
+    return c.render(StaticPage, { content, seo });
   },
 
   contact: (c) => {
@@ -45,12 +40,6 @@ export const staticHandler = {
         canonical: "https://intelkartel.com/contact"
     };
 
-    const StaticPage = () => (
-        <div class="container article-container">
-            <div class="article-body" dangerouslySetInnerHTML={{ __html: content }} />
-        </div>
-    );
-
-    return c.render(StaticPage, { seo });
+    return c.render(StaticPage, { content, seo });
   }
 };
