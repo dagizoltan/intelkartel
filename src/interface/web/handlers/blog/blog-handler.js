@@ -1,4 +1,4 @@
-import { ArticleCard } from "../../components/ArticleCard.jsx";
+import { BlogPage } from "./blog-page.jsx";
 import { ArticleView } from "../../components/ArticleView.jsx";
 import { renderMarkdown } from "../../utils/markdown.js";
 import { parse } from "@std/yaml";
@@ -46,16 +46,7 @@ export const blogHandler = {
       canonical: "https://intelkartel.com/blog"
     };
 
-    const BlogIndex = () => (
-      <div class="container">
-        <h1>Intel Stream</h1>
-        <div class="articles-list">
-          {articles.map(article => <ArticleCard article={article} />)}
-        </div>
-      </div>
-    );
-
-    return c.render(BlogIndex, { seo });
+    return c.render(BlogPage, { articles, seo });
   },
 
   detail: async (c) => {
