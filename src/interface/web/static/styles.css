@@ -603,7 +603,6 @@ section {
 }
 
 .article-container {
-  max-width: var(--content-max-width);
   margin: 0 auto;
   padding: var(--md) 0;
 }
@@ -758,9 +757,8 @@ section {
 
 
 .article-container {
-  max-width: var(--content-max-width);
   margin: 0 auto;
-  padding: var(--md) 0;
+  padding: var(--xxl) 0;
 }
 
   /* Article Card - Desktop */
