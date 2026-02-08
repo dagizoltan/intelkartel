@@ -12,40 +12,47 @@ export const AboutPage = ({ t }) => {
         buttons={t.hero.buttons}
       />
 
-      <section>
+      <section class="about-intro">
         <div class="container">
-          {t.content.map(p => <p>{p}</p>)}
+          {t.intro_image && (
+            <div class="intro-image-container" style={{ marginBottom: '2rem', textAlign: 'center' }}>
+              <img src={t.intro_image} alt="About IntelKartel" style={{ maxWidth: '100%', height: 'auto', border: '1px solid var(--border-color)' }} />
+            </div>
+          )}
         </div>
       </section>
 
-      <section>
-        <div class="container">
-          <h2>{t.spirit.title}</h2>
-          <h3>{t.spirit.subtitle}</h3>
-          {t.spirit.text.map(p => <p>{p}</p>)}
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <h2>{t.discover.title}</h2>
-          <p>{t.discover.text}</p>
+      <section class="profiles-section">
+        <div class="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+          {t.profiles && t.profiles.map((profile, index) => (
+            <div key={index} class="profile-card">
+              <h2 style={{ marginBottom: '0.5rem' }}>{profile.name}</h2>
+              {profile.title && <h4 style={{ color: 'var(--primary-color)', marginBottom: '1rem' }}>{profile.title}</h4>}
+              <div class="profile-bio">
+                {profile.bio && profile.bio.map((p, pIndex) => (
+                  <p key={pIndex} style={{ textAlign: 'justify' }}>{p}</p>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
       <Gallery gallery={t.gallery} />
 
-      <section class="cta-section">
-        <div class="container">
-          <h2>{t.cta_section.title}</h2>
-          <p>{t.cta_section.text}</p>
-          <div class="btn-group">
-            {t.cta_section.buttons ? t.cta_section.buttons.map(btn => (
-              <a href={btn.link} class={`btn ${btn.type === 'secondary' ? 'secondary' : ''}`}>{btn.text}</a>
-            )) : ''}
+      {t.cta_section && (
+        <section class="cta-section">
+          <div class="container">
+            <h2>{t.cta_section.title}</h2>
+            <p>{t.cta_section.text}</p>
+            <div class="btn-group">
+              {t.cta_section.buttons ? t.cta_section.buttons.map(btn => (
+                <a href={btn.link} class={`btn ${btn.type === 'secondary' ? 'secondary' : ''}`}>{btn.text}</a>
+              )) : ''}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
     </>
   );
 };

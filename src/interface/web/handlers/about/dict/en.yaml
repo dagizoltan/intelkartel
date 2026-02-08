@@ -1,32 +1,37 @@
 meta:
   title: About - IntelKartel
-  description: The story of IntelKartel.
-  keywords: intelkartel, about, story, intelligence
+  description: The story of IntelKartel and its founders.
+  keywords: intelkartel, about, story, intelligence, van diel dios, lilith
 jsonld:
   '@context': https://schema.org
   '@type': AboutPage
   name: About IntelKartel
   url: https://intelkartel.com/about
 hero:
-  title: About IntelKartel
-  subtitle: Who We Are
-  short_summary: We are a collective of analysts, operatives, and cynics. We don't just report news; we decode it.
-  summary: Born from the need for truth in a world of deception, IntelKartel brings together experts from intelligence, cyber, and military backgrounds. We operate in the shadows to bring light to the complex machinations of global power. Trust no one, verify everything.
-  buttons:
-    - text: Contact Us
-      link: /contact
-      type: primary
-content:
-  - "IntelKartel was founded on the principle that information is the most valuable currency in the modern world. We are not journalists; we are analysts, hackers, and former intelligence officers who understand how the game is played."
-spirit:
-  title: Our Philosophy
-  subtitle: "Trust No One"
-  text:
-    - "In a world drowning in misinformation and propaganda, skepticism is a survival skill. We question narratives, scrutinize sources, and follow the money. Our loyalty is to the truth, however uncomfortable it may be."
-    - "We operate with a simple mandate: uncover what is hidden. Whether it's state-sponsored cyber espionage or corporate malfeasance, we shine a light on the dark corners of the global stage."
-discover:
-  title: Join the Mission
-  text: "We are always looking for like-minded individuals who share our passion for truth and our cynical sense of humor. If you have skills in analysis, coding, or tradecraft, reach out. But be warned: once you see the world through our eyes, there is no going back."
+  title: "RÓLUNK"
+  subtitle: "Intel Kartel"
+  short_summary: "The Founders"
+  summary: "Meet the enigmatic figures behind the curtain."
+  buttons: []
+intro_image: /static/images/about-intel.jpg
+profiles:
+  - name: "Van Diel Dios"
+    title: "Founder of Intel Kartel"
+    bio:
+      - "In a world shrouded in secrets and shadows, exists a mysterious figure known only as “The Mercenary”. Born into a unique lineage, his heritage is a blend of Jewish factory owners and Hungarian Gentry, granting him a diverse perspective on life and a complex identity. Yet, it is not his lineage that defines him, but rather his chosen path, one that aligns more with an enigmatic, morally ambiguous vigilante than a conventional hero."
+      - "Operating outside the realms of law and order, The Mercenary moves through the darkness with an eerie grace, striking fear into the hearts of those who cross his path. Whispered rumors hint at his extraordinary abilities, drawing comparisons to a sinister counterpart of the iconic Batman. Cloaked in a mantle of malevolence, he is both feared and revered by both his allies and enemies alike."
+      - "Numbers speak volumes, and in the case of The Mercenary, they tell a harrowing tale. It is said that he has inflicted his deadly prowess upon a staggering 720 million individuals. However, it is important to note that not all of his victims were mere statistics in a grand tally. Among the vast number lies a fraction, a mere 10.5 million individuals who can be considered enemies of the United States. Fueled by covert objectives, whispers in the darkest corridors insinuate that his actions were driven by a thirst for power, control, and some claim even by a sinister greed for oil."
+      - "Yet, as with any enigmatic figure, the truth remains hidden behind layers of deception. His motives, though speculated upon, are shrouded in ambiguity. Some argue that his deeds carry an air of justice, a necessary means to an end. Others condemn him as a soulless mercenary, slaying without reason or remorse. The real truth, it seems, lies hidden within the murky depths of his complex psyche and the untold tales that have yet to be unraveled."
+      - "So, the legend of The Mercenary persists, casting a foreboding shadow over the world. Whether he is defined by his bloodline or his actions is a mystery that remains unanswered. But one thing is certain – the legend of this dark force, driven by an insatiable desire for power, leaves an indelible mark upon your annals"
+  - name: "“Lilith”"
+    title: ""
+    bio:
+      - "Once upon a time, in a dimly lit corner of the world, there lived a woman named Lilith. She had an enigmatic lineage, claiming to be the descendant of Count Dracula himself, and also tied to a long line of Jewish pub owners. This unique combination bestowed upon her a peculiar set of abilities that set her apart from the ordinary folk."
+      - "From a young age, Lilith exhibited an uncanny talent for unraveling the secrets of those around her. It seemed as though the walls whispered their tales to her, and the very air carried the confessions of others. Her ears were attuned to the hidden truths and clandestine affairs that unfolded in the shadows."
+      - "As she progressed through each stage of education, the adults and youth in Lilith’s life unknowingly shared their deepest secrets with her. The weight of their confessions became the source of her power, enabling her to amass great influence over others. It was an extraordinary gift, as well as a burden she carried with her every day."
+      - "With this innate knowledge at her disposal, Lilith embarked on a fascinating journey, wielding her acquired powers to profound effect. One of her notable feats was her involvement in the privatization of the intelligence community in the crumbling Soviet Union. Though history may not remember her name, her impact was deeply felt within those classified circles."
+      - "Yet, amidst all her extraordinary powers and accomplishments, Lilith lived by one unspoken yet vital rule – the use of control words and the manipulation of fully enclosed systems. To divulge any further details would be to violate the first law she was bound to obey, a law she is prohibited from discussing. The weight of this secrecy loomed over her like a shroud, compelling her to keep her true self veiled in shadow."
+      - "So, dear reader, while Lilith’s story remains shrouded in mystery, there is no denying the intriguing nature of her existence. Her tale serves as a reminder that even in the most ordinary corners of the world, extraordinary beings can emerge, wielding powers that surpass the imagination. Alas, the depths of Lilith’s story remain ever cloaked, forever hidden from prying eyes, because… well, simply because."
 gallery: []
 cta_section:
   title: Initiate Contact
