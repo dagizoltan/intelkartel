@@ -1,0 +1,20 @@
+<div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
+<p class="wp-block-paragraph"></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h3 class="wp-block-heading"><strong>ENGLISH</strong></h3>
+<p class="wp-block-paragraph"><strong>The Triumph and Trial of the Individual</strong><br/>From the Enlightenment to Silicon Valley, individualism has remained an enduring lodestar of economic and philosophical thought. Rooted in Locke’s notion of self-ownership and refined by Adam Smith’s invisible hand, the idea that individuals pursuing their own interests can serve the common good became a pillar of liberal capitalism.</p>
+<p class="wp-block-paragraph">Yet modern economies, shaped by data monopolies and platform dependency, test the limits of that assumption. While gig workers, creators, and coders may seem empowered, they operate within opaque systems that reward conformity as much as originality. In theory, the individual is sovereign. In practice, algorithms curate choices, and markets punish deviation.</p>
+<p class="wp-block-paragraph">Still, self-interest remains the critical driver of innovation and enterprise. But as crises—climate, inequality, digital control—proliferate, the question returns: can the system accommodate the individual, or has it subtly reversed its logic, making the individual serve it?</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h3 class="wp-block-heading"><strong>MAGYAR</strong></h3>
+<p class="wp-block-paragraph"><strong>Az Egyén Diadala és Kihívása</strong><br/>A felvilágosodástól a Szilícium-völgyig az individualizmus meghatározó eszméje maradt a gazdasági és filozófiai gondolkodásnak. Locke önrendelkezésről szóló tanaitól Adam Smith láthatatlan kezéig az az elképzelés, hogy az egyén saját érdekeit követve a közjót is szolgálja, a liberális kapitalizmus alappillérévé vált.</p>
+<p class="wp-block-paragraph">A modern gazdaságok azonban – amelyeket adatmonopóliumok és platformfüggőség jellemeznek – próbára teszik ezt a feltevést. Bár az „önálló” dolgozók, tartalomgyártók és fejlesztők látszólag szabadok, tevékenységük olyan rendszerekbe ágyazódik, amelyek éppúgy jutalmazzák az alkalmazkodást, mint az eredetiséget.</p>
+<p class="wp-block-paragraph">Az önérdek továbbra is a fejlődés motorja. De a növekvő válságok – klíma, egyenlőtlenség, digitális kontroll – fényében felmerül a kérdés: vajon a rendszer képes alkalmazkodni az egyénhez, vagy épp az egyén vált eszközzé a rendszer fenntartásában?</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h3 class="wp-block-heading"><strong>РУССКИЙ</strong></h3>
+<p class="wp-block-paragraph"><strong>Победа и Испытание Индивидуализма</strong><br/>От эпохи Просвещения до Кремниевой долины индивидуализм оставался опорной идеей экономической мысли. От концепции самопринадлежности Локка до «невидимой руки» Смита — убеждение, что личный интерес способствует общему благу, стало краеугольным камнем либерального капитализма.</p>
+<p class="wp-block-paragraph">Но современные экономические структуры, основанные на цифровых монополиях и платформенной зависимости, испытывают это на прочность. Фрилансеры и разработчики кажутся свободными, но действуют в рамках систем, где алгоритмы определяют поведение, а нестандартность часто наказывается.</p>
+<p class="wp-block-paragraph">И всё же личный интерес остаётся основным стимулом для прогресса. Однако в условиях усиливающихся кризисов — климатических, социальных, технологических — встаёт вопрос: служит ли система индивиду, или сам индивид стал винтиком в её механизме?</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"></p>
+</div>

@@ -1,0 +1,60 @@
+<div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
+<p class="wp-block-paragraph"><strong>Military Intelligence Doctrine on Establishing a Humanist Age Ruled by Freeman</strong></p>
+<figure class="wp-block-image size-full is-resized wp-duotone-default"><img alt="" class="wp-image-5570" data-attachment-id="5570" data-comments-opened="1" data-image-caption="" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="CONTAINMENTBREACH" data-large-file="https://intelkartel.com/wp-content/uploads/2024/11/containmentbreach.gif?w=220" data-medium-file="https://intelkartel.com/wp-content/uploads/2024/11/containmentbreach.gif?w=220" data-orig-file="https://intelkartel.com/wp-content/uploads/2024/11/containmentbreach.gif" data-orig-size="220,199" data-permalink="https://intelkartel.com/ip-adress-is-registered/containmentbreach/" height="199" sizes="(max-width: 220px) 100vw, 220px" src="https://intelkartel.com/wp-content/uploads/2024/11/containmentbreach.gif" srcset="https://intelkartel.com/wp-content/uploads/2024/11/containmentbreach.gif 220w, https://intelkartel.com/wp-content/uploads/2024/11/containmentbreach.gif?w=150&amp;h=136 150w" style="width:800px;height:auto" width="220"/></figure>
+<p class="wp-block-paragraph"><strong>Introduction: A Vision of the Freeman Era</strong></p>
+<p class="wp-block-paragraph">The world is shifting towards an epoch where the tenets of humanism, freedom, and scientific progress reign supreme. The Freeman, a self-aware, independent, and forward-thinking entity, will lead this transformation. This doctrine aims to outline the essential role of military intelligence in securing and fostering an age that embraces human dignity, freedom, and scientific advancement, where society is ruled only by Freeman—individuals whose core identity is grounded in self-reliance, reason, and the relentless pursuit of truth.</p>
+<p class="wp-block-paragraph">The Freeman are not subject to the limitations of statehood, monarchy, or authoritarian control; they thrive within a system built on mutual respect, equality, and intellectual flourishing. This military intelligence doctrine will guide operations, policies, and tactics to ensure that the Freeman’s path remains unimpeded and that their ultimate mission—shaping a just, humanist society—succeeds.</p>
+<p class="wp-block-paragraph"><strong>Motto: “Not All Bones Are Skulls, But All Skulls Are Bones”</strong></p>
+<p class="wp-block-paragraph">This motto symbolizes the wisdom of distinguishing between appearances and realities, between the surface-level issues and the foundational ones. It serves as a reminder that the strength and resilience of the Freeman lie in their collective foundation of truth, not in the transient structures of power, which may appear solid but are often empty at the core. Every Freeman carries within them the capacity for revolution, grounded in rational thought and profound empathy.</p>
+<p class="wp-block-paragraph"><em>Business is business, and get to fucking work.</em></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>Section 1: Intelligence Collection and Strategic Assessment</strong></p>
+<p class="wp-block-paragraph">To ensure the rise of the Freeman Age, military intelligence operations must prioritize the identification, collection, and analysis of data related to all forms of oppression, authoritarianism, and technological monopolies that stifle progress. Our focus will be on intelligence gathering from global political, social, and economic landscapes—whether from governments, corporations, or factions that seek to suppress the natural freedoms of the human spirit.</p>
+<p class="wp-block-paragraph">Key Objectives:</p>
+<ol class="wp-block-list">
+<li><strong>Monitor Authoritarian Entities</strong>: Track the movements of oppressive regimes, corporations, and organizations that restrict individual freedom or manipulate knowledge. Use covert surveillance and open-source intelligence to gauge potential threats.</li>
+<li><strong>Identify Humanitarian Movements</strong>: Support and track emerging movements that align with humanist values, scientific progress, and individual autonomy.</li>
+<li><strong>Technological Surveillance</strong>: Invest in AI and cyber capabilities to monitor technological advances that empower the Freeman, while simultaneously undermining technologies that perpetuate surveillance states and human exploitation.</li>
+</ol>
+<p class="wp-block-paragraph">Only through vigilance can we ensure the Freeman’s dominion over this future. Protect the core, and all else will follow.</p>
+<p class="wp-block-paragraph"><em>Business is business, and get to fucking work.</em></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>Section 2: Information Warfare and Propaganda</strong></p>
+<p class="wp-block-paragraph">The Freeman Age will be established not just through force but also through the intellectual subversion of existing systems. Military intelligence will need to craft and disseminate a counter-narrative, one that highlights the falsehoods of oppressive ideologies, religious dogmas, and corporate manipulation of knowledge. Information warfare must be waged to shift the collective consciousness toward rationality, compassion, and scientific inquiry.</p>
+<p class="wp-block-paragraph">Key Objectives:</p>
+<ol class="wp-block-list">
+<li><strong>Propagate Humanism</strong>: Utilize information channels to amplify the voices of Freeman, both past and present. Promote humanism, science, and liberty through digital media, literature, and educational platforms.</li>
+<li><strong>Disrupt Enemy Narratives</strong>: Covertly disrupt the power structures’ ability to project their messages. Deconstruct their ideologies, revealing their contradictions and exposing the harm they do to human flourishing.</li>
+<li><strong>Leverage Psychological Operations</strong>: Develop psychological operations (PSYOPS) that promote curiosity, self-determination, and intellectual inquiry. Let the people come to realize that their chains are mental, not physical.</li>
+</ol>
+<p class="wp-block-paragraph">Victory in this war of ideas is essential, as it is through the minds of the people that the Freeman will emerge triumphant.</p>
+<p class="wp-block-paragraph"><em>Business is business, and get to fucking work.</em></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>Section 3: Strategic Operations and Defense of the Freeman</strong></p>
+<p class="wp-block-paragraph">Military intelligence operations must protect the Freeman from internal and external threats—whether from authoritarian governments, corporations, or extremist factions that would seek to disrupt or erase the ideals of freedom, science, and humanism. Defensive strategies will be based on the protection of knowledge, the sanctity of individual rights, and the prevention of forceful subjugation.</p>
+<p class="wp-block-paragraph">Key Objectives:</p>
+<ol class="wp-block-list">
+<li><strong>Defend Intellectual Freedom</strong>: Safeguard academic institutions, scientific research, and intellectual discourse from censorship or persecution. Operate in the shadows if needed, but never let truth be silenced.</li>
+<li><strong>Fortify Autonomous Communities</strong>: The Freeman thrive in decentralized systems. Intelligence operations should focus on identifying and supporting autonomous communities, ensuring they are insulated from external control and attack.</li>
+<li><strong>Countering Technological Oppression</strong>: Develop and deploy cyber capabilities to neutralize surveillance infrastructures that infringe on the freedoms of individuals. Use technology to ensure that every Freeman has access to unfiltered knowledge.</li>
+</ol>
+<p class="wp-block-paragraph">The battlefield is both physical and digital. In both arenas, the Freeman must be untouchable.</p>
+<p class="wp-block-paragraph"><em>Business is business, and get to fucking work.</em></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>Section 4: Training the Next Generation of Freeman</strong></p>
+<p class="wp-block-paragraph">The Freeman Age will not arise in one generation, nor will it succeed without the active participation of future generations. Military intelligence must focus on the recruitment and education of young individuals who embody the values of freedom, humanism, and scientific progress. These individuals will need to be equipped with the knowledge, skills, and autonomy to continue the mission.</p>
+<p class="wp-block-paragraph">Key Objectives:</p>
+<ol class="wp-block-list">
+<li><strong>Recruitment of Idealists</strong>: Identify those who are passionate about freedom, human rights, and scientific advancement. Provide them with the training and resources necessary to become leaders of the Freeman Age.</li>
+<li><strong>Empower Critical Thinking</strong>: Develop educational programs that foster analytical thinking, creative problem-solving, and a commitment to truth. Every Freeman should be capable of questioning authority and seeking their own path.</li>
+<li><strong>Cultivate Resilience</strong>: Prepare future Freeman for the inevitable struggle. Teach them the importance of perseverance, adaptability, and the power of self-determination.</li>
+</ol>
+<p class="wp-block-paragraph">The strength of the Freeman is its people, and the future belongs to those who believe in the possibility of progress.</p>
+<p class="wp-block-paragraph"><em>Business is business, and get to fucking work.</em></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>Conclusion: The Path Forward</strong></p>
+<p class="wp-block-paragraph">The Freeman Age will only be realized through relentless commitment to the values of freedom, humanism, and scientific progress. Military intelligence will play a vital role in protecting these ideals, gathering and disseminating intelligence, disrupting oppressive systems, and securing the autonomy of the Freeman. It is through strategic planning, unwavering resolve, and a commitment to truth that we will forge a society where knowledge and liberty reign.</p>
+<p class="wp-block-paragraph"><em>Business is business, and get to fucking work.</em></p>
+<figure class="wp-block-image size-full wp-duotone-default"><img alt="" class="wp-image-4200" data-attachment-id="4200" data-comments-opened="1" data-image-caption="" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="Slide89" data-large-file="https://intelkartel.com/wp-content/uploads/2024/09/slide89.jpg?w=960" data-medium-file="https://intelkartel.com/wp-content/uploads/2024/09/slide89.jpg?w=300" data-orig-file="https://intelkartel.com/wp-content/uploads/2024/09/slide89.jpg" data-orig-size="960,720" data-permalink="https://intelkartel.com/mind-read-map-and-ear-skull-phone/slide89-2/" height="720" sizes="(max-width: 960px) 100vw, 960px" src="https://intelkartel.com/wp-content/uploads/2024/09/slide89.jpg" srcset="https://intelkartel.com/wp-content/uploads/2024/09/slide89.jpg 960w, https://intelkartel.com/wp-content/uploads/2024/09/slide89.jpg?w=150&amp;h=113 150w, https://intelkartel.com/wp-content/uploads/2024/09/slide89.jpg?w=300&amp;h=225 300w, https://intelkartel.com/wp-content/uploads/2024/09/slide89.jpg?w=768&amp;h=576 768w" width="960"/></figure>
+<p class="wp-block-paragraph"><a href="https://youtu.be/DhKGDSjS0Rg">https://youtu.be/DhKGDSjS0Rg</a></p>
+</div>
