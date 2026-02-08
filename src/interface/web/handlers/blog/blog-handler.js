@@ -1,46 +1,9 @@
 import { BlogPage } from "./blog-page.jsx";
 import { ArticleView } from "../../components/ArticleView.jsx";
 import { parseArticle } from "../../utils/article-parser.js";
+import { getArticles } from "../../services/article-service.js";
 
 const ARTICLES_DIR = "data/dict/articles";
-
-let articlesCache = null;
-let lastCacheTime = 0;
-const CACHE_TTL = 1000 * 60 * 5; // 5 minutes cache
-
-const getArticles = async () => {
-  const now = Date.now();
-  if (articlesCache && (now - lastCacheTime < CACHE_TTL)) {
-    return articlesCache;
-  }
-
-  const entries = [];
-  try {
-    for await (const entry of Deno.readDir(ARTICLES_DIR)) {
-      if (entry.isFile && entry.name.endsWith(".md")) {
-        try {
-          const content = await Deno.readTextFile(`${ARTICLES_DIR}/${entry.name}`);
-          const meta = parseArticle(entry.name, content);
-          // Remove content from the list object to save memory
-          delete meta.content;
-          entries.push(meta);
-        } catch (e) {
-          console.error(`Error reading article ${entry.name}:`, e);
-        }
-      }
-    }
-
-    // Sort by date descending
-    articlesCache = entries.sort((a, b) => new Date(b.datePublished) - new Date(a.datePublished));
-    lastCacheTime = now;
-  } catch (e) {
-    console.error("Error reading articles dir:", e);
-    // Return empty array or cached if available (though if error occurs, cache might be stale or null)
-    return articlesCache || [];
-  }
-
-  return articlesCache;
-};
 
 const getArticle = async (slug) => {
   try {
@@ -62,14 +25,16 @@ const getArticle = async (slug) => {
 
 export const blogHandler = {
   index: async (c) => {
+    const lang = c.req.param('lang') || 'en';
+    const t = await c.dict(`src/interface/web/handlers/blog/dict/${lang}`);
     const articles = await getArticles();
     const seo = {
-      title: "Intel - IntelKartel",
-      description: "IntelKartel Intelligence Stream",
+      title: t.meta?.title || "Intel - IntelKartel",
+      description: t.meta?.description || "IntelKartel Intelligence Stream",
       canonical: "https://intelkartel.com/blog"
     };
 
-    return c.render(BlogPage, { articles, seo });
+    return c.render(BlogPage, { articles, seo, t });
   },
 
   detail: async (c) => {

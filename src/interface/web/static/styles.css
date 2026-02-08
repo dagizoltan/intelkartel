@@ -602,6 +602,35 @@ section {
   fill: currentColor;
 }
 
+/* Article Card */
+.article-card {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 2rem;
+}
+
+.article-image-link {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.article-image-link img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border-color);
+}
+
+.article-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.article-content .meta {
+  color: var(--muted-text-color);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
 /* Utility */
 .desktop-only {
   display: none !important;
@@ -719,6 +748,23 @@ section {
   /* Footer */
   .footer-grid {
      grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Article Card - Desktop */
+  .article-card {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .article-image-link {
+    flex-shrink: 0;
+    width: 250px;
+    margin-bottom: 0;
+  }
+
+  .article-content {
+    flex-grow: 1;
   }
 }
 

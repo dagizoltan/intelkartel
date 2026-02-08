@@ -1,10 +1,21 @@
 import { ArticleCard } from "../../components/ArticleCard.jsx";
+import { Hero } from "../../components/Hero.jsx";
 
-export const BlogPage = ({ articles }) => (
-  <div class="container">
-    <h1>Intel Stream</h1>
-    <div class="articles-list">
-      {articles.map(article => <ArticleCard article={article} />)}
-    </div>
-  </div>
+export const BlogPage = ({ articles, t }) => (
+  <>
+    <Hero
+        title={t?.hero?.title}
+        subtitle={t?.hero?.subtitle}
+        short_summary={t?.hero?.short_summary}
+        summary={t?.hero?.summary}
+        buttons={t?.hero?.buttons}
+    />
+    <section>
+        <div class="container">
+            <div class="articles-list">
+                {articles.map(article => <ArticleCard article={article} />)}
+            </div>
+        </div>
+    </section>
+  </>
 );

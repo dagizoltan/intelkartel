@@ -1,4 +1,3 @@
-import { Map } from "../../components/Map.jsx";
 import { Hero } from "../../components/Hero.jsx";
 import { Gallery } from "../../components/Gallery.jsx";
 
@@ -45,10 +44,6 @@ export const ContactPage = ({ t }) => {
           </div>
         </div>
       </section>
-
-      <Map
-        buttonText={t.get_directions}
-      />
 
       <Gallery gallery={t.gallery} />
 

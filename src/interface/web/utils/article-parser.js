@@ -1,14 +1,11 @@
 export const parseArticle = (filename, content) => {
     const slug = filename.replace(/\.md$/, "");
-    let date = new Date().toISOString(); // Default date
+    let date = "1970-01-01"; // Default to very old date
 
     // Extract date from filename if possible (YYYY-MM-DD-slug)
     const dateMatch = filename.match(/^(\d{4}-\d{2}-\d{2})/);
     if (dateMatch) {
         date = dateMatch[1];
-    } else {
-        // Fallback: try to extract date from content or use file stats if available (not here)
-        // For now, default to current date or a fixed past date if needed.
     }
 
     // Extract Title
