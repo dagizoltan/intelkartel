@@ -221,10 +221,3 @@ COMMANDER’S NOTE (DOCTRINAL)
 
 Any investigation that skips directly to identity‑based blame is already compromised.
 
----
-
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

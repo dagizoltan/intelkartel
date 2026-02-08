@@ -246,10 +246,3 @@ PSCYOPATH LABEL GIVEN TO PEOPLE AND WHERE THEY COGLOMRATE
 
 
 
----
-
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

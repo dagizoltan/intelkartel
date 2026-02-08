@@ -160,10 +160,3 @@ It degrades trust quietly, selectively, and persistently.
 
 Command attention and early disruption are decisive.
 
----
-
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

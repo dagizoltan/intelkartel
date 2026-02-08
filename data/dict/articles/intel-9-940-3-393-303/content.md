@@ -37,10 +37,3 @@ The network represents a sophisticated threat capable of manipulating digital co
 
 **Report Classification:** Confidential – Restricted Distribution
 
----
-
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

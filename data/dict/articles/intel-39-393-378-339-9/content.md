@@ -78,10 +78,3 @@ Strategic Intelligence Analyst
 
 **Classification:** TOP SECRET // NOFORN
 
----
-
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

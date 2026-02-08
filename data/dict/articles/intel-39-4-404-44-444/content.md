@@ -97,10 +97,3 @@ Red flags weakening a self-defense claim:
 **INTEL JUDGMENT:**
 Self-defense claims following provocation are **high‑risk legally** and depend heavily on **sequence of actions, intent attribution, and real‑time threat perception**.
 
----
-
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

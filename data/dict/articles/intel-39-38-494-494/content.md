@@ -176,10 +176,3 @@ The identified network represents a persistent and adaptive cyber‑enabled thre
 
 Failure to address these vulnerabilities increases risk to civilian safety, infrastructure integrity, and national security.
 
----
-
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

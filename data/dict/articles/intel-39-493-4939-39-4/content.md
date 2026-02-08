@@ -171,10 +171,3 @@ Systems without accountability invite:
 **SOURCE OF DISCLOSURE: UNKNOWN**
 **FURTHER DISTRIBUTION STRONGLY DISCOURAGED**
 
----
-
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

@@ -186,10 +186,3 @@ Because in the absence of truth,
 
 *This documentary presents verified historical facts alongside allegations, perceptions, and unresolved questions. It does not claim the existence of hidden global surveillance networks operated by criminal organizations.*
 
----
-
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

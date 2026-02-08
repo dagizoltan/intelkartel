@@ -211,10 +211,3 @@ The technical sophistication observed indicates:
 
 The threat is **persistent**, **mobile**, and **difficult to attribute**, aligning with advanced criminal or hybrid‑warfare cyber actors.
 
----
-
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

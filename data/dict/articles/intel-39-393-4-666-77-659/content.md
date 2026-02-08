@@ -82,10 +82,3 @@ Strategic Intelligence Analyst
 
 **Classification:** CLASSIFIED // NOFORN
 
----
-
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

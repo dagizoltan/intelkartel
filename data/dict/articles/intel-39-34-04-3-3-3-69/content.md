@@ -111,10 +111,3 @@ From a hawkish strategic perspective, El Salvador’s internal security strategy
 
 For war college analysis, El Salvador should be studied not as an anomaly, but as a **deliberate return to coercion-first statecraft** in an era of declining tolerance for internal disorder.
 
----
-
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…
