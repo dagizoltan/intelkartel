@@ -262,9 +262,3 @@ When each individual is empowered to **feed themselves, defend themselves, and c
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

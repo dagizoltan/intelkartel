@@ -100,9 +100,3 @@ creates a **highly unstable electoral environment** in which outcomes could swin
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

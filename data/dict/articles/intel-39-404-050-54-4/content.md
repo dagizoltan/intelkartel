@@ -115,9 +115,3 @@ While tactically effective in the short term, the capability represents a **stra
 **END MEMORANDUM**
  _(Fictional document for narrative or analytical purposes only)_
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

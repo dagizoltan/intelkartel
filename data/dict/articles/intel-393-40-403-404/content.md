@@ -97,9 +97,3 @@ Absent coordinated countermeasures, these networks are likely to **persist and a
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

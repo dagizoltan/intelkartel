@@ -179,9 +179,3 @@ Red‑teams recommend:
 
 _(Fictional, analytical, non‑operational)_
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

@@ -230,9 +230,3 @@ If the system appears “necessary,” the civilization has already entered decl
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

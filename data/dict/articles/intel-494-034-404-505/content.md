@@ -117,9 +117,3 @@ The system represents a low‑visibility, high‑impact tool for illicit power c
 
 **END OF FICTIONAL ASSESSMENT**
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

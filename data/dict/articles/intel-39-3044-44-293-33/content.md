@@ -181,9 +181,3 @@ Truth survives scrutiny. Deception does not.
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

@@ -212,9 +212,3 @@ Transforming education for the digital age requires **holistic reform** , aligni
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

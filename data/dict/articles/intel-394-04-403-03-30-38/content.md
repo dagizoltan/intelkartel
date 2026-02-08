@@ -227,9 +227,3 @@ A world where reality is negotiable — and pain is programmable.
 **END MEMORANDUM**
 **AUTO‑ERASE IN 00:00:07**
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

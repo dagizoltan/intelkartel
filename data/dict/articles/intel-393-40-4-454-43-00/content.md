@@ -118,9 +118,3 @@ Intelligence Analysis Division
 
 **CLASSIFIED // END OF MEMORANDUM**
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

@@ -94,9 +94,3 @@ Call forwarding can be activated remotely or through deceptive means, resulting 
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

@@ -247,9 +247,3 @@ Modern civilization survives not through force or ideology, but through millions
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

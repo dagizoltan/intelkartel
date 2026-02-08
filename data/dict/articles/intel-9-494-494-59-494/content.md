@@ -20,9 +20,3 @@ OBAMA ERA CUPCAKE ATTEMPT TO REGAIN POWER: (ANTO SEMITIC SHITHEADS FROM IRAN CAM
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

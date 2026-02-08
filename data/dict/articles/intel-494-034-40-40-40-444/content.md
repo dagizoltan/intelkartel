@@ -526,9 +526,3 @@ And the Protocol would be ready.
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

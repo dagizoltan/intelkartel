@@ -17,9 +17,3 @@ The vision is audacious, but necessary: to replace archaic structures with infor
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

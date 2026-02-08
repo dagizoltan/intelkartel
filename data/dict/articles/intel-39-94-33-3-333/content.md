@@ -163,9 +163,3 @@ A science-based, humanist commitment to everyday discipline transforms populatio
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

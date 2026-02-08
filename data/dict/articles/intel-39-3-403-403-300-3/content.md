@@ -79,9 +79,3 @@ _Concerned Hungarian Citizens_
 
 [OPEN LETTER TO TEK](https://intelkartel.com/wp-content/uploads/2026/01/open-letter-to-tek.pdf)[Letölt](https://intelkartel.com/wp-content/uploads/2026/01/open-letter-to-tek.pdf)
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

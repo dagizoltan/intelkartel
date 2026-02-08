@@ -201,9 +201,3 @@ Witnesses report an immediate behavioral shift when spoken.
 **FILE AUTO-LOCKED**
 **DISTRIBUTION SOURCE UNKNOWN**
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

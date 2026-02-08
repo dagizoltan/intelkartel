@@ -134,9 +134,3 @@ The most effective operation is one no one can prove occurred.
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

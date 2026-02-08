@@ -219,9 +219,3 @@ Preventing such outcomes requires not just laws, but **institutional humility, e
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

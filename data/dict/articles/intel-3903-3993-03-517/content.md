@@ -23,9 +23,3 @@ The world had hung the innocent, but now the innocent’s echo hung over the gui
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

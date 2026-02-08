@@ -3,9 +3,3 @@
 
 TITKOS MI HAZANK IS JEGYZET
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

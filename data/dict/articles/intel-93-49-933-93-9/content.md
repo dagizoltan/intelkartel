@@ -111,9 +111,3 @@ Victims consistently report the same sentiment:
 
 ### END OF FICTIONAL RECORD
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

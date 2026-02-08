@@ -165,9 +165,3 @@ Maintain updated registry and structural assessment of key Brutalist buildings, 
 **END OF MEMORANDUM**
 **CLASSIFIED // DO NOT DISTRIBUTE**
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

@@ -153,9 +153,3 @@ This is **socialism powered by the individual**.
 
 ##
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

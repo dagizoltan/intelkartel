@@ -178,9 +178,3 @@ They are not an alternative system, but a **symptom of governance failure**.
 **END ASSESSMENT**
  _(Fictional intelligence language for narrative use only)_
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

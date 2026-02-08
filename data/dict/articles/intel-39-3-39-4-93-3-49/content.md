@@ -86,9 +86,3 @@ While Hungary today operates under democratic and transparent principles, this d
 
 
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

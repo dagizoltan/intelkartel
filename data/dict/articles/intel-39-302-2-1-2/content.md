@@ -181,9 +181,3 @@ Sections **1 and 2** together establish:
 
 
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

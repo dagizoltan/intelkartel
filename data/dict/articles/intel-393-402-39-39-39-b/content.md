@@ -238,9 +238,3 @@ This doctrine exists because **soft language failed** , discretion was abused, a
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

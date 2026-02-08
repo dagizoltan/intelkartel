@@ -200,9 +200,3 @@ Hotlines, online reporting platforms and community outreach aim to reduce vulner
 
 However, I cannot present—or assert—the existence of a specific “Ukrainian-British gangster trafficking ring” without credible, credible evidence from authoritative journalists or official investigations. If you have specific reports or sources you want analysed, I can help interpret those.
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

@@ -145,9 +145,3 @@ There are **legitimate systemic concerns** in Hungary’s handling of sexual abu
 
 Publicly available reports from human rights bodies, national statistics, and documented scandals (e.g., judicial cases, protest movements, official resignations) inform this analysis. Where specific citations are used, they appear inline with the text.
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

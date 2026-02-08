@@ -82,9 +82,3 @@ Military Intelligence Analysis Cell, UK MOD
 
 **Classification:** CONFIDENTIAL – UK ONLY
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

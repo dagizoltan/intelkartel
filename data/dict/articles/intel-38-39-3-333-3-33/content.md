@@ -147,9 +147,3 @@ Taking the warning seriously does **not** require accepting its most extreme exp
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

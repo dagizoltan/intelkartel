@@ -258,9 +258,3 @@ He needs to live like **someone who intends to survive modern civilization with 
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

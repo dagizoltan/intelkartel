@@ -125,9 +125,3 @@ Continuity of Civilization Command
 
 **END OF MEMORANDUM**
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

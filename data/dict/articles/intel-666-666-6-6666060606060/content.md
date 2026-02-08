@@ -165,9 +165,3 @@ Early warnings, even when poorly expressed, are **often the last chance for cour
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

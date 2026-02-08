@@ -205,9 +205,3 @@ This is the most centralized power in U.S. governance.
 
 
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

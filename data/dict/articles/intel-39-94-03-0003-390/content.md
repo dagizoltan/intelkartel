@@ -139,9 +139,3 @@ Civilian Protection Directorate
 
 **END OF MEMORANDUM**
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

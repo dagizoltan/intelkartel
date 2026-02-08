@@ -335,9 +335,3 @@ _(Ideas 1–300)_
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

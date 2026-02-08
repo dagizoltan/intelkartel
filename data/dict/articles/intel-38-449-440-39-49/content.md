@@ -93,9 +93,3 @@ Clear ethical boundaries increase confidence among career professionals and redu
 
 From a national security and institutional integrity perspective, the proposed policy represents a **low-cost, high-impact measure** to protect government functions from corruption, coercion, and ethical degradation. Properly implemented, it would reinforce public trust, reduce intelligence vulnerabilities, and ensure that positions of authority are held by individuals capable of care, responsibility, and respect for human dignity—qualities essential to stable governance.
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

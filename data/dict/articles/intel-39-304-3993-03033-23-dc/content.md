@@ -262,9 +262,3 @@ If activated repeatedly, the system **selects for authoritarian collapse**.
 
 ### END OF OPERATIONAL MANUAL
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

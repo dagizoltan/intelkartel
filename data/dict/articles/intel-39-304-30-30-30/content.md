@@ -272,9 +272,3 @@ When each individual is capable of sustaining themselves, defending their rights
 
 * * *
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

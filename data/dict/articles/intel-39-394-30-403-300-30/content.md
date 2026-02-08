@@ -150,9 +150,3 @@ Joint Threat Assessment Division
 
 **END MEMORANDUM**
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

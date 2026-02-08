@@ -63,9 +63,3 @@ Eurasian orphanages and foster systems, while serving critical social welfare fu
 
 **End of Memo**
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…

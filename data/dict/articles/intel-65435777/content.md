@@ -323,9 +323,3 @@ This protects:
 
 ###
 
-### Megosztás:
-
-  *   *   *
-
-
-Tetszik Betöltés…
