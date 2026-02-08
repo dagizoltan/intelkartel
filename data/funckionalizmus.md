@@ -1,0 +1,20 @@
+<div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
+<p class="wp-block-paragraph"></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h3 class="wp-block-heading"><strong>ENGLISH</strong></h3>
+<p class="wp-block-paragraph"><strong>Functionalism: The Art of Everyday Life</strong><br/>Functionalism, emerging in the early 20th century, redefined how design, architecture, and social sciences viewed human needs. At its core lies a simple premise: form follows function. But beyond shapes and structures, functionalism elevates everyday life—relationships, routines, and practical bonds—over romantic idealism or sentimentality.</p>
+<p class="wp-block-paragraph">Where sentimentalism revels in emotion and nostalgia, functionalism insists on clarity and purpose. It asks not how we <em>feel</em> about a space or object, but how it <em>works</em> in the fabric of daily existence. This shift foregrounds the pragmatic ties between people and their environments, highlighting that functionality in objects and interactions sustains social cohesion.</p>
+<p class="wp-block-paragraph">In a world often overwhelmed by abstraction and spectacle, functionalism’s focus on the tangible and the relational offers a grounded lens to understand human connection—where efficiency meets empathy without excess ornament.</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h3 class="wp-block-heading"><strong>MAGYAR</strong></h3>
+<p class="wp-block-paragraph"><strong>Funkcionalizmus: a Mindennapok Művészete</strong><br/>A 20. század elején megjelenő funkcionalizmus újradefiniálta a tervezés, építészet és társadalomtudományok emberi szükségletekhez való viszonyát. Alapelve egyszerű: a forma követi a funkciót. Ám ezen túl a funkcionalizmus a mindennapi életre — a kapcsolatokra, szokásokra, gyakorlati kötelékekre — helyezi a hangsúlyt, szemben a romantikus idealizmussal vagy a szentimentalizmussal.</p>
+<p class="wp-block-paragraph">Míg a szentimentalizmus az érzelmeket és a nosztalgiát ünnepli, a funkcionalizmus a tisztaságot és célt tartja elsődlegesnek. Nem azt kérdezi, milyen érzés egy tér vagy tárgy, hanem azt, hogyan szolgálja a mindennapi életet. Ez a nézőpont a gyakorlati emberi és környezeti viszonyokat helyezi előtérbe, hangsúlyozva, hogy a funkcionalitás a társadalmi kohézió alapja.</p>
+<p class="wp-block-paragraph">Egy elvont és látványos világban a funkcionalizmus a kézzelfoghatót és a kapcsolatokat helyezi fókuszba — ahol a hatékonyság együtt jár az empátiával, díszítés nélkül.</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h3 class="wp-block-heading"><strong>РУССКИЙ</strong></h3>
+<p class="wp-block-paragraph"><strong>Функционализм: Искусство Повседневности</strong><br/>Функционализм, возникший в начале XX века, изменил взгляд на дизайн, архитектуру и общественные науки, сосредоточив внимание на человеческих потребностях. Его главный принцип — форма подчиняется функции. Но помимо форм и конструкций, функционализм подчёркивает повседневную жизнь — отношения, привычки, практические связи, в отличие от сентиментализма и романтизма.</p>
+<p class="wp-block-paragraph">Если сентиментализм питается эмоциями и ностальгией, то функционализм требует ясности и цели. Он спрашивает не «как мы чувствуем себя» в пространстве или с предметом, а «как это работает» в повседневной жизни. Этот подход ставит в центр практические связи между людьми и их окружением, подчеркивая, что функциональность поддерживает социальную сплочённость.</p>
+<p class="wp-block-paragraph">В мире, полном абстракций и зрелищ, функционализм предлагает приземлённый взгляд на человеческие связи — там, где эффективность сочетается с эмпатией без излишних украшений.</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"></p>
+</div>

@@ -1,0 +1,20 @@
+<div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
+<p class="wp-block-paragraph"></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h3 class="wp-block-heading"><strong>ENGLISH</strong></h3>
+<p class="wp-block-paragraph"><strong>When Less Was More — And Then Less Again</strong><br/>Minimalism, Brutalism, and the Bauhaus movement once stood as stark expressions of modernist clarity. From the postwar rubble, they offered form stripped to function—clean lines, exposed materials, austere beauty. They were moral as much as architectural statements: a world rebuilt without ornament or illusion.</p>
+<p class="wp-block-paragraph">But by the 1980s, art had changed its mind. The rise of neo-expressionism, postmodernism, and conspicuous consumerism rejected the neutral tones and structural honesty of mid-century ideals. Where Bauhaus saw unity, 1980s art saw fragmentation. Where Minimalism demanded restraint, the ’80s demanded spectacle.</p>
+<p class="wp-block-paragraph">Yet in the ruins of overindulgence, the old virtues return. Today, tech campuses mimic Bauhaus clarity. Brutalism finds fans in digital subcultures. Minimalism, reborn through Marie Kondo and eco-conscious design, now markets itself not as doctrine but as salvation. The aesthetic cycles continue—but perhaps less ironically this time.</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h3 class="wp-block-heading"><strong>MAGYAR</strong></h3>
+<p class="wp-block-paragraph"><strong>Amikor a Kevesebb Több Volt — Majd Újra Kevesebb</strong><br/>A minimalizmus, a brutalizmus és a Bauhaus a modernizmus letisztult formanyelvét testesítették meg. A háború utáni romokból kinőve olyan világot ígértek, ahol a forma a funkcióból fakad: egyszerű vonalak, nyers anyagok, rideg szépség. Több volt ez, mint esztétika—erkölcsi állásfoglalás.</p>
+<p class="wp-block-paragraph">Az 1980-as évekre azonban a művészet új irányt vett. A neoexpresszionizmus, a posztmodern és a látványos fogyasztói kultúra elutasították a középszázadi semlegességet. Ahol a Bauhaus egységet keresett, ott a ’80-as évek töredezettséget ünnepeltek. Ahol a minimalizmus visszafogottságot követelt, ott a korszak a túlzást éltette.</p>
+<p class="wp-block-paragraph">Mégis, a túlburjánzás után visszatértek az eredeti értékek. A technológiai cégek ma Bauhaus ihlette tereket építenek. A brutalizmus rajongókat gyűjt digitális szubkultúrákban. A minimalizmus pedig Marie Kondo és az ökotudatos dizájn révén ismét megváltást ígér. Az esztétikai körforgás folytatódik – talán most kevesebb cinizmussal.</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h3 class="wp-block-heading"><strong>РУССКИЙ</strong></h3>
+<p class="wp-block-paragraph"><strong>Когда Меньше Было Больше — А Потом Снова Меньше</strong><br/>Минимализм, брутализм и Баухаус когда-то воплощали идеалы модернизма: функциональность без излишеств, честные материалы, строгая эстетика. Эти направления были не просто стилем, но и моральной позицией — архитектурой нового мира, очищенного от иллюзий.</p>
+<p class="wp-block-paragraph">Однако в 1980-х всё изменилось. Искусство вновь раскрасилось в яркие краски. Неоэкспрессионизм, постмодернизм и культ потребления отвергли сдержанность и ясность середины века. То, что Баухаус считал гармонией, стало восприниматься как ограничение. Спектакль вытеснил простоту.</p>
+<p class="wp-block-paragraph">Но после избытка наступает очищение. Сегодня кампусы технокомпаний строятся по принципам Баухауса. Брутализм обретает новых поклонников среди цифровых художников. Минимализм возвращается — не как идеология, а как способ выживания в эпоху избыточности. Циклы вкуса продолжаются — возможно, теперь уже искренне.</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"></p>
+</div>

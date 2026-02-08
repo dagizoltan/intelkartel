@@ -1,0 +1,24 @@
+<div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
+<p class="wp-block-paragraph"></p>
+<figure class="wp-block-image size-full wp-duotone-unset-1"><img alt="" class="wp-image-10708" data-attachment-id="10708" data-comments-opened="1" data-image-caption="" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="ChatGPT Image Apr 21, 2025, 04_33_02 PM" data-large-file="https://intelkartel.com/wp-content/uploads/2025/04/chatgpt-image-apr-21-2025-04_33_02-pm.png?w=683" data-medium-file="https://intelkartel.com/wp-content/uploads/2025/04/chatgpt-image-apr-21-2025-04_33_02-pm.png?w=200" data-orig-file="https://intelkartel.com/wp-content/uploads/2025/04/chatgpt-image-apr-21-2025-04_33_02-pm.png" data-orig-size="1024,1536" data-permalink="https://intelkartel.com/stepping-stone-economy/chatgpt-image-apr-21-2025-04_33_02-pm/" height="1536" sizes="(max-width: 1024px) 100vw, 1024px" src="https://intelkartel.com/wp-content/uploads/2025/04/chatgpt-image-apr-21-2025-04_33_02-pm.png" srcset="https://intelkartel.com/wp-content/uploads/2025/04/chatgpt-image-apr-21-2025-04_33_02-pm.png 1024w, https://intelkartel.com/wp-content/uploads/2025/04/chatgpt-image-apr-21-2025-04_33_02-pm.png?w=100&amp;h=150 100w, https://intelkartel.com/wp-content/uploads/2025/04/chatgpt-image-apr-21-2025-04_33_02-pm.png?w=200&amp;h=300 200w, https://intelkartel.com/wp-content/uploads/2025/04/chatgpt-image-apr-21-2025-04_33_02-pm.png?w=768&amp;h=1152 768w, https://intelkartel.com/wp-content/uploads/2025/04/chatgpt-image-apr-21-2025-04_33_02-pm.png?w=683&amp;h=1024 683w" width="1024"/></figure>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>🌟 <em>Welcome to Stepping Stone City!</em> 🌟</strong><br/><em>(A Story About Growing, Learning, and Belonging)</em></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>Page 1</strong><br/>In a bright little world, not too far away,<br/>New kids arrive every single day!<br/>They tumble, they giggle, they crawl on the floor—<br/>And each one is welcome, from mountain to shore.</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>Page 2</strong><br/>🐤 In <em>Baby Borough</em>, the kids learn to walk,<br/>They take tiny steps, they babble and talk.<br/>They hop on a path made of smooth, round stones—<br/>Each one says a word, in cheerful tones!</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>Page 3</strong><br/>🐻 At the <em>Little Library</em>, books fill the shelves.<br/>The children read stories and count by themselves.<br/>An owl teaches letters, a bunny sings songs,<br/>And everyone learns, no matter how long.</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>Page 4</strong><br/>🏠 When they’re ready, they visit a place<br/>With a warm little smile on every face—<br/>The <em>Citizenship Office</em> says, “You’re growing strong!<br/>Let’s get you a home—you’ve waited so long.”</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>Page 5</strong><br/>Each home is cozy, painted with care,<br/>With room for a bed, a desk, and a chair.<br/>A name on the door means the space is for <em>you</em>,<br/>A sign of belonging, a beautiful view.</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>Page 6</strong><br/>🐝 Then comes a time to give back with pride—<br/>To serve the town, with others beside.<br/>Some kids grow veggies, some fix shoes,<br/>Some clean up parks or share the news!</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>Page 7</strong><br/>🌈 “Every kid matters,” the big banner reads.<br/>“Every kid learns and meets their needs.<br/>Every kid grows, and when they are ready—<br/>They help the town stay kind and steady.”</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"><strong>Page 8 (The End Page)</strong><br/>So walk on the stones, take your time and your turn,<br/>There’s a home here for you, and so much to learn!<br/>We’ll wait at the gate, with a song and a cheer—<br/>Welcome, new friend—<strong>we’re glad you are here!</strong></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph"></p>
+</div>
