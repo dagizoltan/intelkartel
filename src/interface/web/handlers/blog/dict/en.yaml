@@ -7,3 +7,10 @@ hero:
   short_summary: Latest reports from our operatives.
   summary: Access the latest intelligence reports, analysis, and declassified documents from the IntelKartel network. Stay informed on global shifts and threats.
   buttons: []
+cta_section:
+  title: Join the Cartel
+  text: We are listening.
+  buttons:
+    - text: Contact
+      link: /contact
+      type: primary

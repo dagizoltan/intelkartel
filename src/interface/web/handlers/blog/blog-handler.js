@@ -39,6 +39,8 @@ export const blogHandler = {
 
   detail: async (c) => {
     const slug = c.req.param('slug');
+    const lang = c.req.param('lang') || 'en';
+    const t = await c.dict(`src/interface/web/handlers/blog/dict/${lang}`);
     const article = await getArticle(slug);
 
     if (!article) {
@@ -66,6 +68,6 @@ export const blogHandler = {
         }
     };
 
-    return c.render(ArticleView, { article: article.meta, content: article.content, seo });
+    return c.render(ArticleView, { article: article.meta, content: article.content, seo, t });
   }
 };
