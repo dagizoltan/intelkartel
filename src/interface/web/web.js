@@ -5,6 +5,8 @@ import { rendererMiddleware } from "./middleware/renderer.js";
 import { homeHandler } from "./handlers/home/home-handler.js";
 import { blogHandler } from "./handlers/blog/blog-handler.js";
 import { careersHandler } from "./handlers/careers/careers-handler.js";
+import { aboutHandler } from "./handlers/about/about-handler.js";
+import { contactHandler } from "./handlers/contact/contact-handler.js";
 import { staticHandler } from "./handlers/static/static-handler.js";
 import { sitemapHandler } from "./handlers/sitemap/sitemap-handler.js";
 import { robotsHandler } from "./handlers/robots/robots-handler.js";
@@ -27,8 +29,8 @@ web.get('/', homeHandler.get);
 web.get('/blog', blogHandler.index);
 web.get('/blog/:slug', blogHandler.detail);
 web.get('/careers', careersHandler.index);
-web.get('/about', staticHandler.about);
-web.get('/contact', staticHandler.contact);
+web.get('/about', aboutHandler.get);
+web.get('/contact', contactHandler.get);
 
 // Start server
 Deno.serve({ port: 8000 }, web.fetch);

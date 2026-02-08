@@ -1,17 +1,15 @@
 import { ArticleCard } from "../../components/ArticleCard.jsx";
+import { Hero } from "../../components/Hero.jsx";
 
-export const HomePage = ({ articles }) => (
+export const HomePage = ({ articles, t }) => (
   <div>
-    <section class="hero">
-      <div class="container">
-        <h1>IntelKartel</h1>
-        <h2>The Intelligence Cartel</h2>
-        <p>Unfiltered analysis. Core interest defense. Global perspective.</p>
-        <div class="btn-group">
-            <a href="/blog" class="btn">Latest Intel</a>
-        </div>
-      </div>
-    </section>
+    <Hero
+        title={t?.hero?.title}
+        subtitle={t?.hero?.subtitle}
+        short_summary={t?.hero?.short_summary}
+        summary={t?.hero?.summary}
+        buttons={t?.hero?.buttons}
+    />
 
     <section class="container">
         <h2>Latest Intelligence</h2>

@@ -1,26 +1,35 @@
-export const CareersPage = ({ jobs }) => (
-  <div class="container">
-    <h1>Job Openings</h1>
-    <div class="careers-intro" style="margin-bottom: 2rem;">
-      <p>CURRENT JOB OPENINGS ARE AS SUCH:</p>
-      <p>YOU PICK ONE PROFESSION FOR THE “ROLE PLAYING GAME” FILL THIS OUT WITH BLUE BALL POINT PEN AND WE WILL GET IN KONTAKT.</p>
+import { Hero } from "../../components/Hero.jsx";
+
+export const CareersPage = ({ jobs, t }) => (
+  <>
+    <Hero
+        title={t?.hero?.title}
+        subtitle={t?.hero?.subtitle}
+        short_summary={t?.hero?.short_summary}
+        summary={t?.hero?.summary}
+        buttons={t?.hero?.buttons}
+    />
+    <div class="container">
+      <div class="careers-intro" style="margin-bottom: 2rem;">
+        <p>CURRENT OPERATIONAL VACANCIES:</p>
+      </div>
+      <div class="jobs-list">
+        <ul style="list-style-type: none; padding: 0;">
+          {jobs && jobs.map((job, index) => (
+            <li key={index} style={{
+              borderBottom: '1px solid var(--border-color)',
+              padding: '1rem 0',
+              color: 'var(--text-color)',
+              fontFamily: "'Courier New', monospace",
+              display: 'flex',
+              alignItems: 'center'
+            }}>
+              <span style={{ marginRight: '1rem' }}>{String(index + 1).padStart(3, '0')}</span>
+              <strong>{job}</strong>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
-    <div class="jobs-list">
-      <ul style="list-style-type: none; padding: 0;">
-        {jobs && jobs.map((job, index) => (
-          <li key={index} style={{
-            borderBottom: '1px solid var(--border-color)',
-            padding: '1rem 0',
-            color: 'var(--text-color)',
-            fontFamily: "'Courier New', monospace",
-            display: 'flex',
-            alignItems: 'center'
-          }}>
-            <span style={{ marginRight: '1rem' }}>{String(index + 1).padStart(3, '0')}</span>
-            <strong>{job}</strong>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </div>
+  </>
 );

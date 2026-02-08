@@ -21,13 +21,15 @@ const getLatestArticles = async (limit = 5) => {
 
 export const homeHandler = {
   get: async (c) => {
+    const lang = c.req.param('lang') || 'en';
+    const t = await c.dict(`src/interface/web/handlers/home/dict/${lang}`);
     const articles = await getLatestArticles(5);
     const seo = {
-      title: "IntelKartel - The Intelligence Cartel",
-      description: "Editorial and thought leadership from the front lines.",
+      title: t.meta?.title || "IntelKartel - The Intelligence Cartel",
+      description: t.meta?.description || "Editorial and thought leadership from the front lines.",
       canonical: "https://intelkartel.com/"
     };
 
-    return c.render(HomePage, { articles, seo });
+    return c.render(HomePage, { articles, seo, t });
   }
 };

@@ -15,13 +15,15 @@ const getCareers = async () => {
 
 export const careersHandler = {
   index: async (c) => {
+    const lang = c.req.param('lang') || 'en';
+    const t = await c.dict(`src/interface/web/handlers/careers/dict/${lang}`);
     const jobs = await getCareers();
     const seo = {
-      title: "Careers - IntelKartel",
-      description: "Join the IntelKartel. Explore our job openings.",
+      title: t.meta?.title || "Careers - IntelKartel",
+      description: t.meta?.description || "Join the IntelKartel. Explore our job openings.",
       canonical: "https://intelkartel.com/careers"
     };
 
-    return c.render(CareersPage, { jobs, seo });
+    return c.render(CareersPage, { jobs, seo, t });
   }
 };

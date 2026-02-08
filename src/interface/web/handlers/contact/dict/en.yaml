@@ -1,50 +1,41 @@
 meta:
-  title: Contact Us - Zümmögő
-  description: Get in touch with us.
-  keywords: zümmögő, contact, address, phone
+  title: Contact - IntelKartel
+  description: Get in touch. We are listening.
+  keywords: intelkartel, contact, intelligence
 jsonld:
   '@context': https://schema.org
   '@type': ContactPage
-  name: Zümmögő Contact
-  url: https://zummogo.hu/en/contact
+  name: IntelKartel Contact
+  url: https://intelkartel.com/contact
 hero:
   title: Contact Us
-  subtitle: Zümmögő
-  short_summary: Have a question? Want to book?
-  summary: Feel free to contact us via the details below or visit us in person!
-  buttons:
-    - text: Call Us
-      link: tel:+36308125425
-      type: primary
+  subtitle: We Are Listening
+  short_summary: Have something to share? Or just want to say hello before the world ends?
+  summary: Reach out to us via encrypted channels or smoke signals. We value your input, especially if it's actionable intelligence. But remember, we are always listening, even when you think we're not.
+  buttons: []
 get_in_touch:
-  title: Contact Details
-  text: "We look forward to hearing from you!"
+  title: Secure Comms
+  text: "Use the channels below. Assume all communications are intercepted."
 phone:
-  label: Phone
+  label: Burner Phone
   value: "+36 30 812 5425"
 email:
-  label: Email Address
-  value: "info@zummogo.hu"
+  label: Encrypted Mail
+  value: "contact@intelkartel.com"
 address:
-  label: Address
-  value: "Coming Soon"
-get_directions: Get Directions
-gallery:
-  - /static/img/IMG_9669.webp
-  - /static/img/image_67213825_JPG.JPG
-  - /static/img/image_67164673.webp
-  - /static/img/IMG_4424_1.jpeg
-  - /static/img/gallery-1.svg
-  - /static/img/gallery-2.svg
+  label: Dead Drop Location
+  value: "Undisclosed"
+get_directions: Route
+gallery: []
 cta_section:
-  title: Visit Us!
-  text: Taste our delicacies!
+  title: Join the Cartel
+  text: We are listening.
   buttons:
-    - text: Menu
-      link: /en/menu
+    - text: Careers
+      link: /careers
       type: primary
 nav:
   home: Home
-  menu: Menu
+  menu: Intel
   about: About
   contact: Contact
