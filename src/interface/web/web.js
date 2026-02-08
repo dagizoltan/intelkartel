@@ -4,6 +4,7 @@ import { contextMiddleware } from "./middleware/context.js";
 import { rendererMiddleware } from "./middleware/renderer.js";
 import { homeHandler } from "./handlers/home/home-handler.js";
 import { blogHandler } from "./handlers/blog/blog-handler.js";
+import { careersHandler } from "./handlers/careers/careers-handler.js";
 import { staticHandler } from "./handlers/static/static-handler.js";
 import { sitemapHandler } from "./handlers/sitemap/sitemap-handler.js";
 import { robotsHandler } from "./handlers/robots/robots-handler.js";
@@ -25,6 +26,7 @@ web.get('/robots.txt', robotsHandler.get);
 web.get('/', homeHandler.get);
 web.get('/blog', blogHandler.index);
 web.get('/blog/:slug', blogHandler.detail);
+web.get('/careers', careersHandler.index);
 web.get('/about', staticHandler.about);
 web.get('/contact', staticHandler.contact);
 
