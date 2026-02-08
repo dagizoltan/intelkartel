@@ -64,5 +64,6 @@
   --lg: calc(var(--i) * 1.5);
   --xl: calc(var(--i) * 2);
   --xxl: calc(var(--i) * 3);
+  --section-padding: calc(var(--i) * 6);
   --sidebar-width: 250px;
 }

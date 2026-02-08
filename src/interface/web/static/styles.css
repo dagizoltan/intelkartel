@@ -153,7 +153,7 @@ p {
 
 /* Layout */
 section {
-  padding: var(--xxl) var(--md);
+  padding: var(--section-padding) var(--md);
   width: 100%;
 }
 
@@ -295,14 +295,9 @@ section {
   align-items: flex-start;
   text-align: left;
   background-color: var(--secondary-bg);
-  background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url('img/hero.webp');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   padding: var(--xxl) var(--md);
   position: relative;
   overflow: hidden;
-  box-shadow: var(--vignette);
 }
 
 .hero h1, .hero p {
