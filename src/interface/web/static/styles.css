@@ -170,7 +170,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: var(--md) var(--xl);
+  padding: var(--sm) var(--xl);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -220,7 +220,7 @@ section {
   width: 100%;
   background-color: var(--nav-bg);
   border-top: 1px solid var(--border-color);
-  padding: var(--md) 0;
+  padding: var(--sm) 0;
   z-index: 1001;
   display: flex;
   justify-content: center;
@@ -432,7 +432,6 @@ section {
 
 .article-container {
   margin: 0 auto;
-  padding: var(--md);
 }
 
 /* Article Card */
@@ -560,7 +559,6 @@ section {
 
 .article-container {
   margin: 0 auto;
-  padding: var(--xxl) 0;
 }
 
   /* Article Card - Desktop */
