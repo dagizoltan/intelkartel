@@ -609,7 +609,7 @@ section {
 
 .article-container {
   margin: 0 auto;
-  padding: var(--md) 0;
+  padding: var(--md);
 }
 
 /* Article Card */
