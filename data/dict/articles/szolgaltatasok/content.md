@@ -175,8 +175,8 @@
 
 ### Detailed Services with Benefits
 
-![slide19.jpg](https://intelkartel.com/wp-content/uploads/2024/08/slide19.jpg)
-![445074246_10159718054897321_8995102465890415566_n-1.jpg](https://intelkartel.com/wp-content/uploads/2024/06/445074246_10159718054897321_8995102465890415566_n-1.jpg?w=574)
+![slide19.jpg](/static/assets/szolgaltatasok/slide19.jpg)
+![445074246_10159718054897321_8995102465890415566_n-1.jpg](/static/assets/szolgaltatasok/445074246_10159718054897321_8995102465890415566_n-1.jpg)
 
 ### Conclusion
 

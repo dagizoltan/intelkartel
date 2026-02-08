@@ -36,5 +36,5 @@ The source states they were 17 years old, vulnerable, and subjected to online bl
 - Do not disseminate as factual intelligence.
 - Any follow-up requires independent corroboration and safeguarding review due to minor status at time of events.
 
-![mester-terv017.pptx-4.jpg](https://intelkartel.wordpress.com/wp-content/uploads/2025/03/mester-terv017.pptx-4.jpg)
-![chatgpt-image-2025.-apr.-19.-18_56_38.png](https://intelkartel.com/wp-content/uploads/2025/03/chatgpt-image-2025.-apr.-19.-18_56_38.png)
+![mester-terv017.pptx-4.jpg](/static/assets/2025-12-27-intel-8384-93-0403-3-03/mester-terv017.pptx-4.jpg)
+![chatgpt-image-2025.-apr.-19.-18_56_38.png](/static/assets/2025-12-27-intel-8384-93-0403-3-03/chatgpt-image-2025.-apr.-19.-18_56_38.png)

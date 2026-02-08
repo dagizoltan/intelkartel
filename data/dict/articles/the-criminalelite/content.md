@@ -58,6 +58,6 @@ As The Economist might conclude: the question is not whether such elites exist. 
 
 In hegemonic governance, the line between order and organised misconduct is thin—and getting thinner.
 
-![20250802_2327_mysterious-flag-backdrop_remix_01k1pay3w7eq384y2bbgcrzhhp.png](https://intelkartel.com/wp-content/uploads/2025/03/20250802_2327_mysterious-flag-backdrop_remix_01k1pay3w7eq384y2bbgcrzhhp.png?w=1024)
-![many-americans-looking-at-you-in-a-serious-way-from-6.png](https://intelkartel.com/wp-content/uploads/2025/03/many-americans-looking-at-you-in-a-serious-way-from-6.png?w=1024)
-![nigel-farage-14-a-cover-hs-edited-eyes_vc3ikr.jpg](https://intelkartel.com/wp-content/uploads/2025/11/nigel-farage-14-a-cover-hs-edited-eyes_vc3ikr.jpg?w=710)
+![20250802_2327_mysterious-flag-backdrop_remix_01k1pay3w7eq384y2bbgcrzhhp.png](/static/assets/the-criminalelite/20250802_2327_mysterious-flag-backdrop_remix_01k1pay3w7eq384y2bbgcrzhhp.png)
+![many-americans-looking-at-you-in-a-serious-way-from-6.png](/static/assets/the-criminalelite/many-americans-looking-at-you-in-a-serious-way-from-6.png)
+![nigel-farage-14-a-cover-hs-edited-eyes_vc3ikr.jpg](/static/assets/the-criminalelite/nigel-farage-14-a-cover-hs-edited-eyes_vc3ikr.jpg)

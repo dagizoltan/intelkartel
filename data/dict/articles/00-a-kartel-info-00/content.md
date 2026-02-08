@@ -221,12 +221,12 @@ IntelKartel = Youth-Driven, Gamified OSINT Training Network
 
 ---
 
-![slide49.jpg](https://intelkartel.com/wp-content/uploads/2024/12/slide49.jpg)
-![blitzkrieg3.png](https://intelkartel.com/wp-content/uploads/2024/10/blitzkrieg3.png?w=840)
+![slide49.jpg](/static/assets/00-a-kartel-info-00/slide49.jpg)
+![blitzkrieg3.png](/static/assets/00-a-kartel-info-00/blitzkrieg3.png)
 
 **(Detailed analysis of Organized Crime in Hungary, Gangster State, Latin America GDP, and other topics follows in the original text but omitted here for brevity as they seem to be pasted context or research notes.)**
 
-![rakosi-matyas-and-stalin-and-a-young-boy-with-brown.png](https://intelkartel.com/wp-content/uploads/2024/12/rakosi-matyas-and-stalin-and-a-young-boy-with-brown.png)
+![rakosi-matyas-and-stalin-and-a-young-boy-with-brown.png](/static/assets/00-a-kartel-info-00/rakosi-matyas-and-stalin-and-a-young-boy-with-brown.png)
 
 ### Code of Honour for Hungarian Gentlemen
 
@@ -247,12 +247,12 @@ IntelKartel = Youth-Driven, Gamified OSINT Training Network
 **Oath of the Hungarian Gentleman**
 “With faith in my heritage and hope for the future, I swear to uphold the Hungarian Gentleman’s Code of Honour. In family, work, nation, and beyond, I pledge my strength, wisdom, and integrity for the betterment of all. I shall defend truth, foster peace, and strive always for excellence.”
 
-![100-big-blokes-odler-dudeds-with-mustaches-and-ak-47.png](https://intelkartel.com/wp-content/uploads/2024/12/100-big-blokes-odler-dudeds-with-mustaches-and-ak-47.png)
+![100-big-blokes-odler-dudeds-with-mustaches-and-ak-47.png](/static/assets/00-a-kartel-info-00/100-big-blokes-odler-dudeds-with-mustaches-and-ak-47.png)
 
 THE HUN-ARIAN(G) BORTHERHOOD
 
-![hungarian-caretel-lookign-military-troops.png](https://intelkartel.com/wp-content/uploads/2024/12/hungarian-caretel-lookign-military-troops.png)
-![german-girls-twenbty-of-them-in-black-uniforms-with-machine.png](https://intelkartel.com/wp-content/uploads/2024/12/german-girls-twenbty-of-them-in-black-uniforms-with-machine.png)
+![hungarian-caretel-lookign-military-troops.png](/static/assets/00-a-kartel-info-00/hungarian-caretel-lookign-military-troops.png)
+![german-girls-twenbty-of-them-in-black-uniforms-with-machine.png](/static/assets/00-a-kartel-info-00/german-girls-twenbty-of-them-in-black-uniforms-with-machine.png)
 
 [Fortepan Photos](https://fortepan.hu/hu/photos/?q=honv%C3%A9ds%C3%A9g)
 
@@ -260,7 +260,7 @@ THE END GAME, WHICH IS NEITHER THE NED NOR A GNAME! ITS NOT A GAME.
 
 ALL DECISIONS ARE MADE IN THE FIELD, EVERYTHING IS THE FIELD.
 
-![aiworld.png](https://intelkartel.com/wp-content/uploads/2024/08/aiworld.png)
-![babilon-2050c.png](https://intelkartel.com/wp-content/uploads/2024/05/babilon-2050c.png?w=1024)
+![aiworld.png](/static/assets/00-a-kartel-info-00/aiworld.png)
+![babilon-2050c.png](/static/assets/00-a-kartel-info-00/babilon-2050c.png)
 
 AUTO AUTO PALYAAAA
