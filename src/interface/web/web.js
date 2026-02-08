@@ -33,4 +33,5 @@ web.get('/about', aboutHandler.get);
 web.get('/contact', contactHandler.get);
 
 // Start server
-Deno.serve({ port: 8000 }, web.fetch);
+const port = parseInt(Deno.env.get("PORT")) || 8000;
+Deno.serve({ port, hostname: "0.0.0.0" }, web.fetch);
