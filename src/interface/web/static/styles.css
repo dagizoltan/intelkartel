@@ -16,6 +16,13 @@ body {
   color: var(--text-color);
   line-height: 1.6;
   text-rendering: optimizeLegibility;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Custom Scrollbar */
@@ -449,6 +456,7 @@ section {
 .article-image-link img {
   width: 100%;
   height: auto;
+  display: block;
   border: 1px solid var(--border-color);
 }
 
