@@ -43,10 +43,30 @@ export const Layout = ({ children, currentPath, seo }) => {
 
           <nav class="main-nav">
             <ul>
-              <li><a href="/" class={isActive('/') && currentPath === '/' ? 'active' : ''}>Home</a></li>
-              <li><a href="/blog" class={isActive('/blog') ? 'active' : ''}>Intel</a></li>
-              <li><a href="/about" class={isActive('/about') ? 'active' : ''}>About</a></li>
-              <li><a href="/contact" class={isActive('/contact') ? 'active' : ''}>Contact</a></li>
+              <li>
+                <a href="/" class={isActive('/') && currentPath === '/' ? 'active' : ''}>
+                  <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="/blog" class={isActive('/blog') ? 'active' : ''}>
+                  <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+                  Intel
+                </a>
+              </li>
+              <li>
+                <a href="/about" class={isActive('/about') ? 'active' : ''}>
+                  <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="/contact" class={isActive('/contact') ? 'active' : ''}>
+                  <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                  Contact
+                </a>
+              </li>
             </ul>
           </nav>
         </div>

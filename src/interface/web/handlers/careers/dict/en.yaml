@@ -11,5 +11,15 @@ hero:
   title: Join the Cartel
   subtitle: Operatives Wanted
   short_summary: Seeking analysts, hackers, and strategists. Survival not guaranteed.
-  summary: Do you thrive in chaos? Can you see patterns where others see noise? Join our team of elite professionals dedicated to uncovering the truth. Warning: The work is demanding, the hours are long, and the coffee is terrible.
-  buttons: []
+  summary: "Do you thrive in chaos? Can you see patterns where others see noise? Join our team of elite professionals dedicated to uncovering the truth. Warning: The work is demanding, the hours are long, and the coffee is terrible."
+  buttons:
+    - text: View Vacancies
+      link: "#jobs"
+      type: primary
+cta_section:
+  title: Ready to join?
+  text: Send us your encrypted resume.
+  buttons:
+    - text: Contact Us
+      link: /contact
+      type: primary
