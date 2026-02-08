@@ -602,6 +602,12 @@ section {
   fill: currentColor;
 }
 
+.article-container {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: var(--md) 0;
+}
+
 /* Article Card */
 .article-card {
   margin-bottom: 2rem;
@@ -749,6 +755,13 @@ section {
   .footer-grid {
      grid-template-columns: repeat(2, 1fr);
   }
+
+
+.article-container {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: var(--md) 0;
+}
 
   /* Article Card - Desktop */
   .article-card {
