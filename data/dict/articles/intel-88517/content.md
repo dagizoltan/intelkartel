@@ -76,8 +76,3 @@ The framing aligns with **disinformation-adjacent narratives**, but may also ind
 Regional Intelligence Analyst
 [Redacted]
 
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

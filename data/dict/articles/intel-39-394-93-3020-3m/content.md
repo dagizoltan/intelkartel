@@ -329,8 +329,3 @@
 
 
 
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

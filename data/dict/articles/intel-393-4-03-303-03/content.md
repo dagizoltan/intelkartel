@@ -13,8 +13,3 @@ Critics warned of overreach. Supporters pointed to results. Both were right. The
 
 Evil Street still exists on the map, but not in the imagination. It no longer sells inevitability. The lesson is not that order requires cruelty, but that neglect is expensive. When rules are enforced consistently, even the most entrenched street economy discovers a better use for fear: staying compliant.
 
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

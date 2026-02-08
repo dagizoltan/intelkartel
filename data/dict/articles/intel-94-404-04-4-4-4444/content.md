@@ -52,8 +52,3 @@ The final question of the story isn’t who is behind the plot—but whether a c
 
 
 
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…

@@ -58,8 +58,3 @@ Ez egy emlékeztető:
 a legveszélyesebb ember nem az, aki fegyvert fog,
 hanem aki **kimondja, amit mindenki tud**.
 
-### Megosztás:
-
-* [Tweet](https://twitter.com/share)
-
-Tetszik Betöltés…
