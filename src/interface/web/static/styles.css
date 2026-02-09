@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('./theme.css');
 
 * {
@@ -9,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Space Mono', 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
@@ -253,8 +254,12 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: var(--xs);
   position: relative;
+  padding: var(--sm) var(--md);
+  min-height: 44px;
+  min-width: 44px;
 }
 
 .main-nav a svg {
@@ -400,7 +405,7 @@ section {
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--xl);
+  gap: var(--xxl);
   max-width: var(--container-max-width);
   margin: 0 auto;
 }
