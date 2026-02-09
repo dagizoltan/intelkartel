@@ -96,13 +96,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   margin-bottom: var(--md);
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: var(--md);
 }
 
@@ -392,6 +392,7 @@ section {
 .site-footer {
   background-color: var(--secondary-bg);
   padding: var(--xxl) var(--xl);
+  padding-bottom: calc(var(--xxl) + var(--bottom-nav-height) + 2rem);
   color: var(--text-color);
   border-top: 1px solid var(--primary-color);
 }
@@ -560,6 +561,10 @@ section {
   }
 
   /* Footer */
+  .site-footer {
+    padding-bottom: var(--xxl);
+  }
+
   .footer-grid {
      grid-template-columns: repeat(2, 1fr);
   }
