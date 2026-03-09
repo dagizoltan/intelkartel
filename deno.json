@@ -7,5 +7,8 @@
       "compilerOptions": {
         "jsx": "precompile",
         "jsxImportSource": "hono/jsx"
+    },
+    "tasks": {
+        "collect-media": "deno run --allow-read --allow-write --allow-net media-collector.js"
     }
 }
