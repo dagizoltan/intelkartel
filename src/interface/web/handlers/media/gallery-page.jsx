@@ -1,19 +1,15 @@
+import { Hero } from "../../components/Hero.jsx";
+
 export const GalleryPage = ({ images }) => (
+  <>
+    <Hero
+      title="Visual Intel Gallery"
+      description="Operational imagery and visual evidence collected from the field."
+    />
   <section class="gallery-page">
     <style>{`
       .gallery-page {
         padding: 4rem 0;
-      }
-      .page-header {
-        text-align: center;
-        margin-bottom: 3rem;
-      }
-      .page-header h1 {
-        font-size: 2.5rem;
-        margin-bottom: 0.5rem;
-      }
-      .page-header p {
-        color: var(--text-muted);
       }
       .gallery-grid {
         display: grid;
@@ -50,11 +46,6 @@ export const GalleryPage = ({ images }) => (
       }
     `}</style>
     <div class="container">
-      <div class="page-header">
-        <h1>Visual Intel Gallery</h1>
-        <p>Operational imagery and visual evidence collected from the field.</p>
-      </div>
-
       <div class="gallery-grid">
         {images.length === 0 ? (
           <div class="empty-state">No visual intelligence available at this time.</div>
@@ -68,4 +59,5 @@ export const GalleryPage = ({ images }) => (
       </div>
     </div>
   </section>
+  </>
 );

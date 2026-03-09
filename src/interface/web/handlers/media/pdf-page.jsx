@@ -1,26 +1,21 @@
+import { Hero } from "../../components/Hero.jsx";
+
 export const PdfPage = ({ pdfFiles }) => (
+  <>
+    <Hero
+      title="Declassified Documents"
+      description="Access official intelligence reports, manifests, and dossiers."
+    />
   <section class="pdf-page">
     <style>{`
       .pdf-page {
         padding: 4rem 0;
-      }
-      .page-header {
-        text-align: center;
-        margin-bottom: 3rem;
-      }
-      .page-header h1 {
-        font-size: 2.5rem;
-        margin-bottom: 0.5rem;
-      }
-      .page-header p {
-        color: var(--text-muted);
       }
       .pdf-grid {
         display: grid;
         grid-template-columns: 1fr;
         gap: 1.5rem;
         max-width: 1000px;
-        margin: 0 auto;
       }
       @media (min-width: 768px) {
         .pdf-grid {
@@ -83,11 +78,6 @@ export const PdfPage = ({ pdfFiles }) => (
       }
     `}</style>
     <div class="container">
-      <div class="page-header">
-        <h1>Declassified Documents</h1>
-        <p>Access official intelligence reports, manifests, and dossiers.</p>
-      </div>
-
       {pdfFiles.length === 0 ? (
         <div class="empty-state">No declassified documents available at this time.</div>
       ) : (
@@ -110,4 +100,5 @@ export const PdfPage = ({ pdfFiles }) => (
       )}
     </div>
   </section>
+  </>
 );

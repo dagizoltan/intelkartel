@@ -1,22 +1,18 @@
+import { Hero } from "../../components/Hero.jsx";
+
 export const AudioPage = ({ audioFiles }) => {
   const hasAudio = audioFiles && audioFiles.length > 0;
 
   return (
+    <>
+      <Hero
+        title="Audio Intercepts"
+        description="Unredacted communications and situation reports."
+      />
     <section class="audio-page">
       <style>{`
         .audio-page {
           padding: 4rem 0;
-        }
-        .page-header {
-          text-align: center;
-          margin-bottom: 3rem;
-        }
-        .page-header h1 {
-          font-size: 2.5rem;
-          margin-bottom: 0.5rem;
-        }
-        .page-header p {
-          color: var(--text-muted);
         }
         .audio-player-container {
           background: var(--bg-card);
@@ -24,7 +20,6 @@ export const AudioPage = ({ audioFiles }) => {
           border-radius: 8px;
           padding: 2rem;
           max-width: 800px;
-          margin: 0 auto;
           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         .main-player {
@@ -93,15 +88,10 @@ export const AudioPage = ({ audioFiles }) => {
         }
       `}</style>
       <div class="container">
-        <div class="page-header">
-          <h1>Audio Intercepts</h1>
-          <p>Unredacted communications and situation reports.</p>
-        </div>
-
         <div class="audio-player-container">
           {hasAudio ? (
             <>
-              <div class="now-playing" style={{ marginBottom: '1rem', textAlign: 'center' }}>
+              <div class="now-playing" style={{ marginBottom: '1rem', textAlign: 'left' }}>
                 <h3 id="current-track-title" style={{ margin: 0, color: 'var(--accent-color)' }}>Select a track to play</h3>
               </div>
 
@@ -172,5 +162,6 @@ export const AudioPage = ({ audioFiles }) => {
         </div>
       </div>
     </section>
+    </>
   );
 };

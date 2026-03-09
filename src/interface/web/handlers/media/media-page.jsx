@@ -1,28 +1,21 @@
+import { Hero } from "../../components/Hero.jsx";
+
 export const MediaPage = () => (
+  <>
+    <Hero
+      title="Classified Media Archive"
+      description="Access intercepted communications, operational imagery, and unredacted intelligence documents."
+    />
   <section class="media-landing">
     <style>{`
       .media-landing {
         padding: 4rem 0;
-      }
-      .media-header {
-        text-align: center;
-        margin-bottom: 3rem;
-      }
-      .media-header h1 {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-      }
-      .media-header p {
-        color: var(--text-muted);
-        max-width: 600px;
-        margin: 0 auto;
       }
       .media-grid {
         display: grid;
         grid-template-columns: 1fr;
         gap: 2rem;
         max-width: 900px;
-        margin: 0 auto;
       }
       @media (min-width: 768px) {
         .media-grid {
@@ -34,13 +27,13 @@ export const MediaPage = () => (
         border: 1px solid var(--border-color);
         border-radius: 8px;
         padding: 2rem;
-        text-align: center;
+        text-align: left;
         transition: transform 0.2s, box-shadow 0.2s;
         text-decoration: none;
         color: inherit;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
       }
       .media-card:hover {
@@ -64,11 +57,6 @@ export const MediaPage = () => (
       }
     `}</style>
     <div class="container">
-      <div class="media-header">
-        <h1>Classified Media Archive</h1>
-        <p>Access intercepted communications, operational imagery, and unredacted intelligence documents.</p>
-      </div>
-
       <div class="media-grid">
         <a href="/media/gallery" class="media-card">
           <svg viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
@@ -90,4 +78,5 @@ export const MediaPage = () => (
       </div>
     </div>
   </section>
+  </>
 );
