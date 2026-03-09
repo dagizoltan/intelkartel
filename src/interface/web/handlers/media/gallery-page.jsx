@@ -13,8 +13,18 @@ export const GalleryPage = ({ images }) => (
       }
       .gallery-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: 1fr;
         gap: 1.5rem;
+      }
+      @media (min-width: 768px) {
+        .gallery-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (min-width: 992px) {
+        .gallery-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
       }
       .gallery-item {
         display: block;

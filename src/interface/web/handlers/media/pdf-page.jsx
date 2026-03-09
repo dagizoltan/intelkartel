@@ -12,15 +12,11 @@ export const PdfPage = ({ pdfFiles }) => (
         padding: 4rem 0;
       }
       .pdf-grid {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         gap: 1.5rem;
         max-width: 1000px;
-      }
-      @media (min-width: 768px) {
-        .pdf-grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
+        margin: 0 auto;
       }
       .pdf-card {
         background: var(--bg-card);
