@@ -178,7 +178,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: var(--sm) var(--xl);
+  padding: var(--xs) var(--xl);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -248,16 +248,16 @@ section {
 .main-nav a {
   color: var(--text-color);
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
-  letter-spacing: var(--letter-spacing-md);
+  letter-spacing: normal;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: var(--xs);
   position: relative;
-  padding: var(--sm) var(--md);
+  padding: var(--xs) 4px;
   min-height: 44px;
   min-width: 44px;
 }
@@ -549,6 +549,8 @@ section {
     font-size: 1.1rem;
     flex-direction: row;
     gap: var(--xs);
+    padding: var(--sm) var(--md);
+    letter-spacing: var(--letter-spacing-md);
   }
 
   .main-nav a svg {
