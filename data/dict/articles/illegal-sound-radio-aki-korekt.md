@@ -1,9 +1,9 @@
 <div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/03/nigu-vidosh-v8wgvx6rf1u.mp3"></audio></figure>
-<figure class="wp-block-image size-full wp-duotone-default"><img alt="" class="wp-image-12263" data-attachment-id="12263" data-comments-opened="1" data-image-caption="" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="VIDOSART0000006.ppt (1)" data-large-file="https://intelkartel.com/wp-content/uploads/2025/03/vidosart0000006.ppt-1.jpg?w=960" data-medium-file="https://intelkartel.com/wp-content/uploads/2025/03/vidosart0000006.ppt-1.jpg?w=300" data-orig-file="https://intelkartel.com/wp-content/uploads/2025/03/vidosart0000006.ppt-1.jpg" data-orig-size="960,720" data-permalink="https://intelkartel.com/?attachment_id=12263" height="720" sizes="(max-width: 960px) 100vw, 960px" src="https://intelkartel.com/wp-content/uploads/2025/03/vidosart0000006.ppt-1.jpg" srcset="https://intelkartel.com/wp-content/uploads/2025/03/vidosart0000006.ppt-1.jpg 960w, https://intelkartel.com/wp-content/uploads/2025/03/vidosart0000006.ppt-1.jpg?w=150&amp;h=113 150w, https://intelkartel.com/wp-content/uploads/2025/03/vidosart0000006.ppt-1.jpg?w=300&amp;h=225 300w, https://intelkartel.com/wp-content/uploads/2025/03/vidosart0000006.ppt-1.jpg?w=768&amp;h=576 768w" style="aspect-ratio:0.750003329205119" width="960"/></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/nigu-vidosh-v8wgvx6rf1u.mp3"></audio></figure>
+<figure class="wp-block-image size-full wp-duotone-default"><img alt="" class="wp-image-12263" data-attachment-id="12263" data-comments-opened="1" data-image-caption="" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="VIDOSART0000006.ppt (1)" data-large-file="/media/illegal-sound-radio-aki-korekt/vidosart0000006.ppt-1.webp" data-medium-file="/media/illegal-sound-radio-aki-korekt/vidosart0000006.ppt-1.webp" data-orig-file="/media/illegal-sound-radio-aki-korekt/vidosart0000006.ppt-1.webp" data-orig-size="960,720" data-permalink="https://intelkartel.com/?attachment_id=12263" height="720" sizes="(max-width: 960px) 100vw, 960px" src="/media/illegal-sound-radio-aki-korekt/vidosart0000006.ppt-1.webp" srcset="/media/illegal-sound-radio-aki-korekt/vidosart0000006.ppt-1.webp 960w, /media/illegal-sound-radio-aki-korekt/vidosart0000006.ppt-1.webp?w=150&amp;h=113 150w, /media/illegal-sound-radio-aki-korekt/vidosart0000006.ppt-1.webp&amp;h=225 300w, /media/illegal-sound-radio-aki-korekt/vidosart0000006.ppt-1.webp?w=768&amp;h=576 768w" style="aspect-ratio:0.750003329205119" width="960"/></figure>
 <p class="wp-block-paragraph"> INTEZETESEK MUSICEL ELOKESZITES HANGANYAGOK ES SKIZOFRENIA LEHALGATAS!</p>
 <p class="wp-block-paragraph">?GYULOLET BESZEDDEL A GYULOLET BESZED ELLEN? <a href="https://intelkartel.com/disclaimer/">DISCLAIMER</a></p>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/01/lenin-dal.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/lenin-dal.mp3"></audio></figure>
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="360" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox" src="https://www.youtube.com/embed/Wr5CJaGa_VA?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=hu&amp;autohide=2&amp;wmode=transparent" style="border:0;" width="640"></iframe></span>
 </div></figure>
@@ -44,22 +44,22 @@
 <li>Nyári és téli bónusz: 5000 USD.</li>
 </ul>
 <p class="wp-block-paragraph">A DUZI BROGOS PÁRT ezen alapelvek mentén működik a magyar nép javára.</p>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/03/2023g.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/2023g.mp3"></audio></figure>
 <p class="has-text-align-center wp-block-paragraph">SZERVEZET BUNOZES MAXIMUM VAN? RENDORSEG LEPJEN FEL A LAKAS MAFFIA ELLEN! </p>
 <p class="has-text-align-center wp-block-paragraph">VEDJUK MEG AZ ORGEKET, FIATALOKAT ES TARSADALMAT!</p>
 <figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/03/rogan.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">MAGYARORSZAGON EHEZNEK AZ EMBEREK. PENZ KAJA LAKHATAS!</h6>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2024/10/polgaralso.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/polgaralso.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">SZORNYETEG INTEZETESEK LAKJAK AZ ORSZAGOT! (AKIK SZORNYEK MINT MINDENKI)</h6>
 <figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/01/terrorintezetesek.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">OKE AMI FOLYIK AZ INTEZETEKBEN? (SZORNYETEGIZMUS)</h6>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/02/nemalancamegoldas.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/nemalancamegoldas.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">JO NAPOT KIVANOOOK!</h6>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/02/legalweed.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/legalweed.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">MASOK A PROBLEMAK MINT A MODERN TARSADLM PROBELMAK. 70% EHEZIK</h6>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/02/csutortokzse.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/csutortokzse.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">SZABADSAG A SZIVBEN!!!</h6>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/01/kingradio11111.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/kingradio11111.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">OROSZOKROL AZ OROSZOKNAK!</h6>
 <figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/01/oroszokrol-orzsoroknak.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">MILITARY STRATEGY</h6>
@@ -69,20 +69,20 @@
 <h6 class="wp-block-heading has-text-align-center">DJ DANI</h6>
 <figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/01/hellokocs88517radio.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">THIS IS CLASSIFIED</h6>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/01/acessdenied.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/acessdenied.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">COUNTER TERRORISM VS COLD WAR ERA PROXIES</h6>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/01/vidos-radio-atempt-1.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/vidos-radio-atempt-1.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">WHAT A LOVELY FUCKING DAY</h6>
 <figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/01/what-a-lovelzfukingdaz.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">MIT AKARNAK EZEK AZ ORSZAGUNKBAN?</h6>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2024/12/illegal888short.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/illegal888short.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center"> HUSZ EV KEMENY BORTON.</h6>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2024/12/rendeszetibekerdezesek-1.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/rendeszetibekerdezesek-1.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">KENDER GENERACIO</h6>
 <figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2024/12/lustizmus.mp3"></audio></figure>
 <p class="has-text-align-center wp-block-paragraph"><a href="https://intelkartel.com/purple-team/">H</a><a href="https://babylon2050.com/vd-fetish-menu-18/">IDDEN LINK TO HIDDEN KNOWLEDGE HERE IF YOU KNOW HOW TO KLIKK</a></p>
 <h6 class="wp-block-heading has-text-align-center">KET PONT KOZOTT NINCSEN IDO</h6>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2024/12/racionalista-rend-front-ket-pont-kozott-nincsen-ido.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/racionalista-rend-front-ket-pont-kozott-nincsen-ido.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">HABORUS ADAS, A HABORU NYERI A VALASZTAST?</h6>
 <figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2024/11/killlegalradio36366363636355555555555555555555555555555555555.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">MI ITT BEFELE.</h6>
@@ -102,7 +102,7 @@
 <h6 class="wp-block-heading has-text-align-center">DEADLY RUSSIAN EMBARGO? = 2000 MILLIO HALOTT EMBER 5 EV.</h6>
 <figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2024/10/kocsog4-1.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">KOCSOG FIGYELJ IDE! KIRE NEZEL FEL! </h6>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2024/10/kocsog-teljesen-zarodik-buzikam.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/kocsog-teljesen-zarodik-buzikam.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">DJ DANI 2</h6>
 <figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2024/10/illgalradiob33.mp3"></audio></figure>
 <h6 class="wp-block-heading has-text-align-center">BANAT UTCA</h6>
@@ -133,11 +133,11 @@
 <li><strong>“Полюшко-поле” – Хор Красной Армии</strong></li>
 <li><strong>“Где же вы теперь, друзья-однополчане?” (Where Are You Now, Comrades-in-Arms?) – Михаил Ножкин</strong></li>
 </ol>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/04/rendordal.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/rendordal.mp3"></audio></figure>
 <p class="wp-block-paragraph">BONUS TRACK</p>
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="360" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox" src="https://www.youtube.com/embed/ZzR6Y0rcTCc?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=hu&amp;autohide=2&amp;wmode=transparent&amp;listType=playlist&amp;list=RDGMEMQ1dJ7wXfLlqCjwV0xfSNbA" style="border:0;" width="640"></iframe></span>
 </div></figure>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/07/kinzo-tisztek-az-intezetesek.mp3"></audio></figure>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/07/zarojelentest-irom-2.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/kinzo-tisztek-az-intezetesek.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/illegal-sound-radio-aki-korekt/zarojelentest-irom-2.mp3"></audio></figure>
 </div>

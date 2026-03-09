@@ -1,6 +1,6 @@
 <div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
 <h2 class="wp-block-heading"></h2>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/10/charlotte-adigery-bolis-pupul-haha-live-on-kexp-cover.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/disclaimer/charlotte-adigery-bolis-pupul-haha-live-on-kexp-cover.mp3"></audio></figure>
 <p class="wp-block-paragraph"><strong>Disclaimer for IntelKartel.com</strong></p>
 <p class="wp-block-paragraph">Welcome to <strong>IntelKartel.com</strong>, a creative playground designed to explore the <em>imaginative</em> and sometimes <em>unhinged</em> world of AI hallucinations, all wrapped up in a darkly humorous package. Before you dive in, here’s what you need to know:</p>
 <ol class="wp-block-list">
@@ -25,8 +25,8 @@
 <p class="wp-block-paragraph">Now sit back, relax, and let the <em>illegal</em> vibes take over.</p>
 <p class="wp-block-paragraph"><strong>Legal Disclaimer: For the Amusement of the Irreverent and the Legally Literate</strong></p>
 <p class="wp-block-paragraph">By engaging with the content provided herein, the user expressly acknowledges, understands, and irrevocably agrees that the creators, curators, and contributors of this material (hereinafter referred to as the “Parties”) make no representations, warranties, or guarantees, express or implied, as to the accuracy, veracity, coherence, or even basic sensibility of the information presented.</p>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2024/10/postmortemvidos.mp3"></audio></figure>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2024/10/lastdieingtestament.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/disclaimer/postmortemvidos.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/disclaimer/lastdieingtestament.mp3"></audio></figure>
 <ol class="wp-block-list">
 <li><strong>Disclaimer of Responsibility</strong><br/>The Parties categorically deny and disclaim any and all liability for interpretations, misinterpretations, emotional disturbances, existential crises, or spontaneous fits of laughter resulting from exposure to the content. Said content is unequivocally provided “AS IS” for the sole purpose of darkly humorous entertainment, without regard to fact, logic, or good taste.</li>
 <li><strong>Non-Guarantee of Clarity</strong><br/>Any resemblance between the information disseminated and actual reality, coherent thought, or common sense is purely coincidental and unintended. The Parties explicitly reserve the right to spout nonsensical, satirical, or otherwise absurd statements under the guise of “content.”</li>
@@ -37,7 +37,7 @@
 <p class="wp-block-paragraph">In conclusion, by continuing to engage with this content, you tacitly agree that the Parties are neither culpable, coherent, nor remotely serious. If dissatisfaction arises, may we suggest a hearty laugh or, alternatively, a change of channel.</p>
 <p class="wp-block-paragraph"><em>Verba iocus; non facto.</em> (It’s words, not deeds.)</p>
 <p class="wp-block-paragraph"><a href="https://xhamster.com/videos/step-dad-and-daughter-ddlg-xhHF4nt">https://xhamster.com/videos/step-dad-and-daughter-ddlg-xhHF4nt</a></p>
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2024/11/1kv1l4hhcofp.128.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/disclaimer/1kv1l4hhcofp.128.mp3"></audio></figure>
 <p class="wp-block-paragraph">LINK IN BIO BMB COVID 19 // YOU ARE ALL GENETICALLY IDENTICAL TO A COLLAPSING POPULATION</p>
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="360" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox" src="https://www.youtube.com/embed/Ed_aLgt0u6w?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=hu&amp;autohide=2&amp;wmode=transparent" style="border:0;" width="640"></iframe></span>
