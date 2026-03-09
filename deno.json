@@ -10,6 +10,7 @@
     },
     "tasks": {
         "collect-media": "deno run --allow-read --allow-write --allow-net media-collector.js",
-        "convert_img": "deno run -A convert_img.js"
+        "convert_img": "deno run -A convert_img.js",
+        "compress_webp": "deno run -A compress_webp.js"
     }
 }
