@@ -56,6 +56,12 @@ export const Layout = ({ children, currentPath, seo }) => {
                 </a>
               </li>
               <li>
+                <a href="/media" class={isActive('/media') ? 'active' : ''}>
+                  <svg viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1.99 6c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm-7 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3-3.8c-1.01.62-2.3 1.01-3.67 1.01s-2.66-.39-3.67-1.01l1.55-2.68c.67.24 1.38.38 2.12.38s1.45-.14 2.12-.38l1.55 2.68z"/></svg>
+                  Media
+                </a>
+              </li>
+              <li>
                 <a href="/about" class={isActive('/about') ? 'active' : ''}>
                   <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
                   About
@@ -85,6 +91,7 @@ export const Layout = ({ children, currentPath, seo }) => {
             <ul>
               <li><a href="/">Home</a></li>
               <li><a href="/blog">Intel</a></li>
+              <li><a href="/media">Media</a></li>
               <li><a href="/about">About</a></li>
               <li><a href="/contact">Contact</a></li>
               <li><a href="/careers">Careers</a></li>

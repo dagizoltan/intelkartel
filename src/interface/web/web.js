@@ -10,6 +10,7 @@ import { contactHandler } from "./handlers/contact/contact-handler.js";
 import { staticHandler } from "./handlers/static/static-handler.js";
 import { sitemapHandler } from "./handlers/sitemap/sitemap-handler.js";
 import { robotsHandler } from "./handlers/robots/robots-handler.js";
+import { mediaHandler } from "./handlers/media/media-handler.js";
 
 const web = new Hono();
 
@@ -31,6 +32,12 @@ web.get('/blog/:slug', blogHandler.detail);
 web.get('/careers', careersHandler.index);
 web.get('/about', aboutHandler.get);
 web.get('/contact', contactHandler.get);
+
+// Media routes
+web.get('/media', mediaHandler.index);
+web.get('/media/gallery', mediaHandler.gallery);
+web.get('/media/audio', mediaHandler.audio);
+web.get('/media/pdf', mediaHandler.pdf);
 
 // Start server
 const port = parseInt(Deno.env.get("PORT")) || 8000;
