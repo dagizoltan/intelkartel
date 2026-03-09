@@ -1,5 +1,5 @@
 <div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
-<figure class="wp-block-audio"><audio controls="" src="https://intelkartel.com/wp-content/uploads/2025/10/vidosh-npp.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/media/npp/vidosh-npp.mp3"></audio></figure>
 <p class="wp-block-paragraph">Guide — How to Deny Orders (clear, confident, and effective)</p>
 <p class="wp-block-paragraph">Short, practical manual: how to refuse an order without looking weak, causing unnecessary drama, or getting yourself into trouble. Covers mindset, strategies, verbal scripts, tone options (posh, pub, military, sarcastic), legal &amp; safety checks, escalation, documentation, and lots of ready-to-use short lines.</p>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>

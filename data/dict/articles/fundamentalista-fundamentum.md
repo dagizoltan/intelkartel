@@ -173,7 +173,7 @@
 
 
 
-<div data-wp-interactive="core/file" class="wp-block-file"><object data-wp-bind--hidden="!state.hasPdfPreview" hidden="" class="wp-block-file__embed" data="https://intelkartel.com/wp-content/uploads/2024/08/tisztelt-rendorseg.pdf" type="application/pdf" style="width:100%;height:600px" aria-label="Tisztelt Rendorség beágyazása"></object><a id="wp-block-file--media-4bd0d59d-3963-4084-9bc8-8bb25e134a9c" href="https://intelkartel.com/wp-content/uploads/2024/08/tisztelt-rendorseg.pdf">Tisztelt Rendorség</a><a href="https://intelkartel.com/wp-content/uploads/2024/08/tisztelt-rendorseg.pdf" class="wp-block-file__button wp-element-button" download="" aria-describedby="wp-block-file--media-4bd0d59d-3963-4084-9bc8-8bb25e134a9c">Letölt</a></div>
+<div data-wp-interactive="core/file" class="wp-block-file"><object data-wp-bind--hidden="!state.hasPdfPreview" hidden="" class="wp-block-file__embed" data="/media/fundamentalista-fundamentum/tisztelt-rendorseg.pdf" type="application/pdf" style="width:100%;height:600px" aria-label="Tisztelt Rendorség beágyazása"></object><a id="wp-block-file--media-4bd0d59d-3963-4084-9bc8-8bb25e134a9c" href="/media/fundamentalista-fundamentum/tisztelt-rendorseg.pdf">Tisztelt Rendorség</a><a href="/media/fundamentalista-fundamentum/tisztelt-rendorseg.pdf" class="wp-block-file__button wp-element-button" download="" aria-describedby="wp-block-file--media-4bd0d59d-3963-4084-9bc8-8bb25e134a9c">Letölt</a></div>
 
 
 
