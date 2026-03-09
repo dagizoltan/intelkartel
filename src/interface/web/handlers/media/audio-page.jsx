@@ -18,9 +18,16 @@ export const AudioPage = ({ audioFiles }) => {
           background: var(--bg-card);
           border: 1px solid var(--border-color);
           border-radius: 8px;
-          padding: 2rem;
+          padding: 1rem;
+          width: 100%;
           max-width: 800px;
+          margin: 0 auto;
           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        @media (min-width: 768px) {
+          .audio-player-container {
+            padding: 2rem;
+          }
         }
         .main-player {
           width: 100%;
@@ -59,6 +66,7 @@ export const AudioPage = ({ audioFiles }) => {
         }
         .track-info {
           flex: 1;
+          min-width: 0;
         }
         .track-title {
           font-weight: 500;
