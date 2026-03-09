@@ -1,10 +1,10 @@
 <div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
 <p class="wp-block-paragraph"></p>
 <p class="wp-block-paragraph">ANGLO EURASIA ELOKESZITESE AZ ELJOVETELERE A NAGY NYARI TABORKNAK.</p>
-<figure class="wp-block-audio"><audio controls="" src="/media/secret-report/red-shalom-darya-dugina-filozofaja-cover.mp3"></audio></figure>
-<div class="wp-block-file" data-wp-interactive="core/file"><object aria-label="REPORT_ TO VLADIMIR PUTIN FROM DANIEL VIDOS (VD88517) beágyazása" class="wp-block-file__embed" data="/media/secret-report/report_-to-vladimir-putin-from-daniel-vidos-vd88517.pdf" data-wp-bind--hidden="!state.hasPdfPreview" hidden="" style="width:100%;height:600px" type="application/pdf"></object><a href="/media/secret-report/report_-to-vladimir-putin-from-daniel-vidos-vd88517.pdf" id="wp-block-file--media-5bf3824b-24db-4c11-bde5-33d5905ad504">REPORT_ TO VLADIMIR PUTIN FROM DANIEL VIDOS (VD88517)</a><a aria-describedby="wp-block-file--media-5bf3824b-24db-4c11-bde5-33d5905ad504" class="wp-block-file__button wp-element-button" download="" href="/media/secret-report/report_-to-vladimir-putin-from-daniel-vidos-vd88517.pdf">Letölt</a></div>
-<figure class="wp-block-audio"><audio controls="" src="/media/secret-report/red-shalom-deserve-cover-1.mp3"></audio></figure>
-<figure class="wp-block-audio"><audio controls="" src="/media/secret-report/red-shalom-kirovom-cover.mp3"></audio></figure>
-<figure class="wp-block-audio"><audio controls="" src="/media/secret-report/red-shalom-kill-team-cover-3.mp3"></audio></figure>
-<figure class="wp-block-audio"><audio controls="" src="/media/secret-report/red-shalom-europaaa-cover-2.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/static/media/secret-report/red-shalom-darya-dugina-filozofaja-cover.mp3"></audio></figure>
+<div class="wp-block-file" data-wp-interactive="core/file"><object aria-label="REPORT_ TO VLADIMIR PUTIN FROM DANIEL VIDOS (VD88517) beágyazása" class="wp-block-file__embed" data="/static/media/secret-report/report_-to-vladimir-putin-from-daniel-vidos-vd88517.pdf" data-wp-bind--hidden="!state.hasPdfPreview" hidden="" style="width:100%;height:600px" type="application/pdf"></object><a href="/static/media/secret-report/report_-to-vladimir-putin-from-daniel-vidos-vd88517.pdf" id="wp-block-file--media-5bf3824b-24db-4c11-bde5-33d5905ad504">REPORT_ TO VLADIMIR PUTIN FROM DANIEL VIDOS (VD88517)</a><a aria-describedby="wp-block-file--media-5bf3824b-24db-4c11-bde5-33d5905ad504" class="wp-block-file__button wp-element-button" download="" href="/static/media/secret-report/report_-to-vladimir-putin-from-daniel-vidos-vd88517.pdf">Letölt</a></div>
+<figure class="wp-block-audio"><audio controls="" src="/static/media/secret-report/red-shalom-deserve-cover-1.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/static/media/secret-report/red-shalom-kirovom-cover.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/static/media/secret-report/red-shalom-kill-team-cover-3.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/static/media/secret-report/red-shalom-europaaa-cover-2.mp3"></audio></figure>
 </div>

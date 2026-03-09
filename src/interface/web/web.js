@@ -32,14 +32,6 @@ web.get('/careers', careersHandler.index);
 web.get('/about', aboutHandler.get);
 web.get('/contact', contactHandler.get);
 
-// Media files with caching
-web.use('/media/*', async (c, next) => {
-  await next();
-  c.header('Cache-Control', 'public, max-age=31536000, immutable');
-});
-web.get('/media/*', serveStatic({ root: './src/media/' }));
-
-
 // Start server
 const port = parseInt(Deno.env.get("PORT")) || 8000;
 Deno.serve({ port, hostname: "0.0.0.0" }, web.fetch);

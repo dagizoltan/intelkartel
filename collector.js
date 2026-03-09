@@ -4,7 +4,7 @@ import { ensureDir } from "jsr:@std/fs/ensure-dir";
 
 // Define the source directory containing the markdown articles
 const articlesDir = "data/";
-const mediaDestDir = "src/media/";
+const mediaDestDir = "src/static/media/";
 
 // Define the domain to look for - matching intelkartel.com as found in files
 const targetDomainRegex = /https?:\/\/(?:www\.)?intelkartel\.com[^\s"'>)]+/gi;
@@ -96,7 +96,7 @@ async function processArticles() {
             
             if (success) {
               // Replace the original URL in the content with the new web path
-              const newWebPath = `/media/${articleName}/${filename}`;
+              const newWebPath = `/static/media/${articleName}/${filename}`;
               // Use split/join to replace all occurrences without regex escaping issues
               updatedContent = updatedContent.split(url).join(newWebPath);
               fileUpdated = true;

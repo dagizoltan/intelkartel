@@ -2,7 +2,7 @@ import { expandGlob } from "jsr:@std/fs/expand-glob";
 import { dirname, join, basename, extname } from "jsr:@std/path";
 import sharp from "npm:sharp@0.33.2";
 
-const mediaDir = "src/media/";
+const mediaDir = "src/static/media/";
 const articlesDir = "data/";
 
 async function processImages() {
@@ -10,7 +10,7 @@ async function processImages() {
 
   console.log("Starting image conversion to WebP...");
 
-  // 1. Find and convert all .jpg, .jpeg, and .png files in src/media/
+  // 1. Find and convert all .jpg, .jpeg, and .png files in src/static/media/
   for await (const entry of expandGlob("**/*.{jpg,jpeg,png,JPG,JPEG,PNG}", { root: mediaDir })) {
     if (!entry.isFile) continue;
 
