@@ -1,6 +1,6 @@
 <div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
 <p class="wp-block-paragraph"></p>
-<figure class="wp-block-audio"><audio controls="" src="/media/global-draft/polgaralso.mp3"></audio></figure>
+<figure class="wp-block-audio"><audio controls="" src="/static/media/global-draft/polgaralso.mp3"></audio></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h1 class="wp-block-heading"><strong>Demographic &amp; Military Intelligence Report: Global Males Aged 12–28</strong></h1>
 <p class="wp-block-paragraph"><strong>Prepared by:</strong> Global Strategic Intelligence Division<br/><strong>Date:</strong> June 2025<br/><strong>Classification:</strong> Open Source / Economic-Military Brief<br/><strong>Scope:</strong> Assessment of the global male population aged 12–28, their strategic military potential, and alignment with modern force structuring and defense capabilities.</p>
@@ -116,5 +116,5 @@
 <li>The demographic transition (especially in Europe, China, Russia) vs. the youthful surge in Africa and South Asia</li>
 </ul>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
-<div class="wp-block-file" data-wp-interactive="core/file"><object aria-label="GLOBAL YOUTH MILITARY PREPARATION MANUAL (AGES 12–28) beágyazása" class="wp-block-file__embed" data="/media/global-draft/global-youth-military-preparation-manual-ages-12e2809328.pdf" data-wp-bind--hidden="!state.hasPdfPreview" hidden="" style="width:100%;height:600px" type="application/pdf"></object><a href="/media/global-draft/global-youth-military-preparation-manual-ages-12e2809328.pdf" id="wp-block-file--media-6e9f2ba0-1699-4953-8e7f-21dbbb7b599f">GLOBAL YOUTH MILITARY PREPARATION MANUAL (AGES 12–28)</a><a aria-describedby="wp-block-file--media-6e9f2ba0-1699-4953-8e7f-21dbbb7b599f" class="wp-block-file__button wp-element-button" download="" href="/media/global-draft/global-youth-military-preparation-manual-ages-12e2809328.pdf">Letölt</a></div>
+<div class="wp-block-file" data-wp-interactive="core/file"><object aria-label="GLOBAL YOUTH MILITARY PREPARATION MANUAL (AGES 12–28) beágyazása" class="wp-block-file__embed" data="/static/media/global-draft/global-youth-military-preparation-manual-ages-12e2809328.pdf" data-wp-bind--hidden="!state.hasPdfPreview" hidden="" style="width:100%;height:600px" type="application/pdf"></object><a href="/static/media/global-draft/global-youth-military-preparation-manual-ages-12e2809328.pdf" id="wp-block-file--media-6e9f2ba0-1699-4953-8e7f-21dbbb7b599f">GLOBAL YOUTH MILITARY PREPARATION MANUAL (AGES 12–28)</a><a aria-describedby="wp-block-file--media-6e9f2ba0-1699-4953-8e7f-21dbbb7b599f" class="wp-block-file__button wp-element-button" download="" href="/static/media/global-draft/global-youth-military-preparation-manual-ages-12e2809328.pdf">Letölt</a></div>
 </div>

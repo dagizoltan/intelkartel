@@ -2,13 +2,13 @@ import { expandGlob } from "jsr:@std/fs/expand-glob";
 import { dirname, join } from "jsr:@std/path";
 import sharp from "npm:sharp@0.33.2";
 
-const mediaDir = "src/media/";
+const mediaDir = "src/static/media/";
 
 async function compressWebP() {
   console.log("Starting WebP re-compression to quality 80...");
   let compressedCount = 0;
 
-  // Find all .webp files in src/media/
+  // Find all .webp files in src/static/media/
   for await (const entry of expandGlob("**/*.webp", { root: mediaDir })) {
     if (!entry.isFile) continue;
 
