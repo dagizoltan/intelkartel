@@ -1,4 +1,4 @@
-import { parseArticle } from "../utils/article-parser.js";
+import { parse } from "@std/yaml";
 
 const ARTICLES_DIR = "data/dict/articles";
 
@@ -15,16 +15,23 @@ export const getArticles = async () => {
   const entries = [];
   try {
     for await (const entry of Deno.readDir(ARTICLES_DIR)) {
-      if (entry.isFile && entry.name.endsWith(".md")) {
+      if (entry.isFile && entry.name.endsWith(".yaml")) {
         try {
           const content = await Deno.readTextFile(`${ARTICLES_DIR}/${entry.name}`);
-          const meta = parseArticle(entry.name, content);
-          // Remove content from the list object to save memory, except slug/etc.
-          // meta contains title, description, datePublished, slug, image, content
-          delete meta.content;
+          // Parse the YAML using std library
+          const yamlData = parse(content);
+          const meta = {
+            title: yamlData.title || entry.name.replace(".yaml", ""),
+            subtitle: yamlData.subtitle || "",
+            description: yamlData.summary || "",
+            datePublished: yamlData.datePublished || "1970-01-01",
+            slug: yamlData.slug || entry.name.replace(".yaml", ""),
+            image: yamlData.image || null,
+            tags: yamlData.tags || []
+          };
           entries.push(meta);
         } catch (e) {
-          console.error(`Error reading article ${entry.name}:`, e);
+          console.error(`Error reading article yaml ${entry.name}:`, e);
         }
       }
     }
