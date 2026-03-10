@@ -3,16 +3,18 @@ export const OscillatorBackground = () => {
     <div class="oscillator-bg">
       <style>{`
         .oscillator-bg {
-          position: absolute;
-          inset: 0;
-          z-index: 1; /* behind text */
-          pointer-events: none; /* pass clicks through */
-          overflow: hidden;
+          /* No longer absolutely positioned */
+          position: relative;
+          width: 100%;
+          flex: 1; /* take up available space in the column */
+          min-height: 150px;
           display: flex;
           align-items: center;
           justify-content: center;
+          overflow: hidden;
           mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
           -webkit-mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
+          margin-bottom: var(--md, 1rem); /* Space above text */
         }
 
         .wave-container {
@@ -24,41 +26,7 @@ export const OscillatorBackground = () => {
         }
 
         .wave-container.is-playing {
-          opacity: 0.4; /* slightly brighter when playing */
-        }
-
-        .wave {
-          position: absolute;
-          top: 50%;
-          left: -10%;
-          width: 120%;
-          height: 2px;
-          background: var(--accent-color, #b4fb51);
-          transform-origin: center;
-          animation-play-state: paused;
-        }
-
-        .wave::after, .wave::before {
-           content: '';
-           position: absolute;
-           top: 0; left: 0; right: 0; bottom: 0;
-           background: inherit;
-        }
-
-        /* SVG animation is much smoother for this */
-        .svg-wave {
-          width: 100%;
-          height: 100%;
-          display: block;
-        }
-
-        .svg-path {
-          fill: none;
-          stroke: var(--accent-color, #b4fb51);
-          stroke-width: 1;
-          stroke-linecap: round;
-          vector-effect: non-scaling-stroke;
-          transition: d 0.2s ease-out;
+          opacity: 0.6; /* brighter when playing */
         }
       `}</style>
 

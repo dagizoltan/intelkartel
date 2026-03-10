@@ -5,14 +5,11 @@ export const DenseTrackList = ({ audioFiles }) => {
         .tracklist-col {
           display: flex;
           flex-direction: column;
-          max-height: calc(100vh - var(--bottom-nav-height) - 100px);
+          max-height: calc(100vh - var(--bottom-nav-height, 60px) - 100px);
           height: 100%;
-          background: rgba(10, 10, 10, 0.4);
-          border: 1px solid rgba(255, 255, 255, 0.05);
-          border-radius: var(--border-radius, 8px);
-          backdrop-filter: blur(10px);
-          -webkit-backdrop-filter: blur(10px);
-          overflow: hidden; /* round corners */
+          background: transparent;
+          border: none;
+          overflow: hidden;
         }
 
         .tracklist-header {
@@ -23,7 +20,7 @@ export const DenseTrackList = ({ audioFiles }) => {
           color: rgba(255, 255, 255, 0.5);
           text-transform: uppercase;
           letter-spacing: 0.1em;
-          background: rgba(0, 0, 0, 0.2);
+          background: transparent;
           display: flex;
           justify-content: space-between;
           align-items: center;

@@ -30,7 +30,7 @@ export const AudioPage = ({ audioFiles }) => {
             margin: 0 auto;
             display: grid;
             grid-template-columns: 1fr;
-            gap: var(--xl, 3rem);
+            gap: 0; /* Removed gap between player and list */
             height: 100%;
           }
 
@@ -46,6 +46,7 @@ export const AudioPage = ({ audioFiles }) => {
             flex-direction: column;
             justify-content: flex-end;
             min-height: 450px;
+            padding-right: var(--md, 1rem); /* Slight padding to separate text from tracklist visually */
           }
 
           .audio-content-layer {
@@ -55,7 +56,7 @@ export const AudioPage = ({ audioFiles }) => {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            height: 100%;
+            /* Instead of taking 100% height, let it sit at the bottom naturally below the oscillator */
             pointer-events: none;
           }
 
@@ -79,6 +80,7 @@ export const AudioPage = ({ audioFiles }) => {
           <custom-audio-player>
             <div class="audio-hero-container">
               <div class="audio-main-col">
+                {/* Oscillator now sits in standard document flow above the meta/controls */}
                 <OscillatorBackground />
 
                 <div class="audio-content-layer">
