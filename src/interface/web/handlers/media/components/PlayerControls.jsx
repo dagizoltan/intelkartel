@@ -160,13 +160,17 @@ export const PlayerControls = () => {
           cursor: pointer;
           margin: 0;
         }
+
+        .hidden {
+          display: none !important;
+        }
       `}</style>
 
       <button id="play-pause-btn" class="play-btn" aria-label="Play/Pause">
          {/* Default Play Icon */}
-         <svg id="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+         <svg id="icon-play" viewBox="0 0 24 24" class=""><path d="M8 5v14l11-7z"/></svg>
          {/* Hidden Pause Icon */}
-         <svg id="icon-pause" viewBox="0 0 24 24" style={{display: 'none'}}><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+         <svg id="icon-pause" viewBox="0 0 24 24" class="hidden"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
       </button>
 
       <div class="time-display" id="current-time">0:00</div>
