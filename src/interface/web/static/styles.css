@@ -178,7 +178,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: var(--xs) var(--xl);
+  padding: var(--xs) var(--md);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -519,13 +519,12 @@ section {
 
   /* Header */
   .header-container {
-    justify-content: flex-start;
-    gap: var(--xl);
+    justify-content: space-between;
+    gap: var(--md);
     flex-wrap: nowrap;
   }
 
   .brand {
-    margin-right: auto;
     order: 1;
   }
 
@@ -538,11 +537,12 @@ section {
     box-shadow: none;
     order: 2;
     display: block; /* Standard block/flex for desktop */
+    margin-left: auto;
   }
 
   .main-nav ul {
-    justify-content: flex-start;
-    gap: var(--xl);
+    justify-content: flex-end;
+    gap: var(--md);
   }
 
   .main-nav a {
