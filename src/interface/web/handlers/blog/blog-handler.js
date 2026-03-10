@@ -1,22 +1,45 @@
 import { BlogPage } from "./blog-page.jsx";
 import { ArticleView } from "../../components/ArticleView.jsx";
-import { parseArticle } from "../../utils/article-parser.js";
 import { getArticles } from "../../services/article-service.js";
+import { parse } from "@std/yaml";
 
 const ARTICLES_DIR = "data/dict/articles";
 
 const getArticle = async (slug) => {
   try {
-    const filename = `${slug}.md`;
+    const mdFilename = `${slug}.md`;
+    const yamlFilename = `${slug}.yaml`;
     let content;
+    let yamlContent;
+    let meta = null;
+
     try {
-        content = await Deno.readTextFile(`${ARTICLES_DIR}/${filename}`);
+        content = await Deno.readTextFile(`${ARTICLES_DIR}/${mdFilename}`);
     } catch {
         return null;
     }
 
-    const parsed = parseArticle(filename, content);
-    return { meta: parsed, content: parsed.content };
+    try {
+        yamlContent = await Deno.readTextFile(`${ARTICLES_DIR}/${yamlFilename}`);
+        const yamlData = parse(yamlContent);
+        meta = {
+          title: yamlData.title || slug,
+          subtitle: yamlData.subtitle || "",
+          description: yamlData.summary || "",
+          datePublished: yamlData.datePublished || "1970-01-01",
+          slug: yamlData.slug || slug,
+          image: yamlData.image || null,
+          tags: yamlData.tags || []
+        };
+    } catch (e) {
+        // Fallback or skip if yaml is not found?
+        // Let's assume the user only wants to show articles with YAML metadata,
+        // or we can fall back to the slug as the title.
+        console.warn(`Missing or invalid YAML metadata for ${slug}, skipping...`);
+        return null; // Enforce YAML files based on the requirement to only show articles that have a YAML file
+    }
+
+    return { meta, content };
   } catch (e) {
     console.error(`Error fetching article ${slug}:`, e);
     return null;
