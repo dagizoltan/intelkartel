@@ -114,7 +114,7 @@ export const AudioPage = ({ audioFiles }) => {
       </section>
 
       {hasAudio && (
-        <script type="module" src="/static/components/islands/custom-audio-player.js"></script>
+        <script type="module" src="/islands/custom-audio-player.js"></script>
       )}
     </>
   );
