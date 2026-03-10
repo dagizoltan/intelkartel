@@ -15,6 +15,17 @@ export const DenseTrackList = ({ audioFiles }) => {
           overflow: hidden;
         }
 
+        @media (max-width: 991px) {
+          .tracklist-col {
+            border-left: none;
+            padding-left: 0;
+            border-top: 1px solid rgba(180, 251, 81, 0.1);
+            padding-top: var(--md, 1rem);
+            margin-top: var(--md, 1rem);
+            max-height: 50vh; /* Adjust for mobile scrolling */
+          }
+        }
+
         .tracklist-header {
           padding: 0 var(--sm, 0.75rem) var(--sm, 0.75rem) var(--sm, 0.75rem);
           border-bottom: 1px solid rgba(255, 255, 255, 0.1);

@@ -18,6 +18,13 @@ export const OscillatorBackground = () => {
           background-color: rgba(5, 5, 5, 0.5); /* subtle dark backing */
         }
 
+        @media (max-width: 991px) {
+          .oscillator-bg {
+            min-height: 120px;
+            margin-bottom: var(--md, 1rem);
+          }
+        }
+
         /* Subtle moving surveillance grid */
         .oscillator-bg::before {
           content: '';

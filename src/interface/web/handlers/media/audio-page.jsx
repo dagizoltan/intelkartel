@@ -40,6 +40,14 @@ export const AudioPage = ({ audioFiles }) => {
             }
           }
 
+          @media (max-width: 991px) {
+            .audio-hero-container {
+               grid-template-columns: 1fr;
+               display: flex;
+               flex-direction: column;
+            }
+          }
+
           .audio-main-col {
             position: relative;
             display: flex;
@@ -47,6 +55,14 @@ export const AudioPage = ({ audioFiles }) => {
             justify-content: flex-end;
             min-height: 450px;
             padding-right: var(--md, 1rem); /* Slight padding to separate text from tracklist visually */
+          }
+
+          @media (max-width: 991px) {
+            .audio-main-col {
+              padding-right: 0;
+              min-height: auto; /* Allow natural height on mobile */
+              padding-bottom: var(--md, 1rem);
+            }
           }
 
           .audio-content-layer {
