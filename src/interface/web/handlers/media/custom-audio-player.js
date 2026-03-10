@@ -9,10 +9,10 @@ class CustomAudioPlayer extends HTMLElement {
     this._analyser = null;
     this._dataArray = null;
     this._sourceNode = null;
+    this._time = 0; // for continuous slow movement of extra lines
   }
 
   connectedCallback() {
-    // Wait slightly to ensure children are fully parsed
     setTimeout(() => {
       this.initPlayer();
     }, 0);
@@ -28,7 +28,6 @@ class CustomAudioPlayer extends HTMLElement {
   }
 
   initPlayer() {
-    // DOM Elements
     this.player = this.querySelector('#main-audio-player');
     this.source = this.querySelector('#audio-source');
     this.trackList = this.querySelector('#track-list');
@@ -36,14 +35,12 @@ class CustomAudioPlayer extends HTMLElement {
     this.currentTitle = this.querySelector('#current-track-title');
     this.nowPlayingContainer = this.querySelector('#now-playing-container');
 
-    // Canvas
     this.canvas = this.querySelector('#oscillator-canvas');
     if (this.canvas) {
       this.ctx = this.canvas.getContext('2d');
       this.waveContainer = this.querySelector('#wave-container');
     }
 
-    // Controls
     this.playBtn = this.querySelector('#play-pause-btn');
     this.iconPlay = this.querySelector('#icon-play');
     this.iconPause = this.querySelector('#icon-pause');
@@ -51,11 +48,9 @@ class CustomAudioPlayer extends HTMLElement {
     this.timeCurrent = this.querySelector('#current-time');
     this.timeDuration = this.querySelector('#duration');
 
-    // Progress
     this.seekSlider = this.querySelector('#seek-slider');
     this.seekProgress = this.querySelector('#seek-progress');
 
-    // Volume
     this.volumeSlider = this.querySelector('#volume-slider');
     this.volumeProgress = this.querySelector('#volume-progress');
 
@@ -64,7 +59,6 @@ class CustomAudioPlayer extends HTMLElement {
       return;
     }
 
-    // Initial State Setup
     if (this.tracks.length > 0) {
       const activeTrack = this.querySelector('.track-item.active') || this.tracks[0];
       if (this.currentTitle) {
@@ -82,7 +76,6 @@ class CustomAudioPlayer extends HTMLElement {
     if (this.canvas) {
       this.resizeCanvas();
       window.addEventListener('resize', () => this.resizeCanvas());
-      // Draw initial flat line
       this.drawWave();
     }
   }
@@ -90,7 +83,6 @@ class CustomAudioPlayer extends HTMLElement {
   initAudioContext() {
     if (this._isInitialized) return;
 
-    // Create AudioContext only on first user interaction to bypass browser autoplay rules
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     if (!AudioContext) return;
 
@@ -102,9 +94,12 @@ class CustomAudioPlayer extends HTMLElement {
       this._sourceNode.connect(this._analyser);
       this._analyser.connect(this._audioCtx.destination);
 
-      this._analyser.fftSize = 512;
+      // Higher fftSize for a smoother, longer line
+      this._analyser.fftSize = 1024;
+      // We'll use frequency data as well for the glow scaling, but time domain for the line
       const bufferLength = this._analyser.frequencyBinCount;
       this._dataArray = new Uint8Array(bufferLength);
+      this._freqArray = new Uint8Array(bufferLength);
 
       this._isInitialized = true;
     } catch (e) {
@@ -113,7 +108,6 @@ class CustomAudioPlayer extends HTMLElement {
   }
 
   bindEvents() {
-    // Play/Pause Button
     if (this.playBtn) {
       this.playBtn.addEventListener('click', () => {
         if (this.player.paused) {
@@ -128,12 +122,10 @@ class CustomAudioPlayer extends HTMLElement {
       });
     }
 
-    // Player State Events
     this.player.addEventListener('play', () => this.updatePlayStateUI());
     this.player.addEventListener('pause', () => this.updatePlayStateUI());
     this.player.addEventListener('ended', () => this.handleTrackEnded());
 
-    // Time Update Event
     this.player.addEventListener('timeupdate', () => {
       if (!this._isSeeking && this.timeCurrent && this.seekSlider && this.seekProgress) {
         this.timeCurrent.textContent = this.formatTime(this.player.currentTime);
@@ -145,7 +137,6 @@ class CustomAudioPlayer extends HTMLElement {
       }
     });
 
-    // Metadata Loaded Event
     this.player.addEventListener('loadedmetadata', () => {
       if (this.timeDuration) {
         this.timeDuration.textContent = this.formatTime(this.player.duration);
@@ -156,7 +147,6 @@ class CustomAudioPlayer extends HTMLElement {
       }
     });
 
-    // Progress Seek Events
     if (this.seekSlider) {
       this.seekSlider.addEventListener('input', (e) => {
         this._isSeeking = true;
@@ -175,7 +165,6 @@ class CustomAudioPlayer extends HTMLElement {
       });
     }
 
-    // Volume Events
     if (this.volumeSlider) {
       this.volumeSlider.addEventListener('input', (e) => {
         this.player.volume = e.target.value;
@@ -183,7 +172,6 @@ class CustomAudioPlayer extends HTMLElement {
       });
     }
 
-    // Tracklist Events
     if (this.tracks) {
       this.tracks.forEach(track => {
         track.addEventListener('click', (e) => {
@@ -212,7 +200,6 @@ class CustomAudioPlayer extends HTMLElement {
     if (activeTrack && activeTrack.nextElementSibling) {
       activeTrack.nextElementSibling.click();
     } else {
-      // End of list, reset UI
       this.updatePlayStateUI();
       if (this.seekSlider && this.seekProgress) {
         this.seekSlider.value = 0;
@@ -259,11 +246,16 @@ class CustomAudioPlayer extends HTMLElement {
     }
   }
 
-  // --- Canvas Web Audio Visualization ---
   resizeCanvas() {
     if (!this.canvas || !this.waveContainer) return;
-    this.canvas.width = this.waveContainer.clientWidth;
-    this.canvas.height = this.waveContainer.clientHeight;
+    // Over-sample canvas for retina displays for smoother lines
+    const rect = this.waveContainer.getBoundingClientRect();
+    const dpr = window.devicePixelRatio || 1;
+    this.canvas.width = rect.width * dpr;
+    this.canvas.height = rect.height * dpr;
+    this.ctx.scale(dpr, dpr);
+    this.canvas.style.width = rect.width + 'px';
+    this.canvas.style.height = rect.height + 'px';
   }
 
   drawWave() {
@@ -271,50 +263,100 @@ class CustomAudioPlayer extends HTMLElement {
 
     this._animationId = requestAnimationFrame(() => this.drawWave());
 
-    this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    const rect = this.waveContainer.getBoundingClientRect();
+    const width = rect.width;
+    const height = rect.height;
 
-    const centerY = this.canvas.height / 2;
-    const width = this.canvas.width;
-    const height = this.canvas.height;
+    // Smooth clear with trail effect
+    this.ctx.fillStyle = 'rgba(0, 0, 0, 0.2)';
+    this.ctx.fillRect(0, 0, width, height);
 
-    // If not initialized or not playing, draw a flat/pulsing aesthetic line
-    if (!this._isInitialized || !this._isPlaying) {
-      this.ctx.lineWidth = 2;
-      this.ctx.strokeStyle = 'rgba(180, 251, 81, 0.4)';
+    const centerY = height / 2;
+
+    this._time += 0.02;
+
+    if (!this._isInitialized || (!this._isPlaying && this.player.currentTime === 0)) {
+      // Idle idle line when completely stopped
+      this.ctx.lineWidth = 1.5;
+      this.ctx.strokeStyle = 'rgba(180, 251, 81, 0.3)';
       this.ctx.beginPath();
       this.ctx.moveTo(0, centerY);
-      this.ctx.lineTo(width, centerY);
+      for(let x = 0; x < width; x += 10) {
+        let yOffset = Math.sin(x * 0.01 + this._time) * 5;
+        this.ctx.lineTo(x, centerY + yOffset);
+      }
       this.ctx.stroke();
       return;
     }
 
-    // Get true audio data
     this._analyser.getByteTimeDomainData(this._dataArray);
+    this._analyser.getByteFrequencyData(this._freqArray);
 
-    this.ctx.lineWidth = 2;
-    this.ctx.strokeStyle = 'rgba(180, 251, 81, 0.8)';
-    this.ctx.beginPath();
+    // Calculate overall intensity to scale the visual
+    let avgFreq = 0;
+    for (let i = 0; i < this._freqArray.length; i++) {
+      avgFreq += this._freqArray[i];
+    }
+    avgFreq /= this._freqArray.length;
+
+    const intensity = Math.max(0.5, avgFreq / 50.0); // Boost amplitude dynamically
 
     const bufferLength = this._analyser.frequencyBinCount;
-    const sliceWidth = width * 1.0 / bufferLength;
-    let x = 0;
+    // We only use part of the buffer for a cleaner, stretched look
+    const visibleLength = Math.floor(bufferLength * 0.8);
+    const sliceWidth = width * 1.0 / visibleLength;
 
-    for (let i = 0; i < bufferLength; i++) {
-      const v = this._dataArray[i] / 128.0;
-      // Scale waveform to fit better in background (0.5 times the actual height variance)
-      const y = (v * height / 2) * 0.5 + (height / 4);
+    // Enhance by drawing 3 overlapping paths with slight opacity and y-offsets
+    const numLines = 3;
 
-      if (i === 0) {
-        this.ctx.moveTo(x, y);
+    for (let j = 0; j < numLines; j++) {
+      this.ctx.beginPath();
+
+      let x = 0;
+
+      this.ctx.lineWidth = j === 0 ? 2 : 1;
+
+      if (j === 0) {
+        this.ctx.strokeStyle = 'rgba(180, 251, 81, 0.9)'; // Bright center
+        this.ctx.shadowBlur = 10;
+        this.ctx.shadowColor = 'rgba(180, 251, 81, 0.5)';
       } else {
-        this.ctx.lineTo(x, y);
+        this.ctx.strokeStyle = 'rgba(180, 251, 81, 0.25)'; // Faded echoes
+        this.ctx.shadowBlur = 0;
       }
 
-      x += sliceWidth;
-    }
+      for (let i = 0; i < visibleLength; i++) {
+        const v = this._dataArray[i] / 128.0;
 
-    this.ctx.lineTo(width, centerY);
-    this.ctx.stroke();
+        // Add artificial sine movement to the actual audio data for "atmosphere"
+        const extraNoise = Math.sin(x * 0.01 + this._time * (1 + j * 0.5)) * (5 * j);
+
+        // Scale the true waveform: (v - 1) centers it around 0. Apply intensity.
+        const audioVariance = (v - 1) * height * 0.4 * intensity;
+
+        const y = centerY + audioVariance + extraNoise;
+
+        if (i === 0) {
+          this.ctx.moveTo(x, y);
+        } else {
+          // Smooth the curve with quadratic curve
+          const prevV = this._dataArray[i-1] / 128.0;
+          const prevAudioVariance = (prevV - 1) * height * 0.4 * intensity;
+          const prevExtraNoise = Math.sin((x - sliceWidth) * 0.01 + this._time * (1 + j * 0.5)) * (5 * j);
+          const prevY = centerY + prevAudioVariance + prevExtraNoise;
+
+          const xc = (x - sliceWidth + x) / 2;
+          const yc = (prevY + y) / 2;
+
+          this.ctx.quadraticCurveTo(x - sliceWidth, prevY, xc, yc);
+        }
+
+        x += sliceWidth;
+      }
+
+      this.ctx.lineTo(width, centerY);
+      this.ctx.stroke();
+    }
   }
 }
 
