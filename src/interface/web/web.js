@@ -21,6 +21,9 @@ web.use('*', rendererMiddleware);
 // Static files
 web.get('/static/*', serveStatic({ root: './src/interface/web' }));
 
+// Islands/Web Components attached explicitly
+web.get('/islands/custom-audio-player.js', serveStatic({ path: './src/interface/web/handlers/media/custom-audio-player.js' }));
+
 // Sitemap & Robots
 web.get('/sitemap.xml', sitemapHandler.get);
 web.get('/robots.txt', robotsHandler.get);

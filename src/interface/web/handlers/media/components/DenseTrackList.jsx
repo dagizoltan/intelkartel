@@ -5,33 +5,45 @@ export const DenseTrackList = ({ audioFiles }) => {
         .tracklist-col {
           display: flex;
           flex-direction: column;
-          max-height: calc(100vh - var(--bottom-nav-height) - 100px);
+          max-height: calc(100vh - var(--bottom-nav-height, 60px) - 100px);
           height: 100%;
-          background: rgba(10, 10, 10, 0.4);
-          border: 1px solid rgba(255, 255, 255, 0.05);
-          border-radius: var(--border-radius, 8px);
-          backdrop-filter: blur(10px);
-          -webkit-backdrop-filter: blur(10px);
-          overflow: hidden; /* round corners */
+          background: transparent;
+          border: none;
+          /* Subtly separate list from player */
+          border-left: 1px solid rgba(180, 251, 81, 0.1);
+          padding-left: var(--md, 1rem); /* Space off the border */
+          overflow: hidden;
+        }
+
+        @media (max-width: 991px) {
+          .tracklist-col {
+            border-left: none;
+            padding-left: 0;
+            border-top: 1px solid rgba(180, 251, 81, 0.1);
+            padding-top: var(--md, 1rem);
+            margin-top: var(--md, 1rem);
+            max-height: 50vh; /* Adjust for mobile scrolling */
+          }
         }
 
         .tracklist-header {
-          padding: var(--sm, 0.75rem) var(--md, 1rem);
-          border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-          font-weight: 600;
-          font-size: 0.75rem;
-          color: rgba(255, 255, 255, 0.5);
+          padding: 0 var(--sm, 0.75rem) var(--sm, 0.75rem) var(--sm, 0.75rem);
+          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+          font-weight: 700;
+          font-size: 0.7rem;
+          color: rgba(255, 255, 255, 0.4);
           text-transform: uppercase;
-          letter-spacing: 0.1em;
-          background: rgba(0, 0, 0, 0.2);
+          letter-spacing: 0.15em;
+          background: transparent;
           display: flex;
           justify-content: space-between;
           align-items: center;
+          margin-bottom: var(--sm, 0.5rem);
         }
 
         .track-count {
           font-variant-numeric: tabular-nums;
-          opacity: 0.7;
+          opacity: 0.5;
         }
 
         .track-list {
@@ -41,11 +53,11 @@ export const DenseTrackList = ({ audioFiles }) => {
           overflow-y: auto;
           flex: 1;
           scrollbar-width: thin;
-          scrollbar-color: rgba(180, 251, 81, 0.3) transparent;
+          scrollbar-color: rgba(180, 251, 81, 0.2) transparent;
         }
 
         .track-list::-webkit-scrollbar {
-          width: 4px;
+          width: 2px;
         }
 
         .track-list::-webkit-scrollbar-track {
@@ -53,61 +65,55 @@ export const DenseTrackList = ({ audioFiles }) => {
         }
 
         .track-list::-webkit-scrollbar-thumb {
-          background-color: rgba(180, 251, 81, 0.3);
-          border-radius: 4px;
+          background-color: rgba(180, 251, 81, 0.2);
+          border-radius: 2px;
         }
 
         .track-list::-webkit-scrollbar-thumb:hover {
-          background-color: var(--accent-color, #b4fb51);
+          background-color: rgba(180, 251, 81, 0.6);
         }
 
         .track-item {
-          padding: 0.5rem var(--md, 1rem); /* Reduced padding */
-          border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+          padding: 0.4rem var(--sm, 0.75rem);
           cursor: pointer;
           display: flex;
           align-items: center;
-          transition: background-color 0.15s ease, color 0.15s ease;
-          color: rgba(255, 255, 255, 0.6);
-          position: relative;
-        }
-
-        .track-item:last-child {
-          border-bottom: none;
+          transition: background-color 0.15s ease, color 0.15s ease, transform 0.1s;
+          color: rgba(255, 255, 255, 0.5);
+          border-radius: 4px; /* subtle rounded edges for hover */
+          margin-bottom: 2px;
         }
 
         .track-item:hover {
-          color: rgba(255, 255, 255, 0.9);
-          background-color: rgba(255, 255, 255, 0.03);
+          color: rgba(255, 255, 255, 0.85);
+          background-color: rgba(255, 255, 255, 0.02);
+          transform: translateX(2px); /* slight shift */
         }
 
         .track-item.active {
           color: var(--accent-color, #b4fb51);
-          background-color: rgba(180, 251, 81, 0.05);
-        }
-
-        .track-item.active::before {
-          content: '';
-          position: absolute;
-          left: 0;
-          top: 0;
-          bottom: 0;
-          width: 2px;
-          background-color: var(--accent-color, #b4fb51);
+          background-color: rgba(180, 251, 81, 0.03);
+          text-shadow: 0 0 10px rgba(180, 251, 81, 0.3);
+          transform: translateX(2px);
         }
 
         .track-icon {
           margin-right: 0.75rem;
           fill: currentColor;
           flex-shrink: 0;
-          width: 14px;
-          height: 14px;
-          opacity: 0.5;
+          width: 12px;
+          height: 12px;
+          opacity: 0.3;
+          transition: opacity 0.2s;
         }
 
-        .track-item:hover .track-icon,
+        .track-item:hover .track-icon {
+          opacity: 0.8;
+        }
+
         .track-item.active .track-icon {
           opacity: 1;
+          filter: drop-shadow(0 0 2px currentColor);
         }
 
         .track-info {
@@ -120,9 +126,9 @@ export const DenseTrackList = ({ audioFiles }) => {
 
         .track-index {
           font-family: var(--font-mono, monospace);
-          font-size: 0.7rem;
-          opacity: 0.5;
-          min-width: 1.5rem;
+          font-size: 0.65rem;
+          opacity: 0.4;
+          min-width: 1.25rem;
         }
 
         .track-title {
@@ -140,7 +146,7 @@ export const DenseTrackList = ({ audioFiles }) => {
       `}</style>
 
       <div class="tracklist-header">
-        <span>Tracklist</span>
+        <span>Intercept Log</span>
         <span class="track-count">{audioFiles.length} files</span>
       </div>
       <ul class="track-list" id="track-list">
