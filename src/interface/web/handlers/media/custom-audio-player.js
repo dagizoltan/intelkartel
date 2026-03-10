@@ -5,7 +5,10 @@ class CustomAudioPlayer extends HTMLElement {
     this._isPlaying = false;
     this._isInitialized = false;
     this._animationId = null;
-    this._time = 0;
+    this._audioCtx = null;
+    this._analyser = null;
+    this._dataArray = null;
+    this._sourceNode = null;
   }
 
   connectedCallback() {
@@ -18,6 +21,9 @@ class CustomAudioPlayer extends HTMLElement {
   disconnectedCallback() {
     if (this._animationId) {
       cancelAnimationFrame(this._animationId);
+    }
+    if (this._audioCtx && this._audioCtx.state !== 'closed') {
+      this._audioCtx.close();
     }
   }
 
@@ -76,7 +82,33 @@ class CustomAudioPlayer extends HTMLElement {
     if (this.canvas) {
       this.resizeCanvas();
       window.addEventListener('resize', () => this.resizeCanvas());
+      // Draw initial flat line
       this.drawWave();
+    }
+  }
+
+  initAudioContext() {
+    if (this._isInitialized) return;
+
+    // Create AudioContext only on first user interaction to bypass browser autoplay rules
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContext) return;
+
+    try {
+      this._audioCtx = new AudioContext();
+      this._analyser = this._audioCtx.createAnalyser();
+      this._sourceNode = this._audioCtx.createMediaElementSource(this.player);
+
+      this._sourceNode.connect(this._analyser);
+      this._analyser.connect(this._audioCtx.destination);
+
+      this._analyser.fftSize = 512;
+      const bufferLength = this._analyser.frequencyBinCount;
+      this._dataArray = new Uint8Array(bufferLength);
+
+      this._isInitialized = true;
+    } catch (e) {
+      console.warn("AudioContext initialization failed or blocked.", e);
     }
   }
 
@@ -85,6 +117,10 @@ class CustomAudioPlayer extends HTMLElement {
     if (this.playBtn) {
       this.playBtn.addEventListener('click', () => {
         if (this.player.paused) {
+          this.initAudioContext();
+          if (this._audioCtx && this._audioCtx.state === 'suspended') {
+            this._audioCtx.resume();
+          }
           this.player.play().catch(e => console.error('Playback prevented:', e));
         } else {
           this.player.pause();
@@ -161,6 +197,10 @@ class CustomAudioPlayer extends HTMLElement {
           if (this.currentTitle) this.currentTitle.textContent = title;
 
           this.player.load();
+          this.initAudioContext();
+          if (this._audioCtx && this._audioCtx.state === 'suspended') {
+            this._audioCtx.resume();
+          }
           this.player.play().catch(err => console.error('Playback prevented:', err));
         });
       });
@@ -219,7 +259,7 @@ class CustomAudioPlayer extends HTMLElement {
     }
   }
 
-  // --- Canvas Wave Animation ---
+  // --- Canvas Web Audio Visualization ---
   resizeCanvas() {
     if (!this.canvas || !this.waveContainer) return;
     this.canvas.width = this.waveContainer.clientWidth;
@@ -229,44 +269,52 @@ class CustomAudioPlayer extends HTMLElement {
   drawWave() {
     if (!this.canvas || !this.ctx) return;
 
+    this._animationId = requestAnimationFrame(() => this.drawWave());
+
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 
     const centerY = this.canvas.height / 2;
     const width = this.canvas.width;
-    const numLines = 3;
+    const height = this.canvas.height;
 
-    for (let j = 0; j < numLines; j++) {
+    // If not initialized or not playing, draw a flat/pulsing aesthetic line
+    if (!this._isInitialized || !this._isPlaying) {
+      this.ctx.lineWidth = 2;
+      this.ctx.strokeStyle = 'rgba(180, 251, 81, 0.4)';
       this.ctx.beginPath();
-
-      let speed = this._isPlaying ? 0.05 + (j * 0.01) : 0.005 + (j * 0.001);
-      let baseAmplitude = this._isPlaying ? this.canvas.height * 0.25 : this.canvas.height * 0.05;
-      let frequency = 0.01 + (j * 0.005);
-
-      this.ctx.lineWidth = j === 0 ? 2 : 1;
-      this.ctx.strokeStyle = j === 0
-        ? 'rgba(180, 251, 81, 0.8)'
-        : 'rgba(180, 251, 81, 0.3)';
-
-      for (let x = 0; x < width; x++) {
-        let noise = this._isPlaying ? Math.sin(x * 0.05 + this._time * 2) * 5 : 0;
-        let mod = Math.sin(x * 0.005 + this._time) * 0.5 + 0.5;
-        let amplitude = baseAmplitude * mod;
-
-        let yOffset = Math.sin(x * frequency + this._time * speed + j * 2) * amplitude + noise;
-        let y = centerY + yOffset;
-
-        if (x === 0) {
-          this.ctx.moveTo(x, y);
-        } else {
-          this.ctx.lineTo(x, y);
-        }
-      }
-
+      this.ctx.moveTo(0, centerY);
+      this.ctx.lineTo(width, centerY);
       this.ctx.stroke();
+      return;
     }
 
-    this._time += this._isPlaying ? 0.1 : 0.02;
-    this._animationId = requestAnimationFrame(() => this.drawWave());
+    // Get true audio data
+    this._analyser.getByteTimeDomainData(this._dataArray);
+
+    this.ctx.lineWidth = 2;
+    this.ctx.strokeStyle = 'rgba(180, 251, 81, 0.8)';
+    this.ctx.beginPath();
+
+    const bufferLength = this._analyser.frequencyBinCount;
+    const sliceWidth = width * 1.0 / bufferLength;
+    let x = 0;
+
+    for (let i = 0; i < bufferLength; i++) {
+      const v = this._dataArray[i] / 128.0;
+      // Scale waveform to fit better in background (0.5 times the actual height variance)
+      const y = (v * height / 2) * 0.5 + (height / 4);
+
+      if (i === 0) {
+        this.ctx.moveTo(x, y);
+      } else {
+        this.ctx.lineTo(x, y);
+      }
+
+      x += sliceWidth;
+    }
+
+    this.ctx.lineTo(width, centerY);
+    this.ctx.stroke();
   }
 }
 

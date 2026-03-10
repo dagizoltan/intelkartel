@@ -12,6 +12,7 @@ export const PlayerControls = () => {
           margin-top: auto; /* Push to bottom of container */
           position: relative;
           z-index: 2; /* above background */
+          pointer-events: auto; /* <--- FIX: Ensure controls receive clicks */
         }
 
         .play-btn {
