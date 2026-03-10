@@ -8,77 +8,96 @@ export const PlayerControls = () => {
           gap: var(--md, 1rem);
           width: 100%;
           padding: var(--md, 1rem) 0;
-          border-top: 1px solid rgba(255, 255, 255, 0.1);
-          margin-top: auto; /* Push to bottom of container */
+          border-top: 1px solid rgba(180, 251, 81, 0.1); /* Subtle green hint */
+          margin-top: auto;
           position: relative;
-          z-index: 2; /* above background */
-          pointer-events: auto; /* <--- FIX: Ensure controls receive clicks */
+          z-index: 2;
+          pointer-events: auto;
         }
 
         .play-btn {
-          background: var(--accent-color, #b4fb51);
-          color: #000;
-          border: none;
+          background: rgba(180, 251, 81, 0.1);
+          color: var(--accent-color, #b4fb51);
+          border: 1px solid rgba(180, 251, 81, 0.3);
           cursor: pointer;
-          width: 48px;
-          height: 48px;
+          width: 44px;
+          height: 44px;
           border-radius: 50%;
           display: flex;
           align-items: center;
           justify-content: center;
           flex-shrink: 0;
-          transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
-          box-shadow: 0 4px 12px rgba(180, 251, 81, 0.2);
+          transition: all 0.2s ease;
+          box-shadow: 0 0 10px rgba(180, 251, 81, 0.05);
         }
 
         .play-btn:hover {
           transform: scale(1.05);
-          background: #cbfb7b;
-          box-shadow: 0 6px 16px rgba(180, 251, 81, 0.4);
+          background: rgba(180, 251, 81, 0.2);
+          border-color: rgba(180, 251, 81, 0.6);
+          box-shadow: 0 0 15px rgba(180, 251, 81, 0.2);
         }
 
         .play-btn:active {
           transform: scale(0.95);
         }
 
+        .play-btn.is-playing {
+          background: var(--accent-color, #b4fb51);
+          color: #000;
+          box-shadow: 0 0 20px rgba(180, 251, 81, 0.4);
+        }
+
         .play-btn svg {
-          width: 24px;
-          height: 24px;
+          width: 20px;
+          height: 20px;
           fill: currentColor;
-          margin-left: 2px; /* slight visual center adjustment for play icon */
+          margin-left: 2px;
         }
 
         .play-btn.is-playing svg {
-          margin-left: 0; /* center pause icon */
+          margin-left: 0;
         }
 
         .time-display {
           font-family: var(--font-mono, monospace);
-          font-size: 0.85rem;
-          color: rgba(255, 255, 255, 0.6);
-          min-width: 45px;
+          font-size: 0.75rem; /* sharper, smaller text */
+          color: rgba(255, 255, 255, 0.4);
+          min-width: 40px;
           text-align: center;
           flex-shrink: 0;
           user-select: none;
+          letter-spacing: 0.05em;
+        }
+
+        #current-time {
+          color: var(--accent-color, #b4fb51);
+          text-shadow: 0 0 5px rgba(180, 251, 81, 0.2);
         }
 
         .seek-container {
-          flex: 1; /* Take up remaining space */
+          flex: 1;
           display: flex;
           align-items: center;
           position: relative;
-          height: 24px;
+          height: 20px;
           cursor: pointer;
           margin: 0 var(--sm, 0.5rem);
         }
 
         .seek-bar-track {
           width: 100%;
-          height: 4px;
-          background: rgba(255, 255, 255, 0.2);
-          border-radius: 2px;
+          height: 2px; /* Thinner */
+          background: rgba(255, 255, 255, 0.1);
+          border-radius: 1px;
           position: relative;
           overflow: hidden;
+          transition: height 0.2s, background 0.2s;
+        }
+
+        .seek-container:hover .seek-bar-track {
+          height: 4px;
+          background: rgba(255, 255, 255, 0.15);
         }
 
         .seek-bar-progress {
@@ -88,11 +107,11 @@ export const PlayerControls = () => {
           height: 100%;
           background: var(--accent-color, #b4fb51);
           width: 0%;
-          border-radius: 2px;
+          border-radius: 1px;
           pointer-events: none;
+          box-shadow: 0 0 5px rgba(180, 251, 81, 0.5);
         }
 
-        /* Invisible native slider overlaying custom track for easiest interaction */
         .seek-slider {
           position: absolute;
           top: 0;
@@ -109,36 +128,40 @@ export const PlayerControls = () => {
           display: flex;
           align-items: center;
           gap: var(--sm, 0.5rem);
-          color: rgba(255, 255, 255, 0.6);
+          color: rgba(255, 255, 255, 0.3);
           flex-shrink: 0;
           transition: color 0.2s;
         }
 
         .volume-control:hover {
-          color: rgba(255, 255, 255, 1);
+          color: rgba(180, 251, 81, 0.8);
         }
 
         .volume-control svg {
-          width: 20px;
-          height: 20px;
+          width: 16px;
+          height: 16px;
           fill: currentColor;
         }
 
         .volume-slider-container {
           position: relative;
-          width: 80px;
-          height: 24px;
+          width: 60px; /* shorter */
+          height: 20px;
           display: flex;
           align-items: center;
         }
 
         .volume-slider-track {
           width: 100%;
-          height: 4px;
-          background: rgba(255, 255, 255, 0.2);
-          border-radius: 2px;
+          height: 2px;
+          background: rgba(255, 255, 255, 0.1);
+          border-radius: 1px;
           position: absolute;
           pointer-events: none;
+        }
+
+        .volume-control:hover .volume-slider-track {
+          background: rgba(255, 255, 255, 0.15);
         }
 
         .volume-slider-progress {
@@ -146,11 +169,15 @@ export const PlayerControls = () => {
           top: 50%;
           left: 0;
           transform: translateY(-50%);
-          height: 4px;
+          height: 2px;
           background: currentColor;
           width: 100%;
-          border-radius: 2px;
+          border-radius: 1px;
           pointer-events: none;
+        }
+
+        .volume-control:hover .volume-slider-progress {
+           box-shadow: 0 0 4px currentColor;
         }
 
         .volume-slider {
@@ -168,9 +195,7 @@ export const PlayerControls = () => {
       `}</style>
 
       <button id="play-pause-btn" class="play-btn" aria-label="Play/Pause">
-         {/* Default Play Icon */}
          <svg id="icon-play" viewBox="0 0 24 24" class=""><path d="M8 5v14l11-7z"/></svg>
-         {/* Hidden Pause Icon */}
          <svg id="icon-pause" viewBox="0 0 24 24" class="hidden"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
       </button>
 

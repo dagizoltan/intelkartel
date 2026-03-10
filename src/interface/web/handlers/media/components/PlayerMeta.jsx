@@ -11,29 +11,34 @@ export const PlayerMeta = ({ title, description, currentTrackTitle }) => {
         .player-meta h1 {
           color: #fff;
           margin-bottom: var(--xs, 0.5rem);
-          font-size: 3rem;
+          font-size: 2.5rem; /* slightly tighter */
           font-weight: 700;
           letter-spacing: -0.02em;
           text-shadow: 0 1px 3px rgba(0,0,0,0.5);
         }
         .player-meta p.desc {
-          color: rgba(255, 255, 255, 0.75);
-          margin-bottom: var(--xl, 2rem);
+          color: rgba(255, 255, 255, 0.5); /* slightly muted */
+          margin-bottom: var(--lg, 1.5rem); /* tighter */
           max-width: 600px;
-          font-size: 1.15rem;
+          font-size: 1.05rem;
           line-height: 1.5;
-          text-shadow: 0 1px 2px rgba(0,0,0,0.5);
         }
         .now-playing {
-          margin-bottom: var(--lg, 1.5rem);
+          margin-bottom: var(--md, 1rem);
+          background: rgba(180, 251, 81, 0.05); /* subtle pill background */
+          border: 1px solid rgba(180, 251, 81, 0.2);
+          padding: 0.25rem 0.75rem;
+          border-radius: 4px;
+          display: inline-block;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
         .now-playing h3 {
           color: var(--accent-color, #b4fb51);
           margin: 0;
-          font-size: 1.25rem;
-          font-weight: 500;
+          font-size: 0.9rem; /* smaller, more technical */
+          font-family: var(--font-mono, monospace);
+          font-weight: 400;
           word-break: break-word;
-          text-shadow: 0 1px 2px rgba(0,0,0,0.5);
           display: flex;
           align-items: center;
           gap: 0.5rem;
@@ -41,11 +46,11 @@ export const PlayerMeta = ({ title, description, currentTrackTitle }) => {
         .now-playing h3::before {
           content: '';
           display: inline-block;
-          width: 8px;
-          height: 8px;
+          width: 6px;
+          height: 6px;
           border-radius: 50%;
           background-color: currentColor;
-          box-shadow: 0 0 8px currentColor;
+          box-shadow: 0 0 6px currentColor;
           animation: pulse-dot 2s infinite ease-in-out;
         }
         .now-playing.paused h3::before {
