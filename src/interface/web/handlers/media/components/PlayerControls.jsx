@@ -70,6 +70,23 @@ export const PlayerControls = () => {
           letter-spacing: 0.05em;
         }
 
+        @media (max-width: 480px) {
+          .time-display {
+            font-size: 0.65rem;
+            min-width: 35px;
+          }
+          .custom-player-controls {
+            gap: 0.5rem;
+            flex-wrap: wrap;
+          }
+          .volume-control {
+             display: none; /* Hide volume on small screens, rely on device buttons */
+          }
+          .seek-container {
+            margin: 0;
+          }
+        }
+
         #current-time {
           color: var(--accent-color, #b4fb51);
           text-shadow: 0 0 5px rgba(180, 251, 81, 0.2);
