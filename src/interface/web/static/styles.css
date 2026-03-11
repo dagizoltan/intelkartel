@@ -433,13 +433,30 @@ section {
   color: var(--primary-color);
 }
 
-.nav-col ul {
+.social-links {
+  display: flex;
+  gap: var(--md);
+  margin-top: var(--lg);
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--muted-text-color);
+  transition: color 0.3s;
+}
+
+.social-links a:hover .social-icon {
+  color: var(--primary-color);
+}
+
+.nav-col ul, .media-col ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.nav-col ul li {
+.nav-col ul li, .media-col ul li {
   margin-bottom: 0.8rem;
 }
 
@@ -573,7 +590,7 @@ section {
   }
 
   .footer-grid {
-     grid-template-columns: repeat(2, 1fr);
+     grid-template-columns: repeat(4, 1fr);
   }
 
 
