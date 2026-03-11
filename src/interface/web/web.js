@@ -20,6 +20,7 @@ web.use('*', rendererMiddleware);
 
 // Static files
 web.get('/static/*', serveStatic({ root: './src/interface/web' }));
+web.get('/data/music/*', serveStatic({ root: './' }));
 
 // Islands/Web Components attached explicitly
 web.get('/islands/custom-audio-player.js', serveStatic({ path: './src/interface/web/handlers/media/custom-audio-player.js' }));
