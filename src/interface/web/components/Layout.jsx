@@ -99,12 +99,14 @@ export const Layout = ({ children, currentPath, seo }) => {
             <ul>
               <li><a href="/">Home</a></li>
               <li><a href="/about">About</a></li>
+              <li><a href="/careers">Careers</a></li>
               <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
           <div class="footer-col media-col">
             <h3>Media</h3>
             <ul>
+              <li><a href="/blog">Intel</a></li>
               <li><a href="/media/gallery">Images</a></li>
               <li><a href="/media/audio">Audio</a></li>
               <li><a href="/media/pdf">Books</a></li>

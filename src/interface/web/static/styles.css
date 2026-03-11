@@ -228,7 +228,7 @@ section {
   width: 100%;
   background-color: var(--nav-bg);
   border-top: 1px solid var(--border-color);
-  padding: var(--sm) 0;
+  padding: 2px 0; /* More dense bottom nav padding for mobile */
   z-index: 1001;
   display: flex;
   justify-content: center;
@@ -248,26 +248,26 @@ section {
 .main-nav a {
   color: var(--text-color);
   font-weight: 500;
-  font-size: 0.7rem;
+  font-size: 0.65rem; /* More dense font size for mobile */
   text-transform: uppercase;
   letter-spacing: normal;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--xs);
+  gap: 2px; /* More dense gap for mobile */
   position: relative;
-  padding: var(--xs) 4px;
-  min-height: 44px;
-  min-width: 44px;
+  padding: 2px 4px; /* More dense padding for mobile */
+  min-height: 38px; /* More dense min height */
+  min-width: 40px;
 }
 
 .main-nav a svg {
-  width: var(--icon-size-sm);
-  height: var(--icon-size-sm);
+  width: 16px; /* Smaller icon for density */
+  height: 16px;
   fill: currentColor;
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 2px; /* Less margin */
 }
 
 .main-nav a:hover,
@@ -559,15 +559,15 @@ section {
 
   .main-nav ul {
     justify-content: flex-end;
-    gap: var(--md);
+    gap: var(--xs); /* More dense top nav gap */
   }
 
   .main-nav a {
-    font-size: 1.1rem;
+    font-size: 1.05rem; /* Slightly smaller for density */
     flex-direction: row;
     gap: var(--xs);
-    padding: var(--sm) var(--md);
-    letter-spacing: var(--letter-spacing-md);
+    padding: var(--xs) var(--sm); /* More dense top nav padding */
+    letter-spacing: normal; /* Reduce letter spacing for density */
   }
 
   .main-nav a svg {
