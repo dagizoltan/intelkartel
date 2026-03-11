@@ -1,0 +1,12 @@
+title: "Intel Brief: Unauthorized Call Forwarding Threat"
+subtitle: "Reported Indicators and Defensive Protocols against Silent Redirection of Communications"
+summary: "This intelligence bulletin highlights the critical threat of unauthorized call forwarding used by criminal elements for surveillance and intimidation. It advises immediately disabling all call forwarding by dialing ##002# to mitigate silent call redirection."
+image: null
+datePublished: "2026-01-13"
+tags:
+  - Countermeasure
+  - Call Redirection
+  - Telecommunications Security
+  - Operational Threat
+  - Defensive Protocols
+slug: "2026-01-13-intel-brief-unauthorized-call-forwarding-threat"
