@@ -1,5 +1,6 @@
 export async function scanMediaFiles() {
   const rootDir = './src/interface/web/static/media';
+  const musicDir = './data/music';
 
   const files = {
     images: [],
@@ -8,7 +9,7 @@ export async function scanMediaFiles() {
   };
 
   const imageExts = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'];
-  const audioExts = ['.mp3', '.wav', '.ogg', '.m4a', '.aac'];
+  const audioExts = ['.mp3', '.wav', '.ogg', '.m4a', '.aac', '.flac'];
   const pdfExts = ['.pdf'];
 
   async function walkDir(dir) {
@@ -28,9 +29,12 @@ export async function scanMediaFiles() {
           const ext = lowerName.substring(lastDotIndex);
 
           // Construct URL path
-          // From ./src/interface/web/static/media/folder/file.ext
-          // to /static/media/folder/file.ext
-          const urlPath = path.replace('./src/interface/web', '');
+          let urlPath = path;
+          if (path.startsWith('./src/interface/web')) {
+            urlPath = path.replace('./src/interface/web', '');
+          } else if (path.startsWith('./data/music')) {
+            urlPath = path.substring(1); // removes '.' -> /data/music/...
+          }
 
           const fileObj = {
             name: dirEntry.name,
@@ -48,11 +52,14 @@ export async function scanMediaFiles() {
         }
       }
     } catch (err) {
-      console.error(`Error scanning directory ${dir}:`, err);
+      if (err.name !== 'NotFound') {
+        console.error(`Error scanning directory ${dir}:`, err);
+      }
     }
   }
 
   await walkDir(rootDir);
+  await walkDir(musicDir);
 
   // Sort files by name for consistency
   const sortFn = (a, b) => a.name.localeCompare(b.name);
