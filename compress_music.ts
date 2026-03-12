@@ -66,7 +66,13 @@ async function compressMusic() {
           console.log(`Successfully compressed ${entry.name}`);
         }
       } catch (error) {
-        console.error(`Error executing ffmpeg for ${entry.name}:`, error);
+        if (error instanceof Deno.errors.NotFound) {
+          console.error(`\nError: 'ffmpeg' command not found. Please make sure ffmpeg is installed and available in your PATH.`);
+          console.error(`You can install it using your package manager (e.g., 'sudo apt install ffmpeg' or 'brew install ffmpeg').\n`);
+          return; // Exit early if ffmpeg is completely missing
+        } else {
+          console.error(`Error executing ffmpeg for ${entry.name}:`, error);
+        }
       }
     }
 
