@@ -267,6 +267,6 @@
 <p class="has-text-align-center wp-block-paragraph">– <a href="https://intelkartel.com/kicsi-fekete-kocsi/">KICSI FEKETE KOCSI</a> – <a href="https://intelkartel.com/d-e-w/">D.E.W.</a></p>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <p class="has-text-align-center wp-block-paragraph">THE PRIVATISATION OF THE USSR TO THE INTELIGENCE COMMUNITY THROUGH <a href="https://intelkartel.com/00-pirvatisation-of-ussr-by-big-crime-ltd-00/">THE KGB.</a></p>
-<p class="has-text-align-center wp-block-paragraph">BIRTH OF ANGLO-EURASIA // <a href="https://intelkartel.com/00-az-utolso-kommunista-00/">UTOLSO KOMMUNISTA KONYV PDF</a></p>
+<p class="has-text-align-center wp-block-paragraph">BIRTH OF ANGLO-EURASIA // <a href="https://intelkartel.com/the-last-communist-geopolitical-analysis/">UTOLSO KOMMUNISTA KONYV PDF</a></p>
 <p class="wp-block-paragraph"></p>
 </div>

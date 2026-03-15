@@ -126,5 +126,5 @@
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="360" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox" src="https://www.youtube.com/embed/s74bfTMAUAo?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=hu&amp;autohide=2&amp;wmode=transparent&amp;listType=playlist&amp;list=PLJjDe2C-Bw-TULx0ZKgASQWedeZT4-7Uo" style="border:0;" width="640"></iframe></span>
 </div></figure>
-<h2 class="wp-block-heading"><a href="https://intelkartel.com/00-buisness-is-buisness-00/">BUISNES IS BUISNESS</a></h2>
+<h2 class="wp-block-heading"><a href="https://intelkartel.com/hypothetical-officers-guide-business-is-business/">BUISNES IS BUISNESS</a></h2>
 </div>
