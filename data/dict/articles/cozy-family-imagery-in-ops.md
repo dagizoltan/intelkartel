@@ -1,0 +1,23 @@
+<div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
+<figure class="wp-block-image size-full wp-duotone-default"><img data-attachment-id="6608" data-permalink="https://intelkartel.com/cozy-family-imagery-in-ops/generate-a-cozy-imige-of-a-girl-hugning-a-father-2/" data-orig-file="/static/media/cozy-family-imagery-in-ops/generate-a-cozy-imige-of-a-girl-hugning-a-father-1.webp" data-orig-size="1024,768" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="generate-a-cozy-imige-of-a-girl-hugning-a-father" data-image-description="" data-image-caption="" data-medium-file="/static/media/cozy-family-imagery-in-ops/generate-a-cozy-imige-of-a-girl-hugning-a-father-1.webp?w=300" data-large-file="/static/media/cozy-family-imagery-in-ops/generate-a-cozy-imige-of-a-girl-hugning-a-father-1.webp?w=1024" width="1024" height="768" src="/static/media/cozy-family-imagery-in-ops/generate-a-cozy-imige-of-a-girl-hugning-a-father-1.webp" alt="" class="wp-image-6608" srcset="/static/media/cozy-family-imagery-in-ops/generate-a-cozy-imige-of-a-girl-hugning-a-father-1.webp 1024w, /static/media/cozy-family-imagery-in-ops/generate-a-cozy-imige-of-a-girl-hugning-a-father-1.webp?w=150&amp;h=113 150w, /static/media/cozy-family-imagery-in-ops/generate-a-cozy-imige-of-a-girl-hugning-a-father-1.webp?w=300&amp;h=225 300w, /static/media/cozy-family-imagery-in-ops/generate-a-cozy-imige-of-a-girl-hugning-a-father-1.webp?w=768&amp;h=576 768w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+
+
+
+<p class="wp-block-paragraph">KILL COUNT: 10 568 923….</p>
+
+
+
+<p class="wp-block-paragraph">SINCE 1949</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="640" height="360" src="https://www.youtube.com/embed/uD2186Yh0Uc?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=hu&amp;autohide=2&amp;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe></span>
+</div></figure>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="640" height="360" src="https://www.youtube.com/embed/1vlJBMSXGQE?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=hu&amp;autohide=2&amp;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe></span>
+</div></figure>
+</div>

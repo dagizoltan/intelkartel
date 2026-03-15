@@ -65,5 +65,5 @@
 </div></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <p class="has-text-align-justify wp-block-paragraph"><strong>Conclusion: Toward a Rational Future</strong> The Rational Order Front calls upon all individuals, communities, and nations to join in the pursuit of this vision. By integrating the wisdom of Rogers, Gordon, Rand, Goldwater, Bush, and the United Nations, we can create a framework for personal and collective growth. Together, we can achieve rational order in the mind, in the heart, and in the world.</p>
-<h2 class="wp-block-heading"><strong><a href="https://intelkartel.com/00-dofla-association-00/">THE DOFLA</a></strong></h2>
+<h2 class="wp-block-heading"><strong><a href="https://intelkartel.com/dofla-association-conspiracy-investigation/">THE DOFLA</a></strong></h2>
 </div>

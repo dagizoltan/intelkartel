@@ -330,7 +330,7 @@
 <p class="wp-block-paragraph"><strong>Mission Objective:</strong> To destabilize systemic inefficiencies and architect a fortified future for global equity. Operates at the intersection of innovation, intelligence, and transformative leadership.</p>
 <p class="wp-block-paragraph"><strong>Status:</strong> Active and mission-ready.</p>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
-<h2 class="wp-block-heading"><a href="https://intelkartel.com/00-hahahahahaha-00/">HAHAHAHAHAHHAHAAHAHA!</a> <a href="https://intelkartel.com/00-ukrainian-containment-theory-00/">CONTAINE THIS MEASURE! </a><a href="https://intelkartel.com/00-a-kartel-info-00/">PRIVATISATION OF THE USSR 2.</a></h2>
+<h2 class="wp-block-heading"><a href="https://intelkartel.com/tragic-consequences-of-war-humor-analysis/">HAHAHAHAHAHHAHAAHAHA!</a> <a href="https://intelkartel.com/00-ukrainian-containment-theory-00/">CONTAINE THIS MEASURE! </a><a href="https://intelkartel.com/intelligence-cartel-operational-overview/">PRIVATISATION OF THE USSR 2.</a></h2>
 <pre class="wp-block-code"><code>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
 &lt;head&gt;

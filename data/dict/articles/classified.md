@@ -1,5 +1,5 @@
 <div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
-<p class="has-text-align-center wp-block-paragraph"><a href="https://intelkartel.com/00-hahahahahaha-00/">HAHAHAHA!</a> LETS SECURE THE CHANNELS.</p>
+<p class="has-text-align-center wp-block-paragraph"><a href="https://intelkartel.com/tragic-consequences-of-war-humor-analysis/">HAHAHAHA!</a> LETS SECURE THE CHANNELS.</p>
 <p class="has-text-align-center wp-block-paragraph"><a href="https://on.soundcloud.com/VWmRi6rNGWcAgQxn7">https://on.soundcloud.com/VWmRi6rNGWcAgQxn7</a></p>
 <p class="wp-block-paragraph"><strong>MEMORANDUM</strong></p>
 <p class="wp-block-paragraph"><strong>To:</strong> [Recipient Name], [Rank/Title]<br/><strong>From:</strong> [Your Name], [Rank/Title]<br/><strong>Date:</strong> [Current Date]<br/><strong>Subject:</strong> Benefits of Silva Method Mind Control for Military Intelligence Operations</p>
