@@ -32,6 +32,8 @@ web.get('/robots.txt', robotsHandler.get);
 // Routes
 web.get('/', homeHandler.get);
 web.get('/blog', blogHandler.index);
+web.get('/blog/tags', blogHandler.tags);
+web.get('/blog/tags/:tag', blogHandler.tagDetail);
 web.get('/blog/:slug', blogHandler.detail);
 web.get('/careers', careersHandler.index);
 web.get('/about', aboutHandler.get);

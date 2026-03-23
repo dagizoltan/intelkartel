@@ -57,3 +57,27 @@ export const getLatestArticles = async (limit = 10) => {
   const articles = await getArticles();
   return articles.slice(0, limit);
 };
+
+export const getTags = async () => {
+    const articles = await getArticles();
+    const tagsMap = {};
+
+    articles.forEach(article => {
+        if (article.tags) {
+            article.tags.forEach(tag => {
+                tagsMap[tag] = (tagsMap[tag] || 0) + 1;
+            });
+        }
+    });
+
+    return Object.entries(tagsMap)
+        .map(([name, count]) => ({ name, count }))
+        .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+};
+
+export const getArticlesByTag = async (tag) => {
+    const articles = await getArticles();
+    return articles.filter(article =>
+        article.tags && article.tags.some(t => t.toLowerCase() === tag.toLowerCase())
+    );
+};

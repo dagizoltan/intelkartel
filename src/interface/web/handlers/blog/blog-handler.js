@@ -1,6 +1,8 @@
 import { BlogPage } from "./blog-page.jsx";
+import { TagsPage } from "./tags-page.jsx";
+import { TagDetailPage } from "./tag-detail-page.jsx";
 import { ArticleView } from "../../components/ArticleView.jsx";
-import { getArticles } from "../../services/article-service.js";
+import { getArticles, getTags, getArticlesByTag } from "../../services/article-service.js";
 import { parse } from "@std/yaml";
 
 const ARTICLES_DIR = "data/dict/articles";
@@ -92,5 +94,38 @@ export const blogHandler = {
     };
 
     return c.render(ArticleView, { article: article.meta, content: article.content, seo, t });
+  },
+
+  tags: async (c) => {
+    const lang = c.req.param('lang') || 'en';
+    const t = await c.dict(`src/interface/web/handlers/blog/dict/${lang}`);
+    const tags = await getTags();
+    const seo = {
+      title: `Intel Tags - IntelKartel`,
+      description: "Browse IntelKartel reports by topic and tag.",
+      canonical: "https://intelkartel.com/blog/tags"
+    };
+
+    return c.render(TagsPage, { tags, seo, t });
+  },
+
+  tagDetail: async (c) => {
+    const tag = c.req.param('tag');
+    const lang = c.req.param('lang') || 'en';
+    const t = await c.dict(`src/interface/web/handlers/blog/dict/${lang}`);
+    const articles = await getArticlesByTag(tag);
+
+    // Find the original tag name (with correct casing)
+    const tagName = articles.length > 0
+        ? articles[0].tags.find(t => t.toLowerCase() === tag.toLowerCase())
+        : tag;
+
+    const seo = {
+      title: `${tagName} Intel - IntelKartel`,
+      description: `Intelligence reports and analysis tagged with ${tagName}.`,
+      canonical: `https://intelkartel.com/blog/tags/${tag.toLowerCase()}`
+    };
+
+    return c.render(TagDetailPage, { tag: tagName, articles, seo, t });
   }
 };
