@@ -103,11 +103,11 @@ export const Layout = ({ children, currentPath, seo }) => {
             </ul>
           </div>
           <div class="footer-col media-col">
-            <h3>Media</h3>
+            <h3>Library</h3>
             <ul>
-              <li><a href="/media/gallery">Images</a></li>
-              <li><a href="/media/audio">Audio</a></li>
-              <li><a href="/media/pdf">Books</a></li>
+              <li><a href="/media/gallery">Visual Intel</a></li>
+              <li><a href="/media/audio">Audio Intercepts</a></li>
+              <li><a href="/media/pdf">Intelligence Library</a></li>
             </ul>
           </div>
           <div class="footer-col contact-col">

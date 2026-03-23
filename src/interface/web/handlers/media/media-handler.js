@@ -40,8 +40,8 @@ export const mediaHandler = {
   pdf: async (c) => {
     const files = await scanMediaFiles();
     const seo = {
-      title: "IntelKartel - Declassified Documents",
-      description: "Browse and download raw intelligence reports in PDF format.",
+      title: "IntelKartel - Classified Library",
+      description: "Browse and download raw intelligence reports and dossiers in PDF format.",
       canonical: "https://intelkartel.com/media/pdf"
     };
 
