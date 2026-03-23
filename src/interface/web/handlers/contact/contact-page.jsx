@@ -47,6 +47,59 @@ export const ContactPage = ({ t }) => {
 
       <Gallery gallery={t.gallery} />
 
+      <section class="faq-section">
+        <style>{`
+          .faq-section {
+            background-color: var(--secondary-bg);
+          }
+          .faq-grid {
+            display: grid;
+            gap: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+          }
+          .faq-item h3 {
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+          }
+          .faq-item h3::before {
+            content: "[Q]";
+            font-size: 0.8rem;
+            opacity: 0.7;
+          }
+          .faq-item p {
+            margin: 0;
+            font-size: 0.95rem;
+            line-height: 1.6;
+          }
+        `}</style>
+        <div class="container">
+          <h2 style="margin-bottom: 3rem; text-align: center;">Operational FAQ</h2>
+          <div class="faq-grid">
+            <div class="faq-item">
+              <h3>Is this a real intelligence agency?</h3>
+              <p>We are as real as the surveillance state you ignore every day. Our "agency" operates on the fringes of dark humor and actual open-source data. If you have to ask, you're already on a list.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Can I join IntelKartel?</h3>
+              <p>We don't hire; we recruit via cryptic messages in your browser's console. If you can read this, you're either a developer or a very persistent ghost. Both are acceptable.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Where is your headquarters?</h3>
+              <p>In a non-descript server rack in a country that doesn't respect extradition treaties. Or possibly in a basement. The geometry of our location is non-Euclidean.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Are my communications secure?</h3>
+              <p>Our encryption is so advanced even we can't read what you send. Unless you use a weak password. Then even the neighbors' cat knows your secrets.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="cta-section">
         <div class="container">
           <h2>{t.cta_section.title}</h2>

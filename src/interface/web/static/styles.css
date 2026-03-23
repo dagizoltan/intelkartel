@@ -169,8 +169,14 @@ p {
 
 /* Layout */
 section {
-  padding: var(--section-padding) var(--md);
+  padding: var(--md) var(--md);
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: var(--section-padding) var(--md);
+  }
 }
 
 .container {
@@ -321,7 +327,13 @@ section {
 }
 
 .cta-section h2 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
+}
+
+@media (min-width: 768px) {
+  .cta-section h2 {
+    font-size: 2.5rem;
+  }
 }
 
 .cta-section p {
