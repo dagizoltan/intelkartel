@@ -11,13 +11,15 @@ export const ArticleCard = ({ article, showImage = true }) => {
           <a href={`/blog/${article.slug}`}>{article.title}</a>
         </h2>
 
-        <p>{article.description}</p>
+        <div class="desktop-only">
+          <p>{article.description}</p>
+        </div>
 
         <div class="article-footer">
           <div class="meta">
             <span class="date">{article.datePublished}</span>
             {article.tags && article.tags.length > 0 && (
-              <div class="tags" style="margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+              <div class="tags article-tags-list" style="margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
                 {article.tags.map(tag => (
                   <a href={`/blog/tags/${encodeURIComponent(tag.toLowerCase())}`} class="tag">
                     #{tag}

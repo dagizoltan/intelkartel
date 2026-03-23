@@ -31,7 +31,7 @@
   --border-radius-lg: 0px;
   --border-radius-pill: 0px;
   --map-height: 400px;
-  --bottom-nav-height: 5rem;
+  --bottom-nav-height: 3.5rem;
   --btn-mobile-max-width: 300px;
   --btn-min-width-desktop: 120px;
 
@@ -57,7 +57,7 @@
   --focus-outline-offset: 4px;
 
   /* Fluid Typography & Spacing */
-  --i: clamp(1rem, 2vw, 1.5rem);
+  --i: clamp(0.85rem, 2vw, 1.2rem);
   --xs: calc(var(--i) * 0.5);
   --sm: calc(var(--i) * 0.75);
   --md: var(--i);
