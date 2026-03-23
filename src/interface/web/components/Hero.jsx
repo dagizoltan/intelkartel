@@ -1,4 +1,4 @@
-export const Hero = ({ title, subtitle, description, short_summary, summary, buttons, imageUrl }) => {
+export const Hero = ({ title, subtitle, description, short_summary, summary, buttons, imageUrl = "/static/images/intelkarteldance.gif" }) => {
   let shortDesc = short_summary;
   let longDesc = summary;
 
@@ -13,6 +13,46 @@ export const Hero = ({ title, subtitle, description, short_summary, summary, but
   return (
     <section class="hero">
       <style>{`
+        .hero {
+          position: relative;
+          overflow: hidden;
+        }
+        .hero::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: repeating-linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.05) 0px,
+            rgba(0, 0, 0, 0.05) 1px,
+            transparent 1px,
+            transparent 2px
+          );
+          pointer-events: none;
+          z-index: 5;
+        }
+        .hero-glitch-wrapper {
+          position: relative;
+          width: 100%;
+          animation: whole-hero-glitch 4s infinite;
+        }
+        @keyframes whole-hero-glitch {
+          0% { transform: translate(0); }
+          1% { transform: translate(-2px, 2px); }
+          2% { transform: translate(2px, -2px); }
+          3% { transform: translate(0); }
+          49% { transform: translate(0); }
+          50% { transform: translate(-1px, 1px); filter: hue-rotate(90deg); }
+          51% { transform: translate(1px, -1px); filter: hue-rotate(0deg); }
+          52% { transform: translate(0); }
+          98% { transform: translate(0); }
+          99% { transform: translate(3px, 0); filter: brightness(1.5); }
+          100% { transform: translate(0); filter: brightness(1); }
+        }
+
         .hero h1 {
           position: relative;
           display: inline-block;
@@ -26,6 +66,7 @@ export const Hero = ({ title, subtitle, description, short_summary, summary, but
           width: 100%;
           height: 100%;
           background: var(--secondary-bg);
+          z-index: -1;
         }
         .hero h1::before {
           left: 2px;
@@ -85,33 +126,35 @@ export const Hero = ({ title, subtitle, description, short_summary, summary, but
           100% { clip: rect(27px, 9999px, 26px, 0); transform: skew(0.1deg); }
         }
       `}</style>
-      <div class="container hero-container-flex">
-        <div class="hero-content">
-          <h1 data-text={title}>{title}</h1>
-          {subtitle && <h2>{subtitle}</h2>}
+      <div class="hero-glitch-wrapper">
+        <div class="container hero-container-flex">
+          <div class="hero-content">
+            <h1 data-text={title}>{title}</h1>
+            {subtitle && <h2>{subtitle}</h2>}
 
-          {(shortDesc || longDesc) && (
-            <>
-              <div class="hero-desc mobile-only">
-                 <p style={{ whiteSpace: 'pre-line' }}>{shortDesc}</p>
-              </div>
-              <div class="hero-desc desktop-only">
-                 <p style={{ whiteSpace: 'pre-line' }}>{longDesc}</p>
-              </div>
-            </>
+            {(shortDesc || longDesc) && (
+              <>
+                <div class="hero-desc mobile-only">
+                   <p style={{ whiteSpace: 'pre-line' }}>{shortDesc}</p>
+                </div>
+                <div class="hero-desc desktop-only">
+                   <p style={{ whiteSpace: 'pre-line' }}>{longDesc}</p>
+                </div>
+              </>
+            )}
+
+            <div class="btn-group">
+              {buttons && buttons.map(btn => (
+                <a href={btn.link} class={`btn ${btn.type === 'secondary' ? 'secondary' : ''}`}>{btn.text}</a>
+              ))}
+            </div>
+          </div>
+          {imageUrl && (
+            <div class="hero-image desktop-only">
+              <img src={imageUrl} alt="" style="max-height: 350px; width: auto; mix-blend-mode: screen;" />
+            </div>
           )}
-
-          <div class="btn-group">
-            {buttons && buttons.map(btn => (
-              <a href={btn.link} class={`btn ${btn.type === 'secondary' ? 'secondary' : ''}`}>{btn.text}</a>
-            ))}
-          </div>
         </div>
-        {imageUrl && (
-          <div class="hero-image desktop-only">
-            <img src={imageUrl} alt="" style="max-height: 350px; width: auto; mix-blend-mode: screen;" />
-          </div>
-        )}
       </div>
     </section>
   );

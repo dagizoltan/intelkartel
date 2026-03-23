@@ -9,7 +9,6 @@ export const HomePage = ({ articles, topTags, jobs, t }) => (
         short_summary={t?.hero?.short_summary}
         summary={t?.hero?.summary}
         buttons={t?.hero?.buttons}
-        imageUrl="/static/images/intelkarteldance.gif"
     />
 
     <section>
