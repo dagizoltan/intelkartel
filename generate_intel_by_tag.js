@@ -20,7 +20,6 @@ function parseYAML(content) {
   let isList = false;
 
   lines.forEach(line => {
-    // Standard key: value match
     const match = line.match(/^([a-zA-Z0-9_-]+):\s*(.*)$/);
     if (match) {
       currentKey = match[1];
@@ -30,7 +29,6 @@ function parseYAML(content) {
         result[currentKey] = [];
       } else {
         isList = false;
-        // Basic unquote
         value = value.replace(/^["\']|["\']$/g, "");
         result[currentKey] = value;
       }
@@ -151,7 +149,7 @@ function main() {
   }
 
   fs.writeFileSync("intel_by_tag.md", output);
-  console.log("intel_by_tag.md has been generated with refined categories.");
+  console.log("intel_by_tag.md has been generated.");
 }
 
 main();

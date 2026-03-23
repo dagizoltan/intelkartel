@@ -12,6 +12,9 @@ export const BlogPage = ({ articles, t }) => (
     />
     <section>
         <div class="container">
+            <div style="margin-bottom: 2rem; display: flex; justify-content: flex-end;">
+                <a href="/blog/tags" class="btn btn-secondary" style="font-size: 0.9rem;">Browse by Tag</a>
+            </div>
             <div class="articles-list">
                 {articles.map(article => <ArticleCard article={article} showImage={false} />)}
             </div>
