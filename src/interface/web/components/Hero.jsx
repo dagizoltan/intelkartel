@@ -1,4 +1,4 @@
-export const Hero = ({ title, subtitle, description, short_summary, summary, buttons }) => {
+export const Hero = ({ title, subtitle, description, short_summary, summary, buttons, imageUrl }) => {
   let shortDesc = short_summary;
   let longDesc = summary;
 
@@ -12,26 +12,33 @@ export const Hero = ({ title, subtitle, description, short_summary, summary, but
 
   return (
     <section class="hero">
-      <div class="container">
-        <h1>{title}</h1>
-        {subtitle && <h2>{subtitle}</h2>}
+      <div class="container hero-container-flex">
+        <div class="hero-content">
+          <h1>{title}</h1>
+          {subtitle && <h2>{subtitle}</h2>}
 
-        {(shortDesc || longDesc) && (
-          <>
-            <div class="hero-desc mobile-only">
-               <p style={{ whiteSpace: 'pre-line' }}>{shortDesc}</p>
-            </div>
-            <div class="hero-desc desktop-only">
-               <p style={{ whiteSpace: 'pre-line' }}>{longDesc}</p>
-            </div>
-          </>
-        )}
+          {(shortDesc || longDesc) && (
+            <>
+              <div class="hero-desc mobile-only">
+                 <p style={{ whiteSpace: 'pre-line' }}>{shortDesc}</p>
+              </div>
+              <div class="hero-desc desktop-only">
+                 <p style={{ whiteSpace: 'pre-line' }}>{longDesc}</p>
+              </div>
+            </>
+          )}
 
-        <div class="btn-group">
-          {buttons && buttons.map(btn => (
-            <a href={btn.link} class={`btn ${btn.type === 'secondary' ? 'secondary' : ''}`}>{btn.text}</a>
-          ))}
+          <div class="btn-group">
+            {buttons && buttons.map(btn => (
+              <a href={btn.link} class={`btn ${btn.type === 'secondary' ? 'secondary' : ''}`}>{btn.text}</a>
+            ))}
+          </div>
         </div>
+        {imageUrl && (
+          <div class="hero-image desktop-only">
+            <img src={imageUrl} alt="" style="max-height: 350px; width: auto; mix-blend-mode: screen;" />
+          </div>
+        )}
       </div>
     </section>
   );

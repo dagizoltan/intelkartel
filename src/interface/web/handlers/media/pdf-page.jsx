@@ -12,34 +12,56 @@ export const PdfPage = ({ pdfFiles }) => (
         padding: 4rem 0;
       }
       .pdf-grid {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
         gap: 1.5rem;
-        max-width: 1000px;
+        max-width: 1200px;
         margin: 0 auto;
       }
+      @media (min-width: 768px) {
+        .pdf-grid {
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        }
+      }
       .pdf-card {
-        background: var(--bg-card);
+        background: var(--secondary-bg);
         border: 1px solid var(--border-color);
-        border-radius: 8px;
+        border-radius: 0px;
         padding: 1.5rem;
         display: flex;
+        flex-direction: row;
         align-items: center;
         transition: transform 0.2s, box-shadow 0.2s;
         text-decoration: none;
         color: inherit;
       }
+      @media (min-width: 768px) {
+        .pdf-card {
+          flex-direction: column;
+          align-items: flex-start;
+          text-align: left;
+        }
+      }
       .pdf-card:hover {
         transform: translateY(-3px);
-        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-        border-color: var(--accent-color);
+        box-shadow: 0 0 15px var(--primary-shadow);
+        border-color: var(--primary-color);
       }
       .pdf-icon {
         width: 40px;
         height: 40px;
-        fill: #e53935;
+        fill: var(--primary-color);
         margin-right: 1.5rem;
         flex-shrink: 0;
+        filter: drop-shadow(0 0 2px var(--primary-color));
+      }
+      @media (min-width: 768px) {
+        .pdf-icon {
+          margin-right: 0;
+          margin-bottom: 1.5rem;
+          width: 48px;
+          height: 48px;
+        }
       }
       .pdf-info {
         flex: 1;
@@ -53,10 +75,13 @@ export const PdfPage = ({ pdfFiles }) => (
         text-overflow: ellipsis;
       }
       .pdf-meta {
-        font-size: 0.85rem;
-        color: var(--text-muted);
+        font-family: 'Space Mono', monospace;
+        font-size: 0.7rem;
+        color: var(--primary-color);
+        opacity: 0.7;
         display: flex;
         gap: 1rem;
+        text-transform: uppercase;
       }
       .pdf-action {
         color: var(--accent-color);

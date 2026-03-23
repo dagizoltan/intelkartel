@@ -12,13 +12,13 @@ export const BlogPage = ({ articles, topTags, t }) => (
     />
 
     {topTags && topTags.length > 0 && (
-      <section style="background: var(--secondary-bg); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); padding: 2rem 0;">
+      <section style="background: var(--secondary-bg); border-top: 1px solid var(--primary-color); border-bottom: 1px solid var(--primary-color); padding: 1.5rem 0;">
         <div class="container">
-          <h2 style="font-size: 1rem; margin-bottom: 1rem; text-transform: uppercase; opacity: 0.7;">Common Topics</h2>
-          <div class="tags-cloud" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+          <h2 style="font-size: 0.8rem; margin-bottom: 1rem; text-transform: uppercase; opacity: 0.7; letter-spacing: 2px; color: var(--primary-color);">[ Top Intelligence Topics ]</h2>
+          <div class="tags-cloud" style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
             {topTags.map(tag => (
-              <a href={`/blog/tags/${encodeURIComponent(tag.name.toLowerCase())}`} class="tag" style="padding: 4px 12px; font-size: 0.85rem;">
-                #{tag.name}
+              <a href={`/blog/tags/${encodeURIComponent(tag.name.toLowerCase())}`} class="tag" style="padding: 6px 14px; font-size: 0.8rem; font-family: 'Space Mono', monospace; border-radius: 0; background: rgba(180, 251, 81, 0.05);">
+                #{tag.name.toUpperCase()}
               </a>
             ))}
           </div>
