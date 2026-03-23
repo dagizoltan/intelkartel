@@ -13,7 +13,7 @@ export const BlogPage = ({ articles, t }) => (
     <section>
         <div class="container">
             <div class="articles-list">
-                {articles.map(article => <ArticleCard article={article} />)}
+                {articles.map(article => <ArticleCard article={article} showImage={false} />)}
             </div>
         </div>
     </section>
