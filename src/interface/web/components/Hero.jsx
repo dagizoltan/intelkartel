@@ -37,19 +37,18 @@ export const Hero = ({ title, subtitle, description, short_summary, summary, but
         .hero-glitch-wrapper {
           position: relative;
           width: 100%;
-          animation: whole-hero-glitch 4s infinite;
+          animation: whole-hero-glitch 4s step-end infinite;
         }
         @keyframes whole-hero-glitch {
-          0% { transform: translate(0); }
-          1% { transform: translate(-2px, 2px); }
-          2% { transform: translate(2px, -2px); }
-          3% { transform: translate(0); }
-          49% { transform: translate(0); }
-          50% { transform: translate(-1px, 1px); filter: hue-rotate(90deg); }
-          51% { transform: translate(1px, -1px); filter: hue-rotate(0deg); }
-          52% { transform: translate(0); }
+          0% { transform: translate(0); clip-path: inset(0 0 0 0); }
+          1% { transform: translate(-5px, 2px); clip-path: inset(10% 0 80% 0); }
+          2% { transform: translate(5px, -2px); clip-path: inset(50% 0 30% 0); }
+          3% { transform: translate(0); clip-path: inset(0 0 0 0); }
+          50% { transform: translate(-2px, 1px); clip-path: inset(80% 0 10% 0); }
+          51% { transform: translate(2px, -1px); clip-path: inset(20% 0 70% 0); }
+          52% { transform: translate(0); clip-path: inset(0 0 0 0); }
           98% { transform: translate(0); }
-          99% { transform: translate(3px, 0); filter: brightness(1.5); }
+          99% { transform: translate(10px, -5px); filter: brightness(1.2); }
           100% { transform: translate(0); filter: brightness(1); }
         }
 
