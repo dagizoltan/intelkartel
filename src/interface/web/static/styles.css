@@ -227,7 +227,26 @@ section {
   letter-spacing: var(--letter-spacing-lg);
   text-transform: uppercase;
   order: 1;
-  text-shadow: var(--text-shadow-strong);
+  position: relative;
+  display: inline-block;
+}
+
+.brand a {
+  position: relative;
+  display: inline-block;
+  animation: brand-glitch 5s step-end infinite;
+}
+
+@keyframes brand-glitch {
+  0% { transform: translate(0); clip-path: inset(0 0 0 0); }
+  1% { transform: translate(-2px, 1px); clip-path: inset(10% 0 80% 0); }
+  2% { transform: translate(2px, -1px); clip-path: inset(50% 0 30% 0); }
+  3% { transform: translate(0); clip-path: inset(0 0 0 0); }
+  50% { transform: translate(-1px, 0.5px); clip-path: inset(80% 0 10% 0); }
+  51% { transform: translate(1px, -0.5px); clip-path: inset(20% 0 70% 0); }
+  52% { transform: translate(0); clip-path: inset(0 0 0 0); }
+  99% { transform: translate(3px, -1px); filter: brightness(1.1); }
+  100% { transform: translate(0); filter: brightness(1); }
 }
 
 .brand a {
