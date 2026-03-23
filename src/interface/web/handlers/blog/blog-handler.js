@@ -53,13 +53,15 @@ export const blogHandler = {
     const lang = c.req.param('lang') || 'en';
     const t = await c.dict(`src/interface/web/handlers/blog/dict/${lang}`);
     const articles = await getArticles();
+    const allTags = await getTags();
+    const topTags = allTags.slice(0, 10);
     const seo = {
       title: t.meta?.title || "Intel - IntelKartel",
       description: t.meta?.description || "IntelKartel Intelligence Stream",
       canonical: "https://intelkartel.com/blog"
     };
 
-    return c.render(BlogPage, { articles, seo, t });
+    return c.render(BlogPage, { articles, topTags, seo, t });
   },
 
   detail: async (c) => {

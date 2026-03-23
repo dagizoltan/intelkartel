@@ -33,6 +33,8 @@ testimonial:
 gallery: []
 cta_section:
   title: Join the Cartel
+  subtitle: We Are Recruiting
+  description: The world is ending, but your career doesn't have to. We are looking for operatives who can see through the noise.
   text: We are listening.
   buttons:
     - text: Contact

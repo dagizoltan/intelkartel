@@ -23,9 +23,9 @@ export const MediaPage = () => (
         }
       }
       .media-card {
-        background: var(--bg-card);
+        background: var(--secondary-bg);
         border: 1px solid var(--border-color);
-        border-radius: 8px;
+        border-radius: 0px;
         padding: 2rem;
         text-align: left;
         transition: transform 0.2s, box-shadow 0.2s;
@@ -38,14 +38,16 @@ export const MediaPage = () => (
       }
       .media-card:hover {
         transform: translateY(-5px);
-        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-        border-color: var(--accent-color);
+        box-shadow: 0 0 20px var(--primary-shadow);
+        border-color: var(--primary-color);
+        background: var(--card-bg-hover);
       }
       .media-card svg {
         width: 48px;
         height: 48px;
-        margin-bottom: 1rem;
-        fill: var(--accent-color);
+        margin-bottom: 1.5rem;
+        fill: var(--primary-color);
+        filter: drop-shadow(0 0 5px var(--primary-color));
       }
       .media-card h3 {
         margin: 0 0 0.5rem 0;
@@ -57,10 +59,11 @@ export const MediaPage = () => (
       .media-card .status {
         font-family: 'Space Mono', monospace;
         font-size: 0.6rem;
-        padding: 2px 6px;
+        padding: 2px 8px;
         border: 1px solid currentColor;
-        border-radius: 4px;
+        border-radius: 0px;
         text-transform: uppercase;
+        letter-spacing: 1px;
       }
       .media-card p {
         font-size: 0.8rem;

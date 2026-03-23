@@ -47,7 +47,7 @@ export const HomePage = ({ articles, topTags, jobs, t }) => (
           <h2 style="margin-bottom: 2rem;">Operational Vacancies</h2>
           <div class="jobs-list" style="margin-bottom: 2rem;">
             <ul style="list-style-type: none; padding: 0;">
-              {jobs.slice(0, 3).map((job, index) => (
+              {jobs.slice(0, 6).map((job, index) => (
                 <li key={index} style={{
                   borderBottom: '1px solid var(--border-color)',
                   padding: '1rem 0',
@@ -71,6 +71,8 @@ export const HomePage = ({ articles, topTags, jobs, t }) => (
       <section class="cta-section">
         <div class="container">
           <h2>{t.cta_section.title}</h2>
+          {t.cta_section.subtitle && <h3 style="color: var(--bg-color); margin-top: -1rem; margin-bottom: 1rem; opacity: 0.8; font-size: 1.2rem;">{t.cta_section.subtitle}</h3>}
+          {t.cta_section.description && <p style="font-size: 1.1rem; margin-bottom: 2rem; max-width: 600px;">{t.cta_section.description}</p>}
           <p>{t.cta_section.text}</p>
           <div class="btn-group">
             {t.cta_section.buttons ? t.cta_section.buttons.map(btn => (
