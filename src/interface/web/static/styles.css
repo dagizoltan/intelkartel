@@ -178,7 +178,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: var(--xs) var(--md);
+  padding: 4px var(--md);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -466,9 +466,9 @@ section {
 
 /* Article Card */
 .article-card {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   border-bottom: 1px solid var(--border-color);
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .article-image-link {
@@ -559,14 +559,14 @@ section {
 
   .main-nav ul {
     justify-content: flex-end;
-    gap: var(--md);
+    gap: var(--xs);
   }
 
   .main-nav a {
     font-size: 1.1rem;
     flex-direction: row;
     gap: var(--xs);
-    padding: var(--sm) var(--md);
+    padding: 4px var(--sm);
     letter-spacing: var(--letter-spacing-md);
   }
 

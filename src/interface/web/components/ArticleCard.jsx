@@ -1,7 +1,7 @@
-export const ArticleCard = ({ article }) => {
+export const ArticleCard = ({ article, showImage = true }) => {
   return (
     <article class="article-card">
-      {article.image && (
+      {showImage && article.image && (
         <a href={`/blog/${article.slug}`} class="article-image-link">
           <img src={article.image} alt={article.title} loading="lazy" />
         </a>
