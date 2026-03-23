@@ -18,7 +18,7 @@ export const BlogPage = ({ articles, topTags, t }) => (
           <div class="tags-cloud" style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
             {topTags.map(tag => (
               <a href={`/blog/tags/${encodeURIComponent(tag.name.toLowerCase())}`} class="tag" style="padding: 6px 14px; font-size: 0.8rem; font-family: 'Space Mono', monospace; border-radius: 0; background: rgba(180, 251, 81, 0.05);">
-                #{tag.name.toUpperCase()}
+                #{tag.name.toUpperCase()} <span style="font-size: 0.6rem; opacity: 0.5;">[{tag.count}]</span>
               </a>
             ))}
           </div>

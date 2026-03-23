@@ -36,7 +36,16 @@ export const Hero = ({ title, subtitle, description, short_summary, summary, but
         </div>
         {imageUrl && (
           <div class="hero-image desktop-only">
-            <img src={imageUrl} alt="" style="max-height: 350px; width: auto; mix-blend-mode: screen;" />
+            <img
+              src={imageUrl}
+              alt=""
+              style={{
+                maxHeight: '350px',
+                width: 'auto',
+                filter: 'invert(1) sepia(1) saturate(5) hue-rotate(50deg)',
+                mixBlendMode: 'screen'
+              }}
+            />
           </div>
         )}
       </div>
