@@ -17,7 +17,7 @@ export const ArticleView = ({ article, content, t }) => {
           {article.tags && article.tags.length > 0 && (
             <div class="article-tags" style={{ marginTop: '2rem', display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
               {article.tags.map(tag => (
-                <a href={`/blog/tags/${encodeURIComponent(tag.toLowerCase())}`} style={{ fontSize: '0.85rem', color: '#666', background: '#f0f0f0', padding: '4px 12px', borderRadius: '4px', textDecoration: 'none' }}>
+                <a href={`/blog/tags/${encodeURIComponent(tag.toLowerCase())}`} class="tag">
                   #{tag}
                 </a>
               ))}
