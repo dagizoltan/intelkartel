@@ -16,11 +16,10 @@ export const MediaPage = () => (
         display: grid;
         grid-template-columns: 1fr;
         gap: 2rem;
-        max-width: 900px;
         position: relative;
         z-index: 2;
       }
-      @media (min-width: 768px) {
+      @media (min-width: 1024px) {
         .media-grid {
           grid-template-columns: repeat(3, 1fr);
         }

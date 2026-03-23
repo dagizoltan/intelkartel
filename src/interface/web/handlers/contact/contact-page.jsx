@@ -96,6 +96,22 @@ export const ContactPage = ({ t }) => {
               <h3>Are my communications secure?</h3>
               <p>Our encryption is so advanced even we can't read what you send. Unless you use a weak password. Then even the neighbors' cat knows your secrets.</p>
             </div>
+            <div class="faq-item">
+              <h3>How can I leak intelligence?</h3>
+              <p>Use the dead-drop locations provided in our "Visual Intel" section or send an encrypted burst transmission to our primary email. Do not use carrier pigeons; they have been compromised by the alphabet agencies.</p>
+            </div>
+            <div class="faq-item">
+              <h3>What is your stance on privacy?</h3>
+              <p>Privacy is an antique concept. We prefer the term "selective transparency." You tell us everything, and we decide what the public needs to know. It's much more efficient.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Who funds IntelKartel?</h3>
+              <p>Mainly through the sale of redacted government documents and a very lucrative lemonade stand in the Cayman Islands. We also accept Monero and high-quality memes as payment.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Can I get a physical copy of the library?</h3>
+              <p>Our library exists primarily in the ethereal realm of the internet. Physical copies are only available via microfiche hidden inside hollowed-out copies of "The Art of War" in select libraries worldwide.</p>
+            </div>
           </div>
         </div>
       </section>

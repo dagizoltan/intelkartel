@@ -88,11 +88,13 @@ export const PdfPage = ({ pdfFiles }) => (
       .pdf-title {
         font-weight: bold;
         margin-bottom: 0.5rem;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
         font-family: 'Space Mono', monospace;
         text-transform: uppercase;
+        word-break: break-word;
+        font-size: 0.9rem;
       }
       .pdf-meta {
         font-family: 'Space Mono', monospace;
