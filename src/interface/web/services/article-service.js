@@ -1,6 +1,7 @@
 import { parse } from "@std/yaml";
 
 const ARTICLES_DIR = "data/dict/articles";
+const CAREERS_DATA_PATH = "data/dict/careers.yaml";
 
 let articlesCache = null;
 let lastCacheTime = 0;
@@ -80,4 +81,14 @@ export const getArticlesByTag = async (tag) => {
     return articles.filter(article =>
         article.tags && article.tags.some(t => t.toLowerCase() === tag.toLowerCase())
     );
+};
+
+export const getCareers = async () => {
+  try {
+    const yamlContent = await Deno.readTextFile(CAREERS_DATA_PATH);
+    return parse(yamlContent);
+  } catch (e) {
+    console.error("Error reading careers data:", e);
+    return [];
+  }
 };
