@@ -1,5 +1,5 @@
 import { HomePage } from "./home-page.jsx";
-import { getLatestArticles, getTags } from "../../services/article-service.js";
+import { getLatestArticles, getTags, getCareers } from "../../services/article-service.js";
 
 export const homeHandler = {
   get: async (c) => {
@@ -8,12 +8,13 @@ export const homeHandler = {
     const articles = await getLatestArticles(10);
     const allTags = await getTags();
     const topTags = allTags.slice(0, 6);
+    const jobs = await getCareers();
     const seo = {
       title: t.meta?.title || "IntelKartel - The Intelligence Cartel",
       description: t.meta?.description || "Editorial and thought leadership from the front lines.",
       canonical: "https://intelkartel.com/"
     };
 
-    return c.render(HomePage, { articles, topTags, seo, t });
+    return c.render(HomePage, { articles, topTags, jobs, seo, t });
   }
 };
