@@ -29,6 +29,8 @@ get_directions: Route
 gallery: []
 cta_section:
   title: Join the Cartel
+  subtitle: Final Clearance
+  description: Secure your position in the network before the channels close.
   text: We are listening.
   buttons:
     - text: Careers

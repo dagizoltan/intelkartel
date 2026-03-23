@@ -9,6 +9,8 @@ hero:
   buttons: []
 cta_section:
   title: Join the Cartel
+  subtitle: Stay Informed
+  description: Access our secure intelligence feeds and never miss a shift in the global landscape.
   text: We are listening.
   buttons:
     - text: Contact

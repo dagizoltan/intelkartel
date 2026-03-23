@@ -78,8 +78,8 @@ export const ContactPage = ({ t }) => {
           }
         `}</style>
         <div class="container">
-          <h2 style="margin-bottom: 3rem; text-align: center;">Operational FAQ</h2>
-          <div class="faq-grid">
+          <h2 style="margin-bottom: 3rem;">Operational FAQ</h2>
+          <div class="faq-grid" style="margin: 0;">
             <div class="faq-item">
               <h3>Is this a real intelligence agency?</h3>
               <p>We are as real as the surveillance state you ignore every day. Our "agency" operates on the fringes of dark humor and actual open-source data. If you have to ask, you're already on a list.</p>
@@ -103,6 +103,8 @@ export const ContactPage = ({ t }) => {
       <section class="cta-section">
         <div class="container">
           <h2>{t.cta_section.title}</h2>
+          {t.cta_section.subtitle && <h3 style="color: var(--bg-color); margin-top: -1rem; margin-bottom: 1rem; opacity: 0.8; font-size: 1.2rem;">{t.cta_section.subtitle}</h3>}
+          {t.cta_section.description && <p style="font-size: 1.1rem; margin-bottom: 2rem; max-width: 600px;">{t.cta_section.description}</p>}
           <p>{t.cta_section.text}</p>
           <div class="btn-group">
             {t.cta_section.buttons ? t.cta_section.buttons.map(btn => (
