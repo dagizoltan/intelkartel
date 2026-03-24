@@ -29,8 +29,8 @@ export const PdfPage = ({ pdfFiles }) => (
         border-radius: 0px;
         padding: 1.5rem;
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
         transition: all 0.2s ease;
         text-decoration: none;
         color: inherit;
@@ -39,9 +39,7 @@ export const PdfPage = ({ pdfFiles }) => (
       }
       @media (min-width: 768px) {
         .pdf-card {
-          flex-direction: column;
-          align-items: flex-start;
-          text-align: left;
+          padding: 2rem;
         }
       }
       .pdf-card::before {
@@ -52,12 +50,17 @@ export const PdfPage = ({ pdfFiles }) => (
         background: rgba(180, 251, 81, 0.2);
         color: var(--primary-color);
         font-family: 'Space Mono', monospace;
-        font-size: 0.6rem;
+        font-size: 0.5rem;
         padding: 4px 40px;
         transform: rotate(45deg);
         border: 1px solid var(--primary-color);
         pointer-events: none;
         z-index: 1;
+      }
+      @media (min-width: 768px) {
+        .pdf-card::before {
+          font-size: 0.6rem;
+        }
       }
       .pdf-card:hover {
         transform: translateY(-3px);
@@ -69,20 +72,20 @@ export const PdfPage = ({ pdfFiles }) => (
         width: 40px;
         height: 40px;
         fill: var(--primary-color);
-        margin-right: 1.5rem;
+        margin-bottom: 1rem;
         flex-shrink: 0;
         filter: drop-shadow(0 0 2px var(--primary-color));
       }
       @media (min-width: 768px) {
         .pdf-icon {
-          margin-right: 0;
-          margin-bottom: 1.5rem;
           width: 48px;
           height: 48px;
+          margin-bottom: 1.5rem;
         }
       }
       .pdf-info {
         flex: 1;
+        width: 100%;
         overflow: hidden;
       }
       .pdf-title {
@@ -94,11 +97,17 @@ export const PdfPage = ({ pdfFiles }) => (
         font-family: 'Space Mono', monospace;
         text-transform: uppercase;
         word-break: break-word;
-        font-size: 0.9rem;
+        font-size: 0.85rem;
+        line-height: 1.4;
+      }
+      @media (min-width: 768px) {
+        .pdf-title {
+          font-size: 0.95rem;
+        }
       }
       .pdf-meta {
         font-family: 'Space Mono', monospace;
-        font-size: 0.7rem;
+        font-size: 0.65rem;
         color: var(--primary-color);
         opacity: 0.7;
         display: flex;
@@ -106,12 +115,22 @@ export const PdfPage = ({ pdfFiles }) => (
         gap: 0.2rem;
         text-transform: uppercase;
       }
+      @media (min-width: 768px) {
+        .pdf-meta {
+          font-size: 0.7rem;
+        }
+      }
       .pdf-ref {
-        font-size: 0.6rem;
+        font-size: 0.55rem;
         letter-spacing: 1px;
         color: var(--primary-color);
         opacity: 0.5;
         margin-bottom: 0.5rem;
+      }
+      @media (min-width: 768px) {
+        .pdf-ref {
+          font-size: 0.6rem;
+        }
       }
       .pdf-action {
         color: var(--accent-color);

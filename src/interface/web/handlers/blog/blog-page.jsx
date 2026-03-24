@@ -14,9 +14,8 @@ export const BlogPage = ({ articles, topTags, t }) => (
     {topTags && topTags.length > 0 && (
       <section style="background: var(--bg-color); border: none; padding: 2rem 0;">
         <div class="container">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+          <div style="margin-bottom: 1.5rem;">
             <h2 style="font-size: 0.8rem; margin: 0; text-transform: uppercase; opacity: 0.7; letter-spacing: 2px; color: var(--primary-color);">[ Top Intelligence Topics ]</h2>
-            <a href="/blog/tags" class="btn btn-sm secondary" style="font-size: 0.75rem; width: auto; margin: 0;">Browse All Tags</a>
           </div>
           <div class="tags-cloud" style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
             {topTags.map(tag => (
@@ -24,6 +23,9 @@ export const BlogPage = ({ articles, topTags, t }) => (
                 #{tag.name.toUpperCase()}
               </a>
             ))}
+          </div>
+          <div style="margin-top: 1.5rem;">
+            <a href="/blog/tags" class="btn btn-sm secondary" style="font-size: 0.75rem; width: auto; margin: 0;">Browse All Tags</a>
           </div>
         </div>
       </section>
