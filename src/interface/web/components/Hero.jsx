@@ -12,20 +12,6 @@ export const Hero = ({ title, subtitle, description, short_summary, summary, but
 
   return (
     <section class="hero">
-      <style>{`
-        .hero-image img {
-          animation: image-glitch 4s step-end infinite;
-        }
-        @keyframes image-glitch {
-          0% { transform: translate(0); clip-path: inset(0 0 0 0); }
-          2% { transform: translate(-5px, 2px); clip-path: inset(10% 0 80% 0); }
-          4% { transform: translate(5px, -2px); clip-path: inset(50% 0 30% 0); }
-          6% { transform: translate(0); clip-path: inset(0 0 0 0); }
-          50% { transform: translate(-2px, 1px); clip-path: inset(80% 0 10% 0); }
-          52% { transform: translate(2px, -1px); clip-path: inset(20% 0 70% 0); }
-          54% { transform: translate(0); clip-path: inset(0 0 0 0); }
-        }
-      `}</style>
       <div class="container hero-container-flex">
         <div class="hero-content">
           <h1>{title}</h1>
