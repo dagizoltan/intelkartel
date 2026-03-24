@@ -38,7 +38,7 @@ export const Layout = ({ children, currentPath, seo }) => {
       <header class="site-header">
         <div class="header-container">
           <div class="brand">
-            <a href="/">IntelKartel</a>
+            <a href="/" data-text="IntelKartel">IntelKartel</a>
           </div>
 
           <nav class="main-nav">
