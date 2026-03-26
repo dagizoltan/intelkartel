@@ -295,13 +295,7 @@ section {
 }
 
 .main-nav a.active::after {
-  content: "_";
-  position: absolute;
-  bottom: 2px;
-  right: 2px;
-  animation: blink 1s step-end infinite;
-  color: var(--secondary-accent);
-  font-size: 0.8em;
+  content: "";
 }
 
 .main-nav a:active {
@@ -344,8 +338,8 @@ section {
 
 @keyframes scanline-scroll {
   /* Three backgrounds: noise, gain lines, fine scanlines */
-  0% { background-position: 0 0, 0 -200vh, 0 0; }
-  100% { background-position: 0 0, 0 200vh, 0 100vh; }
+  0% { background-position: 0 0, 0 -150vh, 0 0; }
+  100% { background-position: 0 0, 0 150vh, 0 100vh; }
 }
 
 @keyframes subtle-tear {
@@ -393,18 +387,18 @@ section {
   width: 300%; height: 300%;
   z-index: 2;
   pointer-events: none;
-  opacity: 0.15; /* Slightly increased visibility for the grain lines */
-  mix-blend-mode: screen;
+  opacity: 0.6; /* Balanced opacity for gain lines */
+  mix-blend-mode: color-dodge; /* Different blend mode for better CRT pop */
   /* Multiple backgrounds:
      1. SVG fractal noise
-     2. Slow-moving thick "gain" bands (VCR tracking lines)
+     2. Slow-moving thick "gain" bands (VCR tracking lines) with heavy fade
      3. Fine repeating linear gradient for classic scanlines */
   background-image:
     url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E'),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 10%, rgba(255, 255, 255, 0) 20%),
-    repeating-linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.1) 3px, rgba(0, 0, 0, 0.2) 4px);
-  background-size: 200px 200px, 100% 200%, 100% 4px;
-  animation: tracking-noise 0.2s steps(2) infinite, scanline-scroll 15s linear infinite;
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 10%, rgba(255, 255, 255, 0.15) 30%, rgba(0, 0, 0, 0.2) 50%, rgba(255, 255, 255, 0.15) 70%, rgba(255, 255, 255, 0.05) 90%, rgba(255, 255, 255, 0) 100%),
+    repeating-linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.1) 3px, rgba(0, 0, 0, 0.4) 4px);
+  background-size: 200px 200px, 100% 150%, 100% 4px;
+  animation: tracking-noise 0.2s steps(2) infinite, scanline-scroll 10s linear infinite;
 }
 
 .hero-container-flex {
@@ -726,7 +720,7 @@ section {
 .blink-cursor::after {
   content: "_";
   animation: blink 1s step-end infinite;
-  color: var(--secondary-accent);
+  color: var(--primary-color);
   margin-left: 2px;
 }
 
