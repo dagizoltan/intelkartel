@@ -3,14 +3,15 @@
   --primary-color: #b4fb51; /* Requested Primary */
   --primary-hover: #a0e040; /* Slightly Darker/Different Tone */
   --accent-color: #b4fb51;
-  --text-color: #b4fb51; /* Primary Text */
+  --text-color: #e0e0e0; /* Softer Primary Text for Readability */
+  --secondary-accent: #ffb86c; /* Terminal Amber */
   --bg-color: #121212; /* Dark Gray Background */
   --secondary-bg: #1e1e1e; /* Lighter Dark Gray */
   --nav-bg: #121212;
 
   /* Additional Colors & Overlays */
   --border-color: #b4fb51;
-  --muted-text-color: #aee058;
+  --muted-text-color: #a0a0a0;
   --overlay-bg: rgba(18, 18, 18, 0.9);
   --shadow-color: rgba(180, 251, 81, 0.1);
   --primary-shadow: rgba(180, 251, 81, 0.3);
@@ -20,7 +21,8 @@
   --box-shadow-hover: 0 0 15px rgba(180, 251, 81, 0.3);
   --box-shadow-header: 0 2px 10px var(--shadow-color);
   --box-shadow-sidebar: 5px 0 15px var(--shadow-color);
-  --vignette: inset 0 0 100px rgba(0,0,0,0.8);
+  --vignette: inset 0 0 150px rgba(0,0,0,0.9);
+  --crt-grain: url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E');
 
   /* Sizes & Layout */
   --container-max-width: 1200px;

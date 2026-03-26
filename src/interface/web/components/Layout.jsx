@@ -80,6 +80,28 @@ export const Layout = ({ children, currentPath, seo }) => {
       <main id="main-content">
         {children}
       </main>
+      <script dangerouslySetInnerHTML={{ __html: `
+        document.addEventListener("DOMContentLoaded", () => {
+          let lastScrollY = window.scrollY;
+          const nav = document.querySelector('.main-nav');
+
+          if(nav) {
+            window.addEventListener('scroll', () => {
+              if (window.innerWidth < 768) {
+                if (window.scrollY > lastScrollY && window.scrollY > 100) {
+                  nav.style.transform = 'translateY(100%)';
+                  nav.style.transition = 'transform 0.3s ease-out';
+                } else {
+                  nav.style.transform = 'translateY(0)';
+                }
+              } else {
+                nav.style.transform = 'none';
+              }
+              lastScrollY = window.scrollY;
+            });
+          }
+        });
+      ` }} />
       <footer class="site-footer">
         <div class="container footer-grid">
           <div class="footer-col brand-col">
