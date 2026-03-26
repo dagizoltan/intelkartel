@@ -32,6 +32,8 @@ export const AudioPage = ({ audioFiles }) => {
             grid-template-columns: 1fr;
             gap: 0; /* Removed gap between player and list */
             height: 100%;
+            position: relative;
+            z-index: 2;
           }
 
           @media (min-width: 992px) {
