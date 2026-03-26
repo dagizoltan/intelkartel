@@ -26,7 +26,7 @@ export const HomePage = ({ articles, topTags, jobs, t }) => (
     {topTags && topTags.length > 0 && (
       <section style="background: var(--secondary-bg); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
         <div class="container">
-          <h2 style="margin-bottom: 2rem;">Common Sections</h2>
+          <h2 style="margin-bottom: 2rem;">Intelligence Sectors</h2>
           <div class="tags-cloud" style="display: flex; flex-wrap: wrap; gap: 1rem; padding: 1rem 0;">
             {topTags.map(tag => (
               <a href={`/blog/tags/${encodeURIComponent(tag.name.toLowerCase())}`} class="tag" style="padding: 0.8rem 1.5rem; font-size: 1.1rem;">
@@ -35,7 +35,7 @@ export const HomePage = ({ articles, topTags, jobs, t }) => (
             ))}
           </div>
           <div style="margin-top: 2rem;">
-            <a href="/blog/tags" class="btn btn-sm secondary">Browse All Tags</a>
+            <a href="/blog/tags" class="btn btn-sm secondary">Browse All Sectors</a>
           </div>
         </div>
       </section>
