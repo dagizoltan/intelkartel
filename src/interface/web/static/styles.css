@@ -29,7 +29,7 @@ body::after {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: var(--crt-grain);
+  background-image: url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E');
   opacity: 0.04;
   pointer-events: none;
   z-index: 9999;
@@ -376,7 +376,7 @@ section {
   bottom: -50%;
   width: 200%;
   height: 200%;
-  background-image: var(--crt-grain);
+  background-image: url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E');
   background-repeat: repeat;
   background-size: 200px 200px;
   opacity: 0.08;
@@ -813,4 +813,51 @@ section {
   .footer-grid {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+/* --- Enhanced Hero TV Glitch Effects --- */
+
+/* Text Glitch (RGB Shift + Translation) */
+@keyframes text-glitch {
+  0% { text-shadow: 0.05em 0 0 #ff0000, -0.05em -0.025em 0 #00ff00, -0.025em 0.05em 0 #0000ff; }
+  14% { text-shadow: 0.05em 0 0 #ff0000, -0.05em -0.025em 0 #00ff00, -0.025em 0.05em 0 #0000ff; }
+  15% { text-shadow: -0.05em -0.025em 0 #ff0000, 0.025em 0.025em 0 #00ff00, -0.05em -0.05em 0 #0000ff; }
+  49% { text-shadow: -0.05em -0.025em 0 #ff0000, 0.025em 0.025em 0 #00ff00, -0.05em -0.05em 0 #0000ff; }
+  50% { text-shadow: 0.025em 0.05em 0 #ff0000, 0.05em 0 0 #00ff00, 0 -0.05em 0 #0000ff; }
+  99% { text-shadow: 0.025em 0.05em 0 #ff0000, 0.05em 0 0 #00ff00, 0 -0.05em 0 #0000ff; }
+  100% { text-shadow: -0.025em 0 0 #ff0000, -0.025em -0.025em 0 #00ff00, -0.025em -0.05em 0 #0000ff; }
+}
+
+@keyframes text-vibrate {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  2% { transform: translate(-1px, 1px) scale(1.01); }
+  4% { transform: translate(-1px, -1px) scale(0.99); }
+  6% { transform: translate(1px, 1px) scale(1); }
+  8% { transform: translate(1px, -1px) scale(1.02); }
+  10%, 90% { transform: translate(0, 0) scale(1); }
+  92% { transform: translate(2px, -2px) scale(1.01) skewX(5deg); }
+  94% { transform: translate(-2px, 2px) scale(0.99) skewX(-5deg); }
+  96% { transform: translate(0, 2px) scale(1); }
+  98% { transform: translate(0, -2px) scale(1); }
+}
+
+.hero h1, .hero h2, .hero p {
+  animation: text-glitch 3s infinite linear alternate-reverse, text-vibrate 5s infinite steps(1);
+  position: relative; /* Ensure animation context */
+}
+
+/* Media/Image Glitch (Hue, Contrast, Transform) */
+@keyframes media-glitch {
+  0%, 100% { filter: hue-rotate(0deg) contrast(1) blur(0px); transform: translate(0, 0) skew(0deg); opacity: 1; }
+  5% { filter: hue-rotate(90deg) contrast(1.5) blur(1px); transform: translate(-2px, 2px) skew(5deg); opacity: 0.8; }
+  10% { filter: hue-rotate(-90deg) contrast(2) blur(2px); transform: translate(2px, -2px) skew(-5deg); opacity: 0.9; }
+  15%, 85% { filter: hue-rotate(0deg) contrast(1) blur(0px); transform: translate(0, 0) skew(0deg); opacity: 1; }
+  90% { filter: hue-rotate(180deg) contrast(3) blur(3px) invert(0.2); transform: translate(0, 5px) skew(15deg); opacity: 0.6; }
+  95% { filter: hue-rotate(-180deg) contrast(1.2) blur(1px) sepia(0.5); transform: translate(-5px, 0) skew(-10deg); opacity: 0.7; }
+}
+
+.hero img, .hero video, .hero iframe {
+  animation: media-glitch 7s infinite step-end;
+  position: relative; /* Ensure animation context */
+  mix-blend-mode: screen; /* Helps images look like part of a CRT */
 }
