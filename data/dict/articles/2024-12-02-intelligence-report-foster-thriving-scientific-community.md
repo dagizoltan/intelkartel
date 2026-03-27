@@ -1,3 +1,7 @@
+---
+title: "Intelligence Report: Strategies to Foster a Thriving Scientific Community"
+---
+
 <div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
 <p class="wp-block-paragraph"><strong>Intelligence Report: Strategies to Foster a Thriving Scientific Community for Societal and Strategic Advancement</strong></p>
 

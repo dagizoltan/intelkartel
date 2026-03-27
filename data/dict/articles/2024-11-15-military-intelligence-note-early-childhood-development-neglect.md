@@ -1,3 +1,7 @@
+---
+title: "Military Intelligence Note: The Impact of Early Childhood Development Neglect"
+---
+
 <div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
 <h3 class="wp-block-heading">Military Intelligence Note: The Impact of Early Childhood Development Neglect and Associated Societal Implications</h3>
 

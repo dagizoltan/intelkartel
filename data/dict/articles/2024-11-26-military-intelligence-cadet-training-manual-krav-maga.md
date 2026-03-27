@@ -1,3 +1,7 @@
+---
+title: "Military Intelligence Cadet Training Manual: Building Self-Respect and Mastery of Krav Maga"
+---
+
 <div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-12dd3699 wp-block-post-content-is-layout-constrained">
 <h1 class="wp-block-heading"><strong>Military Intelligence Cadet Training Manual: Building Self-Respect and Mastery of Krav Maga</strong></h1>
 
