@@ -387,16 +387,16 @@ section {
   width: 300%; height: 300%;
   z-index: 2;
   pointer-events: none;
-  opacity: 0.6; /* Balanced opacity for gain lines */
+  opacity: 0.85; /* Increased opacity for more visible noise and gain lines */
   mix-blend-mode: color-dodge; /* Different blend mode for better CRT pop */
   /* Multiple backgrounds:
      1. SVG fractal noise
      2. Slow-moving thick "gain" bands (VCR tracking lines) with heavy fade
      3. Fine repeating linear gradient for classic scanlines */
   background-image:
-    url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E'),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 10%, rgba(255, 255, 255, 0.15) 30%, rgba(0, 0, 0, 0.2) 50%, rgba(255, 255, 255, 0.15) 70%, rgba(255, 255, 255, 0.05) 90%, rgba(255, 255, 255, 0) 100%),
-    repeating-linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.1) 3px, rgba(0, 0, 0, 0.4) 4px);
+    url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E'),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 10%, rgba(255, 255, 255, 0.3) 30%, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 255, 0.3) 70%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, 0) 100%),
+    repeating-linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.2) 3px, rgba(0, 0, 0, 0.6) 4px);
   background-size: 200px 200px, 100% 150%, 100% 4px;
   animation: tracking-noise 0.2s steps(2) infinite, scanline-scroll 10s linear infinite;
 }
@@ -554,7 +554,6 @@ section {
   padding: var(--xxl) var(--xl);
   padding-bottom: calc(var(--xxl) + var(--bottom-nav-height) + 2rem);
   color: var(--text-color);
-  border-top: 1px solid var(--primary-color);
 }
 
 .footer-grid {
