@@ -1,3 +1,7 @@
+---
+title: "CLASSIFIED TECHNICAL ANNEX — GHOST NETWORK ARCHITECTURE"
+---
+
 <div class="entry-content wp-block-post-content has-global-padding is-content-justification-left is-layout-constrained wp-container-core-post-content-is-layout-7f3307cc wp-block-post-content-is-layout-constrained">
 <p class="wp-block-paragraph"></p>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
