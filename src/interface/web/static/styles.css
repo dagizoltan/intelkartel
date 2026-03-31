@@ -878,7 +878,7 @@ section {
 }
 
 /* --- Subtle Analog Media Treatment --- */
-.hero img, .hero video, .hero iframe {
+img, .hero video, .hero iframe {
   position: relative;
   /* Soft focus and slight desaturation for media to match analog feel */
   filter: blur(0.5px) contrast(0.95) saturate(0.85);
