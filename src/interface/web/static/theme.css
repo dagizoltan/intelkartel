@@ -3,29 +3,31 @@
   --primary-color: #b4fb51; /* Requested Primary */
   --primary-hover: #a0e040; /* Slightly Darker/Different Tone */
   --accent-color: #b4fb51;
-  --text-color: #e0e0e0; /* Softer Primary Text for Readability */
+  --text-color: #eaeaea; /* Crisp Off-White */
   --secondary-accent: #ffb86c; /* Terminal Amber */
-  --bg-color: #121212; /* Dark Gray Background */
-  --secondary-bg: #1e1e1e; /* Lighter Dark Gray */
-  --nav-bg: #121212;
+  --bg-color: #000000; /* Pure Black Base */
+  --secondary-bg: #0a0a0a; /* Deep Gray Surfaces */
+  --tertiary-bg: #121212; /* Slightly higher elevation */
+  --nav-bg: #000000;
 
   /* Additional Colors & Overlays */
-  --border-color: #b4fb51;
-  --muted-text-color: #a0a0a0;
-  --overlay-bg: rgba(18, 18, 18, 0.9);
-  --shadow-color: rgba(180, 251, 81, 0.1);
-  --primary-shadow: rgba(180, 251, 81, 0.3);
-  --glow-shadow: rgba(180, 251, 81, 0.4);
-  --card-bg-hover: #1a2215;
-  --text-shadow-strong: 0 0 5px #b4fb51;
-  --box-shadow-hover: 0 0 15px rgba(180, 251, 81, 0.3);
-  --box-shadow-header: 0 2px 10px var(--shadow-color);
+  --border-color: rgba(255, 255, 255, 0.1); /* Subtle Off-White Borders */
+  --border-color-hover: rgba(255, 255, 255, 0.3);
+  --muted-text-color: #888888;
+  --overlay-bg: rgba(0, 0, 0, 0.85);
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  --primary-shadow: rgba(180, 251, 81, 0.1); /* Reduced primary shadow */
+  --glow-shadow: rgba(180, 251, 81, 0.2);
+  --card-bg-hover: #0a0a0a;
+  --text-shadow-strong: 0 0 3px #b4fb51;
+  --box-shadow-hover: 0 0 15px rgba(180, 251, 81, 0.15);
+  --box-shadow-header: 0 1px 0 rgba(255, 255, 255, 0.05); /* Minimal separator */
   --box-shadow-sidebar: 5px 0 15px var(--shadow-color);
   --vignette: inset 0 0 150px rgba(0,0,0,0.9);
   --crt-grain: url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E');
 
   /* Sizes & Layout */
-  --container-max-width: 1200px;
+  --container-max-width: 85rem; /* 1360px */
   --content-max-width: 800px;
   --hero-min-height: 60vh;
   --hero-min-height-desktop: 70vh;

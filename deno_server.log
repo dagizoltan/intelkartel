@@ -1,0 +1,15 @@
+[0m[38;5;12mWatcher[0m Process started.
+Listening on http://0.0.0.0:8000/ (http://localhost:8000/)
+Error reading article yaml 2026-03-23-field-operation-narrative-veilbreak-asset-integration.yaml: SyntaxError: Cannot read block as explicit mapping pair is incomplete: a key node is missed or followed by a non-tabulated empty line at line 1, column 45:
+     ...  OPERATION NARRATIVE — VEILBREAK: ASSET INTEGRATION
+                                         ^
+    at LoaderState.#createError (https://jsr.io/@std/yaml/1.0.11/_loader_state.ts:275:12)
+    at LoaderState.readBlockMapping (https://jsr.io/@std/yaml/1.0.11/_loader_state.ts:1175:34)
+    at LoaderState.composeNode (https://jsr.io/@std/yaml/1.0.11/_loader_state.ts:1573:40)
+    at LoaderState.readDocument (https://jsr.io/@std/yaml/1.0.11/_loader_state.ts:1743:27)
+    at LoaderState.readDocuments (https://jsr.io/@std/yaml/1.0.11/_loader_state.ts:1777:18)
+    at readDocuments.next (<anonymous>)
+    at parse (https://jsr.io/@std/yaml/1.0.11/parse.ts:85:38)
+    at getArticles (file:///app/src/interface/web/services/article-service.js:23:28)
+    at async getLatestArticles (file:///app/src/interface/web/services/article-service.js:58:20)
+    at async get (file:///app/src/interface/web/handlers/home/home-handler.js:8:22)
