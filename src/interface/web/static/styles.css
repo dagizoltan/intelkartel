@@ -97,47 +97,66 @@ h1, h2, h3, h4, h5, h6, .brand, .btn, .tag, nav a {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  font-weight: 700;
-  color: var(--primary-color);
-  letter-spacing: var(--letter-spacing-md);
+  font-weight: 500;
+  color: var(--text-color);
+  letter-spacing: normal;
 }
 
 h1 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 1.2;
-  margin-bottom: var(--md);
+  margin-bottom: var(--sm);
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   margin-bottom: var(--md);
 }
 
 p {
   margin-bottom: var(--lg);
   max-width: var(--content-max-width);
+  letter-spacing: normal;
+  line-height: 1.6;
+}
+
+.system-text {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--muted-text-color);
   letter-spacing: var(--letter-spacing-md);
-  line-height: 1.7;
+}
+
+/* Base interactive hover glitch */
+.hover-glitch {
+  transition: all 150ms cubic-bezier(0.1, 0.9, 0.2, 1);
+}
+
+.hover-glitch:hover {
+  text-shadow: 2px 0 0 rgba(255, 0, 0, 0.5), -2px 0 0 rgba(0, 0, 255, 0.5);
+  color: var(--primary-color);
 }
 
 /* Button - Mobile First */
 .btn {
   display: inline-block;
   padding: var(--xs) var(--md);
-  background-color: var(--primary-color);
-  color: var(--bg-color);
-  font-weight: bold;
+  background-color: transparent;
+  color: var(--text-color);
+  font-weight: 500;
   text-decoration: none;
   border-radius: var(--border-radius);
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing-md);
-  transition: transform 0.2s, background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
-  border: 2px solid var(--primary-color);
+  transition: all 150ms cubic-bezier(0.1, 0.9, 0.2, 1);
+  border: 1px solid var(--border-color);
   cursor: pointer;
   width: 100%;
   max-width: var(--btn-mobile-max-width);
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .btn.btn-sm {
@@ -148,21 +167,24 @@ p {
 }
 
 .btn:hover {
-  background-color: transparent;
-  color: var(--secondary-accent);
-  border-color: var(--secondary-accent);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(255, 184, 108, 0.3);
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  border-color: var(--primary-color);
+  box-shadow: 0 0 10px rgba(180, 251, 81, 0.2);
+  /* Micro glitch on hover */
+  transform: scale(1.02);
 }
 
 .btn.secondary {
   background-color: transparent;
-  color: var(--primary-color);
+  color: var(--muted-text-color);
+  border-color: transparent;
 }
 
 .btn.secondary:hover {
-  background-color: var(--primary-color);
-  color: var(--bg-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  border-color: var(--border-color-hover);
 }
 
 .btn-group {
@@ -523,17 +545,17 @@ section {
 }
 
 .contact-card {
-  background: var(--secondary-bg);
+  background: var(--tertiary-bg);
   padding: var(--xl);
   border-radius: var(--border-radius-lg);
   border: 1px solid var(--border-color);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  transition: transform 150ms ease, box-shadow 150ms ease, border-color 150ms ease;
 }
 
 .contact-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-2px);
   box-shadow: var(--box-shadow-hover);
-  border-color: var(--primary-color);
+  border-color: var(--border-color-hover);
 }
 
 .contact-card .icon svg {
@@ -633,13 +655,22 @@ section {
 
 /* Article Card */
 .article-card {
-  padding: 2rem 0;
+  padding: 2rem;
   border-bottom: 1px solid var(--border-color);
+  transition: background-color 150ms ease, border-color 150ms ease;
+  border: 1px solid transparent;
+  margin-bottom: 1rem;
+}
+
+.article-card:hover {
+  background-color: var(--secondary-bg);
+  border: 1px solid var(--border-color-hover);
 }
 
 .article-image-link {
   display: block;
   margin-bottom: 1rem;
+  overflow: hidden;
 }
 
 .article-image-link img {
@@ -647,6 +678,11 @@ section {
   height: auto;
   display: block;
   border: 1px solid var(--border-color);
+  transition: transform 300ms ease;
+}
+
+.article-card:hover .article-image-link img {
+  transform: scale(1.02);
 }
 
 .article-content h2 {
@@ -789,6 +825,8 @@ section {
   /* Hero */
   .hero {
     min-height: var(--hero-min-height-desktop);
+    padding-left: var(--section-padding);
+    padding-right: var(--section-padding);
   }
 
   /* Grids */
