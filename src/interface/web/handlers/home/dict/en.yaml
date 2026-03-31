@@ -1,15 +1,15 @@
 meta:
-  title: IntelKartel - The Intelligence Cartel
+  title: INTELKARTEL - The Intelligence Cartel
   description: Unfiltered analysis. Core interest defense. Global perspective.
   keywords: intelkartel, intelligence, analysis, cyber, geopolitics
 jsonld:
   '@context': https://schema.org
   '@type': Organization
-  name: IntelKartel
+  name: INTELKARTEL
   url: https://intelkartel.com
   description: Unfiltered analysis. Core interest defense. Global perspective.
 hero:
-  title: IntelKartel
+  title: INTELKARTEL
   subtitle: The Intelligence Cartel
   short_summary: Unfiltered analysis. Core interest defense. Global perspective. We see what others miss.
   summary: IntelKartel provides editorial and thought leadership from the front lines. We analyze geopolitical shifts, cyber threats, and intelligence operations with a dark, cynical edge. Join us as we dissect the world's chaos.
@@ -22,7 +22,7 @@ features:
   description: Recent analysis and reports from the field.
   items: []
 about:
-  title: IntelKartel
+  title: INTELKARTEL
   subtitle: About Us
   text: We are a collective of analysts, operatives, and cynics. We don't just report news; we decode it.
   link: /about
