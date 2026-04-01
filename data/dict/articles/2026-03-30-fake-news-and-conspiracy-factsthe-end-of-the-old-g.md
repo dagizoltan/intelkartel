@@ -1,0 +1,65 @@
+Fake News and Conspiracy Facts
+The End of the Old Guard and the Rise of the New Gatekeepers
+
+As Trump and Putin instigate the “final cleansing outlined in Illumi Corps great plan”, millions of young adults struggle to integrate into the workforce. While some
+young adults are just too used to the privileges and luxury of living with their parents, others simply have no privilege what so ever Never in the history of mankind has so many young people co-existed at the same time, and that is a challenge for global security. Not only because young people tend to be more driven by hormones but also because they are easier to radicalize and less easy to please.
+
+When the Soviet Union re branded it self as the Russian Federation in 1989’ – the
+internet came into view: before the 1990’ the world order was upheld by a monolithic
+imperialist hegemonic United States of America and a monolithic imperialist hegemonic
+Soviet Union with clear gatekeepers of information and carefully crafted propaganda 1 to ensure each imperial projects survival The Soviet Union, protector and instigator of the mass uprising of the proletariat re branded it self as the Russian Federation; the location of sweet and vital resources that need to be mined and turned into weapon systems in order to protect the resources that are going to be weapon systems eventually.
+
+The modernization of weapon systems and military strategy landed the Russian Federation into a sweet spot: its leader Vladimir Putin is often referred to as the most powerful and wealthiest man alive. But what has Putin given to the world in return for his fame and monetary gains? Is he just an idol to worship for young people as a leader – a strong man in Central Asia that keeps things from falling apart? Is Putin the real nemesis of the U.S.A. petro-dollar scheme and if so is he the greatest excuse for U.S.A. to continue to pump up defense spending? Or as Russian Television and Alex Jones portrays, Putin is a mighty warrior that crushes ISIL with carpet bombing Syria, while aiding Russian strategic allies in the region like the Assad Regime?
+
+There are so many sides to the Putin Legacy even Putin should have concerns
+about it. Many on the altright find him a role model. Identiterians, Ethno-centrists,
+Populists, and often Neo Nazi groups across Europe refer to him as an ideal leader 2 .
+Ukrainian Neo Nazis don’t like him much but that is easy to explain with the ongoing
+conflict for the Ukrainian Industrial belt, the Ukrainian Gas Fields and the best soil on planet earth: Ukrainian Soil. Is Putin a conspiracy fact?
+
+The X-KGB agent (Although like the mafia once KGB always KGB) Putin has
+stood the test of time and has become one of the most precious symbols of the age of
+media warfare. Comments and posts on Facebook to YouTube, bot networks that attack
+vital infrastructures, and sabotage elections, to the deep web trade of weapons and
+narcotics to the conspiracy cloud that built up since conspiracies became mainstream with the 911 conspiracy theory Russia, and thus Putin is a clear winner of this new type of warfare – the information war.
+
+With so many young people around it is easy to see how misinformation and radicalization could affect global stability and global security on the short, medium and long run. On the short run Putin’s stance on GMO (no thank you), Scientology (no) George Soros (Hell no), Western Humanitarian Organizations and other NGO’s (Not in
+my country), makes him the real rival of the USA; for Putin and the Russian apparatus is defusing with much success most of the initiatives (many of which are for-profit like GMO and Scientology) that the Old Guard (Breshinski, Kissinger, Dick Cheney, Richard Pearls and Others) set in place to fracture Eurasian countries and so insert the U.S.A. into the Eurasian Continent in order to protect investments and maintain global military dominance (Full Spectrum Dominance).
+
+Putin’s stance and attitude towards these so called ‘web of lies’ propelled him to
+be liked by many young folk: the world must seem more exciting and more engaging if
+portrayed in a sinister fashion.
+
+The media plays a vital role in shaping young peoples attitudes and political leanings. From computer games to books and novels, fan fictions, Hollywood blockbusters to conspiracy movies, to television programs, all point in one direction:
+there is always a sinister conspiracy that needs resolution and that resolution must be violent for the other side is too powerful, to ideology driven or both: from James Bond villains to Scooby Doo the solution to these evil ploys is always a small group of experts that resolve all issues with the barrel of the gun and/or some cunning edge technology
+
+(like super guns or super powers or being super high and super hungry like Shaggy).
+
+In fact in 2007, August, a Zogby poll showed that 51% of Americans would prefer a probe into George W. Bush and Dick Cheney regarding September 11th by the United States Congress. If projected to the whole population that is over a 100 million individuals actively questioning the U.S. government: organizing, asking questions and watching movies like Zeitgeist and listening to voices such as Alex Jones or Jesse Ventura among many other conspiracy theorists and to each other (peer to peer is the most convincing form of spreading such code, for a lie repeated many times becomes a fact).
+
+The situation got a whole lot more interesting since: as many jumped the
+bandwagon of conspiracy theories, a multitude of system critical voices has risen. From WeAreChange (464353 subscribers), TheScariestMovieEver (295053 subscribers),
+CorbettReport (198577 subsrcibers) TruthNeverTold (132143 subscribers) TheGreatestStroyNeverTold (15711 Subscribers), and other YouTube channels have
+popped up to succumb to the high demand for alternative conspiracy filled news and
+misinformation.
+
+The one thing in common with all these channels is their continued attack of the old guard (Breshinski and alike) as well as a wave of attack against the technocratic new guard such as the people at Google and Apple. From idealizing Hitler to questioning the current financial system to outright proclaiming the end of the world and calling the western world the “Beast System” these new voices are hard to pin down yet argue with.
+
+Young people are more prone to radicalization. With over 310 million firearms in civilian hands the United States is prone to expect ever increasing fallout from malicious code such as conspiracies that push people to their limits, and embed in the mind of young people a rebellion. No surprise: violence and aggression follows their frustrations (as we have seen in the steep increase of mass homicides under Obama such as school shootings, and other acts of domestic terrorism).
+
+The question at hand is how an understaffed and overburdened Trump administration will respond to the incoming wave of public disobedience, investigative
+journalists and outright terrorism from both the radical right and the radical left.
+
+All parties involved in the game of shaping public opinion on the fringes look up to Putin or the Soviet Union or both seeing Putin and his narrative as the only feasible way to ‘stop the malicious web of lies’ that ‘hide reality’ in the Western world. That reality is wide spread poverty and income inequality for the radical left and multiculturalism, islamisation and globalism for the radical right.
+
+As it becomes ever harder to distinguish between advertisement, propaganda and
+journalism, the western world is on a collision course with the reality of global youth and emerging global youth movements: just as the Arab Spring, ISIS, Black Lives Matters fed into the birth of the Alt Right Movement which propelled Trump into the
+Whitehouse, other weird anomalies are to be expected from the global population of the
+1.8 billion young people between the ages of 10 to 24. As long as conspiracy theories
+dominate the media and p2p environments of these young folk, we are to be expecting
+less empathy towards the slow and seemingly ineffective institutions of government and
+
+more online and offline violence towards the privileged: that means more fake news and
+more conspiracy facts How will the new guard operate and how will it sustain global hegemony in the face of an evermore degrading and polluted information environment is yet to be answered – my best bet is that they will have to employ some level of the same tactics the new media outlets use – animations, scaremongering and ‘hard hitting truths’ mixed with a bit of suspense.
+
+My recommendation for the old guard as well as the new guard would be simple: hire Putin and his people for the job – for a few easy payments of Gas, Industrial Belts, and excellent soil, they might just stop confrontations and start focusing on moving Russia up the food chain; as in saving the 20 million individuals who are now living bellow 139 $ a month in Russia while restructuring the Russian economy from a resource, weapon and hacker based economy to a manufacturing and programming powerhouse.
