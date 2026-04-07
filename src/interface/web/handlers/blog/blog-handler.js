@@ -2,7 +2,7 @@ import { BlogPage } from "./blog-page.jsx";
 import { TagsPage } from "./tags-page.jsx";
 import { TagDetailPage } from "./tag-detail-page.jsx";
 import { ArticleView } from "../../components/ArticleView.jsx";
-import { getArticles, getTags, getArticlesByTag } from "../../services/article-service.js";
+import { getArticles, getTags, getArticlesByTag, getRelatedArticles } from "../../services/article-service.js";
 import { parse } from "@std/yaml";
 
 const ARTICLES_DIR = "data/dict/articles";
@@ -95,7 +95,9 @@ export const blogHandler = {
         }
     };
 
-    return c.render(ArticleView, { article: article.meta, content: article.content, seo, t });
+    const relatedArticles = await getRelatedArticles(article.meta, 3);
+
+    return c.render(ArticleView, { article: article.meta, content: article.content, relatedArticles, seo, t });
   },
 
   tags: async (c) => {

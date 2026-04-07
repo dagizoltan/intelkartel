@@ -83,6 +83,33 @@ export const getArticlesByTag = async (tag) => {
     );
 };
 
+export const getRelatedArticles = async (currentArticle, limit = 3) => {
+    const articles = await getArticles();
+
+    if (!currentArticle || !currentArticle.tags || currentArticle.tags.length === 0) {
+        return [];
+    }
+
+    const currentTags = currentArticle.tags.map(t => t.toLowerCase());
+
+    const related = articles
+        .filter(article => article.slug !== currentArticle.slug)
+        .map(article => {
+            let score = 0;
+            if (article.tags) {
+                const articleTags = article.tags.map(t => t.toLowerCase());
+                score = articleTags.filter(t => currentTags.includes(t)).length;
+            }
+            return { article, score };
+        })
+        .filter(item => item.score > 0)
+        .sort((a, b) => b.score - a.score || new Date(b.article.datePublished) - new Date(a.article.datePublished))
+        .map(item => item.article)
+        .slice(0, limit);
+
+    return related;
+};
+
 export const getCareers = async () => {
   try {
     const yamlContent = await Deno.readTextFile(CAREERS_DATA_PATH);
