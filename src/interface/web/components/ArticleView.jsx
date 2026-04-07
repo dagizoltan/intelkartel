@@ -1,6 +1,7 @@
 import { Hero } from "./Hero.jsx";
+import { ArticleCard } from "./ArticleCard.jsx";
 
-export const ArticleView = ({ article, content, t }) => {
+export const ArticleView = ({ article, content, relatedArticles = [], t }) => {
   return (
     <>
       <Hero
@@ -29,6 +30,17 @@ export const ArticleView = ({ article, content, t }) => {
           </footer>
         </div>
       </section>
+
+      {relatedArticles && relatedArticles.length > 0 && (
+        <section class="related-articles-section" style={{ background: 'var(--bg-color)', borderTop: '1px solid var(--border-color)' }}>
+          <div class="container">
+            <h3 style={{ marginBottom: '2rem', fontSize: '1.5rem', color: 'var(--primary-color)' }}>Related Intel</h3>
+            <div class="articles-list">
+              {relatedArticles.map(related => <ArticleCard key={related.slug} article={related} showImage={false} />)}
+            </div>
+          </div>
+        </section>
+      )}
 
       {t && t.cta_section && (
         <section class="cta-section">
