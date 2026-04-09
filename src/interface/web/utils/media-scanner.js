@@ -65,10 +65,10 @@ export async function scanMediaFiles() {
             path: key // can just be key
           };
 
-          if (imageExts.includes(ext)) {
-            files.images.push(fileObj);
-          } else if (audioExts.includes(ext)) {
+          if (audioExts.includes(ext) && key.startsWith('audio/')) {
             files.audio.push(fileObj);
+          } else if (imageExts.includes(ext)) {
+            files.images.push(fileObj);
           } else if (pdfExts.includes(ext)) {
             files.pdfs.push(fileObj);
           }
@@ -107,7 +107,7 @@ export async function scanMediaFiles() {
             path: path
           };
           if (imageExts.includes(ext)) files.images.push(fileObj);
-          else if (audioExts.includes(ext)) files.audio.push(fileObj);
+          else if (audioExts.includes(ext) && path.startsWith('./data/music/audio/')) files.audio.push(fileObj);
           else if (pdfExts.includes(ext)) files.pdfs.push(fileObj);
         }
       }
