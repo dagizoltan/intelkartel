@@ -11,6 +11,8 @@ import { staticHandler } from "./handlers/static/static-handler.js";
 import { sitemapHandler } from "./handlers/sitemap/sitemap-handler.js";
 import { robotsHandler } from "./handlers/robots/robots-handler.js";
 import { mediaHandler } from "./handlers/media/media-handler.js";
+import { s3ProxyHandler } from "./handlers/media/s3ProxyHandler.js";
+
 
 const web = new Hono();
 
@@ -19,6 +21,7 @@ web.use('*', contextMiddleware);
 web.use('*', rendererMiddleware);
 
 // Static files
+web.get('/static/media/*', s3ProxyHandler);
 web.get('/static/*', serveStatic({ root: './src/interface/web' }));
 web.get('/data/music/*', serveStatic({ root: './' }));
 
