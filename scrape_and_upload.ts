@@ -1,9 +1,21 @@
 import { ensureDir } from "jsr:@std/fs/ensure-dir";
 import { join, basename, extname } from "jsr:@std/path";
+import { S3Client, PutObjectCommand } from "npm:@aws-sdk/client-s3";
 
 const TARGET_URL = "https://intelkartel.com/";
-const OUTPUT_DIR = "music";
+const OUTPUT_DIR = "data/music";
 const MUSIC_EXTENSIONS = new Set([".mp3", ".wav", ".flac", ".aac", ".ogg"]);
+
+const s3Client = new S3Client({
+  region: "auto",
+  endpoint: Deno.env.get("R2_ENDPOINT") || "http://localhost:9000",
+  credentials: {
+    accessKeyId: Deno.env.get("R2_ACCESS_KEY_ID") || "minioadmin",
+    secretAccessKey: Deno.env.get("SECRET_ACCESS_KEY") || "minioadmin",
+  },
+  forcePathStyle: true,
+});
+const BUCKET_NAME = Deno.env.get("R2_BUCKET_NAME") || "intelkartel-media";
 
 async function downloadFile(url: string, destPath: string): Promise<boolean> {
   try {
@@ -21,7 +33,22 @@ async function downloadFile(url: string, destPath: string): Promise<boolean> {
   }
 }
 
-async function scrapeMusic(): Promise<void> {
+async function uploadToBucket(filename: string, destPath: string) {
+  try {
+    const fileData = await Deno.readFile(destPath);
+    const command = new PutObjectCommand({
+      Bucket: BUCKET_NAME,
+      Key: `audio/${filename}`,
+      Body: fileData,
+    });
+    await s3Client.send(command);
+    console.log(`  -> Successfully uploaded ${filename} to bucket`);
+  } catch (err) {
+    console.error(`  -> Error uploading ${filename} to bucket:`, err);
+  }
+}
+
+async function scrapeAndUpload(): Promise<void> {
   await ensureDir(OUTPUT_DIR);
 
   console.log(`Fetching homepage: ${TARGET_URL}`);
@@ -37,7 +64,6 @@ async function scrapeMusic(): Promise<void> {
     return;
   }
 
-  // More robust regex to find href and src attributes
   const urlRegex = /(?:href|src)=["']([^"']+)["']/gi;
   const matches: string[] = [];
   let match;
@@ -49,10 +75,7 @@ async function scrapeMusic(): Promise<void> {
 
   const uniqueUrls = [...new Set(matches)].filter((url) => {
     try {
-      // Decode HTML entities like &amp;
       const unescapedUrl = url.replace(/&amp;/g, "&");
-
-      // Resolve against base URL to handle relative paths
       const urlObj = new URL(unescapedUrl, TARGET_URL);
       const ext = extname(urlObj.pathname).toLowerCase();
       return MUSIC_EXTENSIONS.has(ext);
@@ -60,7 +83,6 @@ async function scrapeMusic(): Promise<void> {
       return false;
     }
   }).map((url) => {
-      // Return absolute URLs
       return new URL(url.replace(/&amp;/g, "&"), TARGET_URL).toString();
   });
 
@@ -85,26 +107,31 @@ async function scrapeMusic(): Promise<void> {
 
     const destPath = join(OUTPUT_DIR, filename);
 
+    let existsLocally = false;
     try {
       await Deno.stat(destPath);
-      console.log(`[${i + 1}/${uniqueUrls.length}] Skip (exists): ${filename}`);
-      continue;
+      existsLocally = true;
+      console.log(`[${i + 1}/${uniqueUrls.length}] Local file exists: ${filename}`);
     } catch {
-      // File doesn't exist, proceed with download
+      // File doesn't exist locally
     }
 
-    console.log(`[${i + 1}/${uniqueUrls.length}] Downloading: ${unescapedUrl} -> ${destPath}`);
-    const success = await downloadFile(unescapedUrl, destPath);
-    if (success) {
-      console.log(`  -> Successfully downloaded ${filename}`);
-    } else {
-      console.log(`  -> Failed to download ${filename}`);
+    if (!existsLocally) {
+      console.log(`[${i + 1}/${uniqueUrls.length}] Downloading: ${unescapedUrl} -> ${destPath}`);
+      const success = await downloadFile(unescapedUrl, destPath);
+      if (!success) {
+        continue;
+      }
     }
+
+    // Upload the downloaded file to S3 bucket
+    console.log(`[${i + 1}/${uniqueUrls.length}] Uploading to bucket: audio/${filename}`);
+    await uploadToBucket(filename, destPath);
   }
 
-  console.log("Scraping complete.");
+  console.log("Scraping and uploading complete.");
 }
 
 if (import.meta.main) {
-  await scrapeMusic();
+  await scrapeAndUpload();
 }
