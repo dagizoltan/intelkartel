@@ -5,13 +5,13 @@ import { S3Client, PutObjectCommand } from "npm:@aws-sdk/client-s3";
 const TARGET_URL = "https://intelkartel.com/";
 const OUTPUT_DIR = "data/music";
 const MUSIC_EXTENSIONS = new Set([".mp3", ".wav", ".flac", ".aac", ".ogg"]);
-
+console.log(Deno.env.get("R2_ENDPOINT"), Deno.env.get("R2_ACCESS_KEY_ID"), Deno.env.get("R2_SECRET_ACCESS_KEY"), Deno.env.get("R2_BUCKET_NAME"));   
 const s3Client = new S3Client({
   region: "auto",
   endpoint: Deno.env.get("R2_ENDPOINT") || "http://localhost:9000",
   credentials: {
     accessKeyId: Deno.env.get("R2_ACCESS_KEY_ID") || "minioadmin",
-    secretAccessKey: Deno.env.get("SECRET_ACCESS_KEY") || "minioadmin",
+    secretAccessKey: Deno.env.get("R2_SECRET_ACCESS_KEY") || "minioadmin",
   },
   forcePathStyle: true,
 });
