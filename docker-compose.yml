@@ -1,0 +1,15 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - R2_ACCESS_KEY_ID=${R2_ACCESS_KEY_ID}
+      - R2_TOKEN_VALUE=${R2_TOKEN_VALUE}
+      - R2_ENDPOINT=${R2_ENDPOINT}
+      - SECRET_ACCESS_KEY=${SECRET_ACCESS_KEY}
+      - PORT=8000
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+    restart: unless-stopped
